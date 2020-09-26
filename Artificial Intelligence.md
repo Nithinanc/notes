@@ -39,6 +39,7 @@
   ["Steps Toward Super Intelligence"](https://rodneybrooks.com/forai-steps-toward-super-intelligence-i-how-we-got-here) by Rodney Brooks  
   ["The Limitations of Deep Learning"](https://blog.keras.io/the-limitations-of-deep-learning.html) by Francois Chollet  
   ["A Critique of Pure Learning and What ANNs Can Learn from Animal Brains"](https://nature.com/articles/s41467-019-11786-6) by Anthony Zador  
+  ["On GPT-3: Meta-Learning, Scaling, Implications, And Deep Theory"](https://gwern.net/newsletter/2020/05#gpt-3) by Gwern Branwen  
 
 ----
 
@@ -401,6 +402,8 @@
   ["A Possibility for Implementing Curiosity and Boredom in Model-Building Neural Controllers"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.957) by Schmidhuber `paper`  
   ["Adaptive Confidence and Adaptive Curiosity"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.5686) by Schmidhuber `paper`  
   ["Curious Model-building Control Systems"](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.2597) by Schmidhuber `paper`  
+  ["Developmental Robotics, Optimal Artificial Curiosity, Creativity, Music, and the Fine Arts"](https://cs.brynmawr.edu/connectionscience/papers/schmidhuber.pdf) by Schmidhuber `paper`  
+  ["Art & Science as By-Products of Search for Novel Patterns, or Data Compressible in Unknown Yet Learnable Ways"](http://people.idsia.ch/~juergen/multipleways2009.pdf) by Schmidhuber `paper`  
 
   [**interesting papers**](#interesting-papers---artificial-curiosity-and-creativity)
 
@@ -527,6 +530,11 @@
 #### ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547) Chollet
 >	"To make deliberate progress towards more intelligent and more human-like artificial systems, we need to be following an appropriate feedback signal: we need to be able to define and evaluate intelligence in a way that enables comparisons between two systems, as well as comparisons with humans. Over the past hundred years, there has been an abundance of attempts to define and measure intelligence, across both the fields of psychology and AI. We summarize and critically assess these definitions and evaluation approaches, while making apparent the two historical conceptions of intelligence that have implicitly guided them.  We note that in practice, the contemporary AI community still gravitates towards benchmarking intelligence by comparing the skill exhibited by AIs and humans at specific tasks, such as board games and video games. We argue that solely measuring skill at any given task falls short of measuring intelligence, because skill is heavily modulated by prior knowledge and experience: unlimited priors or unlimited training data allow experimenters to “buy” arbitrary levels of skills for a system, in a way that masks the system’s own generalization power. We then articulate a new formal definition of intelligence based on Algorithmic Information Theory, describing intelligence as skill-acquisition efficiency and highlighting the concepts of scope, generalization difficulty, priors, and experience, as critical pieces to be accounted for in characterizing intelligent systems. Using this definition, we propose a set of guidelines for what a general AI benchmark should look like. Finally, we present a new benchmark closely following these guidelines, the Abstraction and Reasoning Corpus (ARC), built upon an explicit set of priors designed to be as close as possible to innate human priors. We argue that ARC can be used to measure a human-like form of general fluid intelligence and that it enables fair general intelligence comparisons between AI systems and humans."
 
+  - `video` <https://youtube.com/watch?v=oD54vJlG-S4> (Chollet)
+  - `video` <https://youtube.com/watch?v=3_qGrmD6iQY> + <https://youtube.com/watch?v=THcuTJbeD34> + <https://youtube.com/watch?v=cuyM63ugsxI> + <https://youtube.com/watch?v=O9kFX33nUcU> (Kilcher)
+  - `video` <https://youtube.com/watch?v=qWEOVWDsv-k> (Shorten)
+  - `video` <https://youtube.com/watch?v=mEVnu-KZjq4> (Kilcher, Shorten, Scarfe, Chollet)
+  - `video` <https://youtube.com/watch?v=GpWLZUbPhr0> (Kilcher, Shorten, Scarfe, Chollet)
   - <https://kaggle.com/c/abstraction-and-reasoning-challenge>
 
 
@@ -764,6 +772,7 @@
 #### ["Driven by Compression Progress: A Simple Principle Explains Essential Aspects of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes"](http://arxiv.org/abs/0812.4360) Schmidhuber
 >	"I argue that data becomes temporarily interesting by itself to some self-improving, but computationally limited, subjective observer once he learns to predict or compress the data in a better way, thus making it subjectively simpler and more beautiful. Curiosity is the desire to create or discover more non-random, non-arbitrary, regular data that is novel and surprising not in the traditional sense of Boltzmann and Shannon but in the sense that it allows for compression progress because its regularity was not yet known. This drive maximizes interestingness, the first derivative of subjective beauty or compressibility, that is, the steepness of the learning curve. It motivates exploring infants, pure mathematicians, composers, artists, dancers, comedians, yourself, and artificial systems."
 
+----
   Alex Graves:
 > 	"To learn as fast as possible about a piece of data, decrease as rapidly as possible the number of bits you need to compress that data. This is exactly how probabilistic models are trained: ∇-log Pr(x). But what if you can choose which data to observe or even create your own? You should create the data that maximises the decrease in bits - the compression progress - of everything else you and your peers have ever observed. In other words, create the thing that makes the most sense of the world: art, science, music, jokes... Happiness is the first derivative of life!"
 
@@ -776,6 +785,9 @@
 >	"I have argued that a simple but general formal theory of creativity based on reward for creating or finding novel patterns allowing for data compression progress explains many essential aspects of intelligence including science, art, music, humor. Here I discuss what kind of general bias towards algorithmic regularities we insert into our robots by implementing the principle, why that bias is good, and how the approach greatly generalizes the field of active learning. I provide discrete and continuous time formulations for ongoing work on building an Artificial General Intelligence based on variants of the artificial creativity framework."
 
 >	"In the real world external rewards are rare. But unsupervised AGIs using additional intrinsic rewards as described in this paper will be motivated to learn many useful behaviors even in absence of external rewards, behaviors that lead to predictable or compressible results and thus reflect regularities in the environment, such as repeatable patterns in the world’s reactions to certain action sequences. Often a bias towards exploring previously unknown environmental regularities through artificial curiosity / creativity is a priori desirable because goal-directed learning may greatly profit from it, as behaviors leading to external reward may often be rather easy to compose from previously learnt curiosity-driven behaviors. It may be possible to formally quantify this bias towards novel patterns in form of a mixture-based prior, a weighted sum of probability distributions on sequences of actions and resulting inputs, and derive precise conditions for improved expected external reward intake. Intrinsic reward may be viewed as analogous to a regularizer in supervised learning, where the prior distribution on possible hypotheses greatly influences the most probable interpretation of the data in a Bayesian framework (for example, the well-known weight decay term of neural networks is a consequence of a Gaussian prior with zero mean for each weight). Following the introductory discussion, some of the AGIs based on the creativity principle will become scientists, artists, or comedians."
+
+----
+>	"The fine arts can be formally understood as a consequence of the principle: given some subjective observer, great works of art and music yield observation histories exhibiting more novel, previously unknown compressibility / regularity / predictability (with respect to the observer’s particular learning algorithm) than lesser works, thus deepening the observer’s understanding of the world and what is possible in it."
 
   - [**Artificial Curiosity and Creativity**](#artificial-curiosity-and-creativity) theory by Schmidhuber
 

@@ -83,11 +83,6 @@
 
 ----
 
-  ["Natural Language Understanding: Foundations and State-of-the-Art"](http://youtube.com/watch?v=mhHfnhh-pB4) by Percy Liang `video`
-	([write-up](http://topbots.com/4-different-approaches-natural-language-processing-understanding/))
-
-----
-
   [**reasoning - natural logic**](#reasoning---natural-logic)
 
 
@@ -128,14 +123,16 @@
 >	"RDF on the web marked with schema.org types is the largest existing structured knowledge base."  
 >	"I don't think we even have the begginings of theory [entity resolution, graph reconciliation]."  
 
-----
-
   problems of RDF on the web:
   - strong assumptions (nothing is ever wrong, no contradictions)
   - outdated, incorrect or incomplete data
   - mistakes made by tools (noisy information extraction, entity linking/reconciliation)
   - limited or no reuse of identifiers
   - metadata not always representative of content
+
+----
+
+  [overview](https://youtu.be/FRrokFy02ZA?t=2m43s) by Mikhail Galkin 'video' `in russian`
 
 
 
@@ -214,11 +211,12 @@
 
   history of approaches to relational learning:  
   - [**tensor factorization**](#relational-learning---tensor-factorization)  
-  - [**probabilistic relational learning**](#relational-learning---bayesian-network)  
-  - [**Relational Markov Network**](#relational-learning---markov-network)  
+  - [**probabilistic relational learning**](#relational-learning---probabilistic-relational-learning)  
+  - [**Relational Markov Network**](#relational-learning---relational-markov-network)  
   - [**Markov Logic Network**](#relational-learning---markov-logic-network)  
-  - [**ranking of random walks**](#relational-learning---random-walk-inference)  
-  - [**embedding models**](#relational-learning---continuous-embeddings)  
+  - [**random walk inference**](#relational-learning---random-walk-inference)  
+  - [**embedding models**](#relational-learning---embedding-models)  
+  - [**latent factor models**](#relational-learning---latent-factor-models)  
   - [**matrix factorization and universal schema**](#relational-learning---matrix-factorization-and-univeral-schema)  
 
 
@@ -242,14 +240,15 @@
 
 
 ----
-#### relational learning - continuous embeddings
+#### relational learning - embedding models
 
   ["An Overview of Embedding Models of Entities and Relationships for Knowledge Base Completion"](http://arxiv.org/abs/1703.08098) by Nguyen `paper`
 
   ["Knowledge Graph Construction From Text: Embedding-Based Techniques"](https://kgtutorial.github.io/slides/Part3b_Embds.pdf) by Pujara, Singh, Dalvi `slides`
 
 
-  [overview](https://youtu.be/bVWDxyydyEM?t=9m20s) by Graham Neubig `video`
+  [overview](https://youtu.be/Lcb5YKE21P8?t=14m32s) by Graham Neubig `video`  
+  [overview](https://youtu.be/FRrokFy02ZA?t=1h17m39s) by Mikhail Galkin 'video' `in russian`  
 
 
   applications in [**Google Knowledge Vault**](#machine-reading-projects---google-knowledge-vault):  
@@ -309,6 +308,8 @@
   ["Machine Learning with Knowledge Graphs"](http://videolectures.net/eswc2014_tresp_machine_learning/) by Volker Tresp `video`
 	([slides](http://www.dbs.ifi.lmu.de/~tresp/papers/ESWC-Keynote.pdf))
 
+  [overview](https://youtu.be/FRrokFy02ZA?t=1h17m39s) by Mikhail Galkin 'video' `in russian`
+
   ["Machine Learning on Linked Data: Tensors and Their Applications In Graph-Structured Domains"](http://www.cip.ifi.lmu.de/~nickel/iswc2012-slides/#/) by Maximilian Nickel `slides`  
   ["Tensor Factorization for Relational Learning"](http://edoc.ub.uni-muenchen.de/16056/1/Nickel_Maximilian.pdf) thesis by Maximilian Nickel `paper`  
 
@@ -321,7 +322,7 @@
 
 
 ----
-#### relational learning - Bayesian network
+#### relational learning - probabilistic relational learning
 
   works well if there is a prior knowledge about possible candidates for relational dependencies
 
@@ -332,7 +333,7 @@
 
 
 ----
-#### relational learning - Markov network
+#### relational learning - Relational Markov Network
 
   typically better suited for modeling symmetric interactions (e.g. friendOf) - no concern about directed loops
 
@@ -1252,6 +1253,10 @@ noise, inferring missing information, and determining which candidate facts shou
   - [**ProPPR**](#probabilistic-database---proppr)
 
 
+#### ["A Re-evaluation of Knowledge Graph Completion Methods"](https://arxiv.org/abs/1911.03903) Sun et al.
+>	"Knowledge Graph Completion aims at automatically predicting missing links for large-scale knowledge graphs. A vast number of state-of-the-art KGC techniques have got published at top conferences in several research fields, including data mining, machine learning, and natural language processing. However, we notice that several recent papers report very high performance, which largely outperforms previous state-of-the-art methods. In this paper, we find that this can be attributed to the inappropriate evaluation protocol used by them and propose a simple evaluation protocol to address this problem. The proposed protocol is robust to handle bias in the model, which can substantially affect the final results. We conduct extensive experiments and report the performance of several existing methods using our protocol. The reproducible code has been made publicly available."
+
+
 
 ---
 ### interesting papers - knowledge bases with continuous representations
@@ -1259,13 +1264,8 @@ noise, inferring missing information, and determining which candidate facts shou
 [papers](https://github.com/thunlp/KRLPapers)
 
 ----
-#### ["An Overview of Embedding Models of Entities and Relationships for Knowledge Base Completion"](https://arxiv.org/abs/1703.08098) Nguyen
->	"Knowledge bases of real-world facts about entities and their relationships are useful resources for a variety of natural language processing tasks. However, because knowledge bases are typically incomplete, it is useful to be able to perform knowledge base completion, i.e., predict whether a relationship not in the knowledge base is likely to be true. This article presents an overview of embedding models of entities and relationships for knowledge base completion, with up-to-date experimental results on two standard evaluation tasks of link prediction (i.e. entity prediction) and triple classification."
-
-
-#### ["Fast Linear Model for Knowledge Graph Embeddings"](https://arxiv.org/abs/1710.10881) Joulin, Grave, Bojanowski, Nickel, Mikolov
->	"This paper shows that a simple baseline based on a Bag-of-Words representation learns surprisingly good knowledge graph embeddings. By casting knowledge base completion and question answering as supervised classification problems, we observe that modeling co-occurences of entities and relations leads to state-of-the-art performance with a training time of a few minutes using the open sourced library fastText."
-  - `code` <https://github.com/facebookresearch/fastText>
+#### ["Bringing Light Into the Dark: A Large-scale Evaluation of Knowledge Graph Embedding Models Under a Unified Framework"](https://arxiv.org/abs/2006.13365) Ali et al.
+>	"The heterogeneity in recently published knowledge graph embedding models’ implementations, training, and evaluation has made fair and thorough comparisons difficult. In order to assess the reproducibility of previously published results, we reimplemented and evaluated 19 interaction models in the PyKEEN software package. Here, we outline which results could be reproduced with their reported hyper-parameters, which could only be reproduced with alternate hyper-parameters, and which could not be reproduced at all as well as provide insight as to why this might be the case. We then performed a large-scale benchmarking on four datasets with several thousands of experiments and 21,246 GPU hours of computation time. We present insights gained as to best practices, best configurations for each model, and where improvements could be made over previously published best configurations. Our results highlight that the combination of model architecture, training approach, loss function, and the explicit modeling of inverse relations is crucial for a model’s performances, and not only determined by the model architecture. We provide evidence that several architectures can obtain results competitive to the state-of-the-art when configured carefully."
 
 
 #### ["Relation Extraction with Matrix Factorization and Universal Schemas"](http://aclweb.org/anthology/N13-1008) Riedel, Yao, McCallum, Marlin
@@ -1422,6 +1422,20 @@ scalable. It further significantly outperforms RESCAL without type-constraints i
 [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#reasoning)  
 
 ----
+#### ["Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"](https://arxiv.org/abs/2005.11401) Lewis et al.
+  `RAG`
+>	"Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) — models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline."
+
+
+#### ["REALM: Retrieval-Augmented Language Model Pre-Training"](https://arxiv.org/abs/2002.08909) Guu et al.
+  `REALM`
+>	"Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for NLP tasks such as question answering. However, this knowledge is stored implicitly in the parameters of a neural network, requiring ever-larger networks to cover more facts. To capture knowledge in a more modular and interpretable way, we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For the first time, we show how to pre-train such a knowledge retriever in an unsupervised manner, using masked language modeling as the learning signal and backpropagating through a retrieval step that considers millions of documents. We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA). We compare against state-of-the-art models for both explicit and implicit knowledge storage on three popular Open-QA benchmarks, and find that we outperform all previous methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as interpretability and modularity."
+
+  - `post` <https://ai.googleblog.com/2020/08/realm-integrating-retrieval-into.html>
+  - `video` <https://youtube.com/watch?v=lj-LGrnh1oU> (Kilcher)
+  - `post` <https://joeddav.github.io/blog/2020/03/03/REALM.html>
+
+
 #### ["Language Models as Knowledge Bases?"](https://arxiv.org/abs/1909.01066) Petroni, Rocktaschel, Lewis, Bakhtin, Wu, Miller, Riedel
 >	"Recent progress in pretraining language models on large textual corpora led to a surge of improvements for downstream NLP tasks. Whilst learning linguistic knowledge, these models may also be storing relational knowledge present in the training data, and may be able to answer queries structured as "fill-in-the-blank" cloze statements. Language models have many advantages over structured knowledge bases: they require no schema engineering, allow practitioners to query about an open class of relations, are easy to extend to more data, and require no human supervision to train. We present an in-depth analysis of the relational knowledge already present (without fine-tuning) in a wide range of state-of-the-art pretrained language models. We find that (i) without fine-tuning, BERT contains relational knowledge competitive with traditional NLP methods that have some access to oracle knowledge, (ii) BERT also does remarkably well on open-domain question answering against a supervised baseline, and (iii) certain types of factual knowledge are learned much more readily than others by standard language model pretraining approaches. The surprisingly strong ability of these models to recall factual knowledge without any fine-tuning demonstrates their potential as unsupervised open-domain QA systems."
 
@@ -1583,6 +1597,8 @@ scalable. It further significantly outperforms RESCAL without type-constraints i
 #### ["Learning and Evaluating General Linguistic Intelligence"](https://arxiv.org/abs/1901.11373) Yogatama et al.
 >	"We define general linguistic intelligence as the ability to reuse previously acquired knowledge about a language's lexicon, syntax, semantics, and pragmatic conventions to adapt to new tasks quickly. Using this definition, we analyze state-of-the-art natural language understanding models and conduct an extensive empirical investigation to evaluate them against these criteria through a series of experiments that assess the task-independence of the knowledge being acquired by the learning process. In addition to task performance, we propose a new evaluation metric based on an online encoding of the test data that quantifies how quickly an existing agent (model) learns a new task. Our results show that while the field has made impressive progress in terms of model architectures that generalize to many tasks, these models still require a lot of in-domain training examples (e.g., for fine tuning, training task-specific modules), and are prone to catastrophic forgetting. Moreover, we find that far from solving general tasks (e.g., document question answering), our models are overfitting to the quirks of particular datasets (e.g., SQuAD). We discuss missing components and conjecture on how to make progress toward general linguistic intelligence."
 
+  - `video` <https://youtu.be/BnpB3GrpsfM?t=1h59m53s> (Radford)
+
 
 #### ["Adversarial Examples for Evaluating Reading Comprehension Systems"](https://arxiv.org/abs/1707.07328) Jia, Liang
 >	"Standard accuracy metrics indicate that reading comprehension systems are making rapid progress, but the extent to which these systems truly understand language remains unclear. To reward systems with real language understanding abilities, we propose an adversarial evaluation scheme for the Stanford Question Answering Dataset (SQuAD). Our method tests whether systems can answer questions about paragraphs that contain adversarially inserted sentences, which are automatically generated to distract computer systems without changing the correct answer or misleading humans. In this adversarial setting, the accuracy of sixteen published models drops from an average of 75% F1 score to 36%; when the adversary is allowed to add ungrammatical sequences of words, average accuracy on four models decreases further to 7%. We hope our insights will motivate the development of new models that understand language more precisely."
@@ -1591,7 +1607,29 @@ scalable. It further significantly outperforms RESCAL without type-constraints i
   - `video` <https://vimeo.com/238231419> (Liang)
 
 
+#### ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) Radford, Wu, Child, Luan, Amodei, Sutskever
+  `GPT-2` `unsupervised learning`
+  - <https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#language-models-are-unsupervised-multitask-learners-radford-wu-child-luan-amodei-sutskever>
+
+
+#### ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805) Devlin, Chang, Lee, Toutanova
+  `BERT` `semi-supervised learning`
+  - <https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding-devlin-chang-lee-toutanova>
+
+
+#### ["How Context Affects Language Models Factual Predictions"](https://arxiv.org/abs/2005.04611) Petroni et al.
+  `BERT` `unsupervised learning`
+>	"When pre-trained on large unsupervised textual corpora, language models are able to store and retrieve factual knowledge to some extent, making it possible to use them directly for zero-shot cloze-style question answering. However, storing factual knowledge in a fixed number of weights of a language model clearly has limitations. Previous approaches have successfully provided access to information outside the model weights using supervised architectures that combine an information retrieval system with a machine reading component. In this paper, we go a step further and integrate information from a retrieval system with a pre-trained language model in a purely unsupervised way. We report that augmenting pre-trained language models in this way dramatically improves performance and that the resulting system, despite being unsupervised, is competitive with a supervised machine reading baseline. Furthermore, processing query and context with different segment tokens allows BERT to utilize its Next Sentence Prediction pre-trained classifier to determine whether the context is relevant or not, substantially improving BERT’s zero-shot cloze-style question-answering performance and making its predictions robust to noisy contexts."
+
+>	"i) augmenting queries with relevant contexts dramatically improves BERT and RoBERTa performance on the LAMA probe, demonstrating unsupervised machine reading capabilities of pre-trained language models"  
+>	"ii) fetching contexts using an off-the-shelf information retrieval system is sufficient for BERT to match the performance of a supervised open-domain QA baseline"  
+>	"iii) BERT’s next-sentence prediction pre-training strategy is a highly effective unsupervised mechanism in dealing with noisy and irrelevant contexts"  
+
+>	"Considering the millions of documents and facts in Wikipedia and other textual resources, it is unlikely that a language model with a fixed number of parameters is able to reliably store and retrieve factual knowledge with sufficient precision. One way to get around this is to combine machine reading with an information retrieval system. Given a question, the IR system retrieves relevant contexts which are subsequently processed by a reading component. In the case of DrQA [Chen et al., 2017], the retriever is fixed and the reading component is trained based on retrieved contexts, whereas in REALM [Guu et al., 2020] the IR component is trained alongside the reader during both pre-training and subsequent fine-tuning. In this paper, we go a step further and forego supervised fine-tuning. Instead, we consider the purely unsupervised case of augmenting a language model with retrieved contexts at test time. We demonstrate that augmenting pre-trained language models with such retrieved contexts dramatically improves unsupervised cloze-style question answering, reaching performance that is on par with the supervised DrQA approach. In addition to being unsupervised, using a pre-trained language model like BERT instead of a trained machine reading component has several other advantages. Since BERT is not an extractive QA model, it is able to utilize contexts that contain relevant information but do not contain the answer span directly. More importantly, we find that via the next-sentence prediction objective BERT is able to ignore noisy or irrelevant contexts."
+
+
 #### ["Unsupervised Question Answering by Cloze Translation"](https://arxiv.org/abs/1906.04980) Lewis, Denoyer, Riedel
+  `unsupervised learning`
 >	"Obtaining training data for Question Answering (QA) is time-consuming and resource-intensive, and existing QA datasets are only available for limited domains and languages. In this work, we explore to what extent high quality training data is actually required for Extractive QA, and investigate the possibility of unsupervised Extractive QA. We approach this problem by first learning to generate context, question and answer triples in an unsupervised manner, which we then use to synthesize Extractive QA training data automatically. To generate such triples, we first sample random context paragraphs from a large corpus of documents and then random noun phrases or named entity mentions from these paragraphs as answers. Next we convert answers in context to "fill-in-the-blank" cloze questions and finally translate them into natural questions. We propose and compare various unsupervised ways to perform cloze-to-natural question translation, including training an unsupervised NMT model using non-aligned corpora of natural questions and cloze questions as well as a rule-based approach. We find that modern QA models can learn to answer human questions surprisingly well using only synthetic training data. We demonstrate that, without using the SQuAD training data at all, our approach achieves 56.4 F1 on SQuAD v1 (64.5 F1 when the answer is a Named entity mention), outperforming early supervised models."
 
   - `post` <https://ai.facebook.com/blog/research-in-brief-unsupervised-question-answering-by-cloze-translation>
@@ -1645,6 +1683,14 @@ Quiz bowl is a fun game with excellent opportunities for outreach, but it is als
   - `paper` ["End-To-End Memory Networks"](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#end-to-end-memory-networks-sukhbaatar-szlam-weston-fergus) by Sukhbaatar et al. `summary`
 
 
+#### ["Reading Wikipedia to Answer Open-Domain Questions"](https://arxiv.org/abs/1704.00051) Chen, Fisch, Weston, Bordes
+  `DrQA` `question answering over texts` `documents collection`
+>	"This paper proposes to tackle open- domain question answering using Wikipedia as the unique knowledge source: the answer to any factoid question is a text span in a Wikipedia article. This task of machine reading at scale combines the challenges of document retrieval (finding the relevant articles) with that of machine comprehension of text (identifying the answer spans from those articles). Our approach combines a search component based on bigram hashing and TF-IDF matching with a multi-layer recurrent neural network model trained to detect answers in Wikipedia paragraphs. Our experiments on multiple existing QA datasets indicate that (1) both modules are highly competitive with respect to existing counterparts and (2) multitask learning using distant supervision on their combination is an effective complete system on this challenging task."
+
+  - `code` <https://github.com/facebookresearch/ParlAI/tree/master/parlai/agents/drqa>
+  - `code` <https://github.com/hitvoice/DrQA>
+
+
 #### ["Text Understanding with the Attention Sum Reader Network"](http://arxiv.org/abs/1603.01547) Kadlec, Schmid, Bajgar, Kleindienst
   `Attention Sum Reader`
 >	"Several large cloze-style context-question-answer datasets have been introduced recently: the CNN and Daily Mail news data and the Children’s Book Test. Thanks to the size of these datasets, the associated text comprehension task is well suited for deep-learning techniques that currently seem to outperform all alternative approaches. We present a new, simple model that uses attention to directly pick the answer from the context as opposed to computing the answer using a blended representation of words in the document as is usual in similar models. This makes the model particularly suitable for question-answering problems where the answer is a single word from the document. Our model outperforms models previously proposed for these tasks by a large margin."
@@ -1681,24 +1727,8 @@ Quiz bowl is a fun game with excellent opportunities for outreach, but it is als
   - `code` <https://github.com/allenai/allennlp/tree/master/allennlp/models/reading_comprehension>
 
 
-#### ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) Radford, Wu, Child, Luan, Amodei, Sutskever
-  `GPT-2`
-  - <https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#language-models-are-unsupervised-multitask-learners-radford-wu-child-luan-amodei-sutskever>
-
-
-#### ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805) Devlin, Chang, Lee, Toutanova
-  `BERT`
-  - <https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding-devlin-chang-lee-toutanova>
-
-
-#### ["Coarse-to-Fine Question Answering for Long Documents"](https://arxiv.org/abs/1611.01839) Choi, Hewlett, Lacoste, Polosukhin, Uszkoreit, Berant
->	"We present a framework for question answering that can efficiently scale to longer documents while maintaining or even improving performance of state-of-the-art models. While most successful approaches for reading comprehension rely on recurrent neural networks, running them over long documents is prohibitively slow because it is difficult to parallelize over sequences. Inspired by how people first skim the document, identify relevant parts, and carefully read these parts to produce an answer, we combine a coarse, fast model for selecting relevant sentences and a more expensive RNN for producing the answer from those sentences. We treat sentence selection as a latent variable trained jointly from the answer only using reinforcement learning. Experiments demonstrate the state of the art performance on a challenging subset of the WIKIREADING dataset and on a new dataset, while speeding up the model by 3.5x-6.7x."
-
-  - `video` <https://youtu.be/fpycaHd1Z08?t=36m14s> (Neubig)
-
-
 #### ["End-to-End Goal-Driven Web Navigation"](http://arxiv.org/abs/1602.02261) Nogueira, Cho
-  `using web search engine`
+  `using web search engine` `reinforcement learning`
 >	"We propose a goal-driven web navigation as a benchmark task for evaluating an agent with abilities to understand natural language and plan on partially observed environments. In this challenging task, an agent navigates through a website, which is represented as a graph consisting of web pages as nodes and hyperlinks as directed edges, to find a web page in which a query appears. The agent is required to have sophisticated high-level reasoning based on natural languages and efficient sequential decision-making capability to succeed. We release a software tool, called WebNav, that automatically transforms a website into this goal-driven web navigation task, and as an example, we make WikiNav, a dataset constructed from the English Wikipedia. We extensively evaluate different variants of neural net based artificial agents on WikiNav and observe that the proposed goal-driven web navigation well reflects the advances in models, making it a suitable benchmark for evaluating future progress. Furthermore, we extend the WikiNav with question-answer pairs from Jeopardy! and test the proposed agent based on recurrent neural networks against strong inverted index based search engines. The artificial agents trained on WikiNav outperforms the engined based approaches, demonstrating the capability of the proposed goal-driven navigation as a good proxy for measuring the progress in real-world tasks such as focused crawling and question-answering."
 
 >	"In this work, we describe a large-scale goal-driven web navigation task and argue that it serves as a useful test bed for evaluating the capabilities of artificial agents on natural language understanding and planning. We release a software tool, called WebNav, that compiles a given website into a goal-driven web navigation task. As an example, we construct WikiNav from Wikipedia using WebNav. We extend WikiNav with Jeopardy! questions, thus creating WikiNav-Jeopardy. We evaluate various neural net based agents on WikiNav and WikiNav-Jeopardy. Our results show that more sophisticated agents have better performance, thus supporting our claim that this task is well suited to evaluate future progress in natural language understanding and planning. Furthermore, we show that our agent pretrained on WikiNav outperforms two strong inverted-index based search engines on the WikiNav-Jeopardy. These empirical results support our claim on the usefulness of the proposed task and agents in challenging applications such as focused crawling and question-answering."
@@ -1707,14 +1737,8 @@ Quiz bowl is a fun game with excellent opportunities for outreach, but it is als
   - `paper` ["Value Iteration Networks"](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#value-iteration-networks-tamar-wu-thomas-levine-abbeel) by Tamar et al. `summary`
 
 
-#### ["Value Iteration Networks"](http://arxiv.org/abs/1602.02867) Tamar, Wu, Thomas, Levine, Abbeel
-  `using web search engine`
-  - <https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#value-iteration-networks-tamar-wu-thomas-levine-abbeel>
-  - `video` <https://youtu.be/tXBHfbHHlKc?t=31m20s> (Tamar)
-
-
 #### ["Ask the Right Questions: Active Question Reformulation with Reinforcement Learning"](https://arxiv.org/abs/1705.07830) Buck et al.
-  `using web search engine`
+  `using web search engine` `reinforcement learning`
 >	"We frame Question Answering as a Reinforcement Learning task, an approach that we call Active Question Answering. We propose an agent that sits between the user and a black box question-answering system and which learns to reformulate questions to elicit the best possible answers. The agent probes the system with, potentially many, natural languagere formulations of an initial question and aggregates the returned evidence to yield the best answer. The reformulation system is trained end-to-end to maximize answer quality using policy gradient. We evaluate on SearchQA, a dataset of complex questions extracted from Jeopardy!. Our agent improves F1 by 11% over a state-of-the-art base model that uses the original question/answer pairs."
 
   - `post` <https://ai.googleblog.com/2018/10/open-sourcing-active-question.html>
@@ -1724,7 +1748,7 @@ Quiz bowl is a fun game with excellent opportunities for outreach, but it is als
 
 
 #### ["Task-Oriented Query Reformulation with Reinforcement Learning"](https://arxiv.org/abs/1704.04572) Nogueira, Cho
-  `using web search engine`
+  `using web search engine` `reinforcement learning`
 >	"Search engines play an important role in our everyday lives by assisting us in finding the information we need. When we input a complex query, however, results are often far from satisfactory. In this work, we introduce a query reformulation system based on a neural network that rewrites a query to maximize the number of relevant documents returned. We train this neural network with reinforcement learning. The actions correspond to selecting terms to build a reformulated query, and the reward is the document recall. We evaluate our approach on three datasets against strong baselines and show a relative improvement of 5-20% in terms of recall. Furthermore, we present a simple method to estimate a conservative upper-bound performance of a model in a particular environment and verify that there is still large room for improvements."
 
   - `video` <https://youtu.be/soZXAH3leeQ?t=34m16s> (Cho)

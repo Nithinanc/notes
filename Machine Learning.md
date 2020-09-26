@@ -69,7 +69,6 @@
 
 #### courses
 
-  [course](http://youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN) by Andrew Ng `video`  
   [course](http://youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf) by Nando de Freitas `video`  
   [course](http://youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6) by Nando de Freitas `video`  
   [course](http://youtube.com/playlist?list=PLTPQEx-31JXgtDaC6-3HxWcp7fq4N8YGr) by Pedro Domingos `video`  
@@ -79,14 +78,22 @@
 
   [course](http://ciml.info) by Hal Daume
 
-  [course](http://coursera.org/specializations/machine-learning-data-analysis) by Yandex `video` `in russian`  
-  [course](http://github.com/Yorko/mlcourse_open) by OpenDataScience `video` `in russian`  
-  [course](http://youtube.com/playlist?list=PLEqoHzpnmTfDwuwrFHWVHdr1-qJsfqCUX) by Evgeny Sokolov `video` `in russian`  
-  [course](http://youtube.com/playlist?list=PLJOzdkh8T5kp99tGTEFjH_b9zqEQiiBtC) by Konstantin Vorontsov `video` `in russian`  
-  [course](http://youtube.com/playlist?list=PLlb7e2G7aSpTd91sd82VxWNdtTZ8QnFne) by Igor Kuralenok `video` `in russian`  
-  [course](http://youtube.com/playlist?list=PLlb7e2G7aSpSWVExpq74FnwFnWgLby56L) by Igor Kuralenok `video` `in russian`  
-  [course](http://youtube.com/playlist?list=PLlb7e2G7aSpSSsCeUMLN-RxYOLAI9l2ld) by Igor Kuralenok `video` `in russian`  
-  [course](http://lektorium.tv/course/22975) by Igor Kuralenok `video` `in russian`  
+  [course](http://youtube.com/playlist?list=PLJOzdkh8T5krxc4HsHbB8g8f0hu7973fK) by Konstantin Vorontsov `video` `in russian` `2019`  
+  [course](http://youtube.com/playlist?list=PLJOzdkh8T5kp99tGTEFjH_b9zqEQiiBtC) by Konstantin Vorontsov `video` `in russian` `2014`  
+  [course](http://youtube.com/playlist?list=PLwdBkWbW0oHFDCTvO6R8l3V3Pe2ophxpD) by Sergey Nikolenko `video` `in russian` `2020`  
+  [course](http://youtube.com/playlist?list=PL-_cKNuVAYAWXoVzVEDCT-usTEBHUf4AF) by Sergey Nikolenko `video` `in russian` `2018`  
+  [course](http://youtube.com/playlist?list=PLlb7e2G7aSpSSsCeUMLN-RxYOLAI9l2ld) by Igor Kuralenok `video` `in russian` `2017`  
+  [course](http://youtube.com/playlist?list=PLlb7e2G7aSpSWVExpq74FnwFnWgLby56L) by Igor Kuralenok `video` `in russian` `2016`  
+  [course](http://youtube.com/playlist?list=PLlb7e2G7aSpTd91sd82VxWNdtTZ8QnFne) by Igor Kuralenok `video` `in russian` `2015`  
+  [course](http://youtube.com/playlist?list=PL-_cKNuVAYAWeMHuPI9A8Gjk3h62b7K7l) by Igor Kuralenok `video` `in russian` `2013/2014`  
+  course ([1](http://youtube.com/playlist?list=PL-_cKNuVAYAV8HV5N2sbZ72KFoOaMXhxc), [2](https://youtube.com/playlist?list=PL-_cKNuVAYAXCbK6tV2Rc7293CxIMOlxO)) by Igor Kuralenok `video` `in russian` `2012/2013`  
+  [course](http://youtube.com/playlist?list=PLEqoHzpnmTfDwuwrFHWVHdr1-qJsfqCUX) by Evgeny Sokolov `video` `in russian` `2019`  
+  [course](http://coursera.org/specializations/machine-learning-data-analysis) from Yandex `video` `in russian`  
+  [course](http://github.com/Yorko/mlcourse_open) from OpenDataScience `video` `in russian`  
+
+  [**deep learning courses**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#courses)  
+  [**reinforcement learning courses**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md#overview)  
+  [**bayesian inference and learning courses**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md#overview)  
 
 
 #### books
@@ -356,8 +363,9 @@
 ---
 ### meta-learning
 
-  [course](https://youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5) by Chelsea Finn `video`
+  [course](http://cs330.stanford.edu) by Chelsea Finn ([videos](https://youtube.com/playlist?list=PLoROMvodv4rMC6zfYmnD7UG3LVvwaITY5))
 
+  [overview](https://youtube.com/watch?v=A0a1M61gjgI) by Yee Whye Teh `video`  
   [overview](https://facebook.com/icml.imls/videos/400619163874853?t=500) by Chelsea Finn and Sergey Levine `video`  
   [overview](https://facebook.com/nipsfoundation/videos/1554594181298482?t=277) by Pieter Abbeel `video`  
   [overview](https://vimeo.com/250423463) by Oriol Vinyals `video`  
@@ -369,7 +377,8 @@
   [Metalearning symposium](https://vimeo.com/250399623) panel `video`  
   [RNN symposium](https://youtube.com/watch?v=zSNkbhgMkzQ) panel `video`  
 
-  [meta reinforcement learning](https://lilianweng.github.io/lil-log/2019/06/23/meta-reinforcement-learning.html) overview by Lilian Weng
+  [meta-learning](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) overview by Lilian Weng  
+  [meta reinforcement learning](https://lilianweng.github.io/lil-log/2019/06/23/meta-reinforcement-learning.html) overview by Lilian Weng  
 
   [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#meta-learning)
 
@@ -387,6 +396,10 @@
   "Current commercial AI algorithms are still missing something fundamental. They are no self-referential general purpose learning algorithms. They improve some system’s performance in a given limited domain, but they are unable to inspect and improve their own learning algorithm. They do not learn the way they learn, and the way they learn the way they learn, and so on (limited only by the fundamental limits of computability)."
 
   *(Juergen Schmidhuber)*
+
+----
+
+  ["On GPT-3: Meta-Learning, Scaling, Implications, And Deep Theory"](https://gwern.net/newsletter/2020/05#gpt-3) by Gwern Branwen
 
 ----
 
@@ -487,11 +500,13 @@
 ---
 ### weak supervision - data programming
 
+  [Snorkel](http://snorkel.org) website  
   [Snorkel](http://github.com/HazyResearch/snorkel) project  
   [Snorkel](http://hazyresearch.github.io/snorkel) blog  
 
 ----
 
+  [overview](https://youtube.com/watch?v=M7r5SGIxxpI) by Chris Re `video`  
   [overview](https://youtu.be/Tkl6ERLWAbA?t=27m10s) by Chris Re `video`  
   [overview](http://videolectures.net/kdd2018_re_hand_labeled_data) by Chris Re `video`  
   [overview](https://youtube.com/watch?v=08jorbiyLwY) by Chris Re `video`  
@@ -697,6 +712,7 @@
 
   - <https://catboost.yandex>
   - `video` <https://youtube.com/watch?v=jLU6kNRiZ5o>
+  - `video` <https://youtube.com/watch?v=BgDmuvPaUBo> (Dorogush)
   - `video` <https://youtube.com/watch?v=8o0e-r0B5xQ> (Dorogush)
   - `video` <https://youtube.com/watch?v=usdEWSDisS0> (Dorogush)
   - `video` <https://youtube.com/watch?v=db-iLhQvcH8> (Prokhorenkova)
@@ -704,6 +720,7 @@
   - `video` <https://youtube.com/watch?v=UYDwhuyWYSo> (Dorogush) `in russian`
   - `video` <https://youtube.com/watch?v=9ZrfErvm97M> (Dorogush) `in russian`
   - `video` <https://youtube.com/watch?v=Q_xa4RvnDcY> (Dorogush) `in russian`
+  - `video` <https://youtube.com/watch?v=ZaP5qFSIcIw> (Dmitriev, Lyzhin, Peshaya) `in russian`
   - `code` <https://github.com/catboost/catboost>
   - `paper` ["CatBoost: Unbiased Boosting with Categorical Features"](https://arxiv.org/abs/1706.09516) by Prokhorenkova, Gusev, Vorobev, Dorogush, Gulin
 

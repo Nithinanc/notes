@@ -45,6 +45,7 @@
 
   ["What's Deep Learning?"](https://twitter.com/fchollet/status/1210031900695449600) by Francois Chollet
 
+  ["On GPT-3: Meta-Learning, Scaling, Implications, And Deep Theory"](https://gwern.net/newsletter/2020/05#gpt-3) by Gwern Branwen  
   ["Deep Learning And Shallow Data"](https://blog.piekniewski.info/2019/04/07/deep-learning-and-shallow-data) by Filip Piekniewski  
   ["The Limitations of Deep Learning for Vision and How We Might Fix Them"](https://thegradient.pub/the-limitations-of-visual-deep-learning-and-how-we-might-fix-them) by Alan Yuille and Chenxi Liu  
   ["The Limitations of Deep Learning"](http://blog.keras.io/the-limitations-of-deep-learning.html) by Francois Chollet ([talk](https://youtube.com/watch?v=MUF32XHqM34) `video`)  
@@ -54,6 +55,7 @@
 #### history
 
   <http://scholarpedia.org/article/Deep_Learning>  
+  ["Brief History of Deep Learning from 1943-2019 (Timeline)"](https://machinelearningknowledge.ai/brief-history-of-deep-learning)  
   ["A 'Brief' History of Neural Nets and Deep Learning"](http://andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/) by Andrey Kurenkov  
   ["On the Origin of Deep Learning"](https://arxiv.org/abs/1702.07800) by Wand and Raj `paper`  
 
@@ -70,15 +72,16 @@
 #### courses
 
   [course](https://course.fast.ai) by Jeremy Howard `video`  
-  [course](http://introtodeeplearning.com) from CMU ([videos](https://youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/playlists))  
-  [course](https://youtube.com/playlist?list=PLLssT5z_DsK_gyrQ_biidwvPYCRNGI3iv) by Geoffrey Hinton `video`  
-  [course](https://youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle `video`  
-  [course](https://youtube.com/playlist?list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg) by Andrej Karpathy `video`  
-  [course](https://youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs) from DeepMind `video`  
+  [course](https://youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF) from DeepMind `video` `2020`  
+  [course](https://youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs) from DeepMind `video` `2018`  
+  [course](http://introtodeeplearning.com) from CMU ([videos](https://youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/playlists)) `2020`  
+  [course](https://youtube.com/playlist?list=PLLssT5z_DsK_gyrQ_biidwvPYCRNGI3iv) by Geoffrey Hinton `video` `2012`  
+  [course](https://youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle `video` `2013`  
+  [course](https://youtube.com/playlist?list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg) by Andrej Karpathy `video` `2016`  
 
-  [course](https://sphere.mail.ru/curriculum/program/discipline/120/) by Daniil Polykovsky and Kuzma Hrabrov `in russian` ([videos](https://youtube.com/playlist?list=PLrCZzMib1e9oOGNLh6_d65HyfdqlJwTQP))  
-  [course](https://github.com/aosokin/DL_CSHSE_spring2018) by Anton Osokin `in russian` ([videos](https://youtube.com/playlist?list=PLzY5g-rVmFayEkCcgO3_-it6HZwPZL3ld))  
-  [course](https://dlcourse.ai) by Simon Kozlov et al. `video` `in russian`  
+  [course](https://dlcourse.ai) by Simon Kozlov et al. `video` `in russian` `2020`  
+  [course](https://sphere.mail.ru/curriculum/program/discipline/120/) by Daniil Polykovsky and Kuzma Hrabrov `in russian` ([videos](https://youtube.com/playlist?list=PLrCZzMib1e9oOGNLh6_d65HyfdqlJwTQP) `2017`)  
+  [course](https://github.com/aosokin/DL_CSHSE_spring2018) by Anton Osokin `in russian` ([videos](https://youtube.com/playlist?list=PLzY5g-rVmFayEkCcgO3_-it6HZwPZL3ld) `2018`)  
 
 
 #### books
@@ -257,6 +260,8 @@
 
   ["Is Bayesian Deep Learning the Most Brilliant Thing Ever"](https://youtube.com/watch?v=HumFmLu3CJ8) panel discussion `video`
 
+  ["Open Problems in Deep Learning: A Bayesian Solution"](https://youtube.com/watch?v=kdVYAWep9jU) by Dmitry Vetrov `video` `in russian`
+
   ["Deep Learning and Bayesian Methods"](http://deepbayes.ru) school from HSE ([videos](https://youtube.com/channel/UC9KcwaZ9gSvcYNs7Jx3oNaQ/playlists))  
   ["Bayesian Methods in Deep Learning"](https://youtube.com/playlist?list=PLNO729xOopfFy1NeLkHPN5xnSqGkgcxJ3) course from MSU `video` `in russian`  
 
@@ -306,10 +311,11 @@
 ---
 ### unsupervised learning
 
-  [course](https://sites.google.com/view/berkeley-cs294-158-sp19) from UC Berkeley ([videos](https://youtube.com/playlist?list=PLwRJQ4m4UJjPiJP3691u-qWwPGVKzSlNP), [videos](https://youtube.com/playlist?list=UUf4SX8kAZM_oGcZjMREsU9w))
+  [course](https://sites.google.com/view/berkeley-cs294-158-sp20) from UC Berkeley ([videos](https://youtube.com/playlist?list=PLwRJQ4m4UJjPiJP3691u-qWwPGVKzSlNP) `2020`, [videos](https://youtube.com/playlist?list=UUf4SX8kAZM_oGcZjMREsU9w) `2019`)
 
-  [tutorial](https://youtube.com/watch?v=DSYzHPW26Ig) by Alex Graves `video`  
-  [tutorial](https://facebook.com/nipsfoundation/videos/795861577420073) by Alex Graves and Marc Aurelio Ranzato `video`  
+  [overview](https://youtube.com/watch?v=DSYzHPW26Ig) by Alex Graves `video`  
+  [overview](https://facebook.com/nipsfoundation/videos/795861577420073) by Alex Graves and Marc Aurelio Ranzato `video`  
+  [overview](https://youtube.com/watch?v=f0s-uvvXvWg) by Irina Higgins and Mihaela Rosca `video`  
 
   ["Goals and Principles of Representation Learning"](https://youtu.be/2vxZbZC21Gg?t=7m3s) by Ferenc Huszar `video`
 
@@ -359,15 +365,21 @@
   [overview](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) by Lilian Weng  
   [overview](https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html) by Ankesh Anand  
   [overview](https://amitness.com/2020/02/illustrated-self-supervised-learning) by Amit Chaudhary  
+  [overview](https://amitness.com/2020/05/self-supervised-learning-nlp) by Amit Chaudhary  
 
   ["Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey"](https://arxiv.org/abs/1902.06162) by Jing and Tian `paper`
 
 ----
 
-  [overview](https://youtu.be/DSYzHPW26Ig?t=1h15m40s) by Alex Graves `video`  
+  [overview](https://youtu.be/1sJuWg5dULg?t=31m38s) by Aravind Srinivas `video`  
   [overview](https://youtube.com/watch?v=dMUes74-nYY) by Aravind Srinivas `video`  
-  [overview](https://youtu.be/Vv7rHgmiJWM?t=35m31s) by Yann LeCun `video`  
+  [overview](https://youtu.be/DSYzHPW26Ig?t=1h15m40s) by Alex Graves `video`  
+  [overview](https://iclr.cc/virtual_2020/speaker_7.html) by Yann LeCun `video`  
+  [overview](https://vimeo.com/390347111#t=36m15s) by Yann LeCun `video`  
+  [overview](https://youtu.be/UX8OubxsY8w?t=36m15s) by Yann LeCun `video`  
   [overview](https://youtu.be/7I0Qt7GALVk?t=41m13s) by Yann LeCun `video`  
+
+  [overview](https://youtube.com/watch?v=GBgns_U9mmI) by Alexander Dyakonov `in russian` ([post](https://dyakonov.org/2020/06/03/%d1%81%d0%b0%d0%bc%d0%be%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-self-supervision))
 
 ----
 
@@ -388,10 +400,16 @@
 
   ["Do we still need models or just more data and compute?"](https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/Model-versus-Data-AI-1.pdf) by Max Welling
 
-  [overview](https://youtube.com/watch?v=oRJ1hJTRs-0) by Danilo Rezende `video`
+----
 
-  ["Round-up of Strenghts and Weaknesses"](https://youtube.com/watch?v=7o9dT6puHHg) by Aravind Srinivas `video`  
-  ["Building Machines that Imagine and Reason: Principles and Applications of Deep Generative Models"](http://videolectures.net/deeplearning2016_mohamed_generative_models/) by Shakir Mohamed `video`  
+  [course](https://sites.google.com/view/berkeley-cs294-158-sp20) from UC Berkeley ([videos](https://youtube.com/playlist?list=PLwRJQ4m4UJjPiJP3691u-qWwPGVKzSlNP) `2020`, [videos](https://youtube.com/playlist?list=UUf4SX8kAZM_oGcZjMREsU9w) `2019`)
+
+  [overview](https://youtube.com/watch?v=1sJuWg5dULg) by Aravind Srinivas `video` `2020`  *(strengths and weaknesses of models)*  
+  [overview](https://youtube.com/watch?v=7o9dT6puHHg) by Aravind Srinivas `video` `2019`  *(strengths and weaknesses of models)*  
+  [overview](https://youtube.com/watch?v=oRJ1hJTRs-0) by Danilo Rezende `video`  
+  [overview](http://videolectures.net/deeplearning2016_mohamed_generative_models) by Shakir Mohamed `video`  
+
+  ["Generative Models, Thermodynamics and Symmetries"](http://scgp.stonybrook.edu/video/video.php?id=4383) by Danilo Rezende `video`
 
 ----
 
@@ -474,9 +492,10 @@
 
 ----
 
-  [overview](https://youtu.be/7o9dT6puHHg?t=37m39s) by Aravind Srinivas `video`  
-  overview ([[1]](https://youtube.com/watch?v=1CT-kxjYbFU), [[2]](https://youtube.com/watch?v=0W1dixJfKL4)) by Pieter Abbeel and Aravind Srinivas `video`  
-  overview ([[1]](https://youtu.be/grsO57XMJMk?t=1h1m41s), [[2]](https://youtu.be/5NMIUZ7_nrg)) by Aravind Srinivas and Xi Chen `video`  
+  [overview](https://youtu.be/1sJuWg5dULg?t=21m24s) by Aravind Srinivas `video` `2020`  
+  [overview](https://youtu.be/7o9dT6puHHg?t=37m39s) by Aravind Srinivas `video` `2019`  
+  overview ([[1]](https://youtube.com/watch?v=1CT-kxjYbFU), [[2]](https://youtube.com/watch?v=0W1dixJfKL4)) by Pieter Abbeel and Aravind Srinivas `video` `2020`  
+  overview ([[1]](https://youtu.be/grsO57XMJMk?t=1h1m41s), [[2]](https://youtu.be/5NMIUZ7_nrg)) by Aravind Srinivas and Xi Chen `video` `2019`  
 
   [tutorial](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Generative-Adversarial-Networks) by Ian Goodfellow `video` ([paper](https://arxiv.org/abs/1701.00160))
 
@@ -507,11 +526,11 @@
 
 ----
 
-  GANs vs density models:
-  - mode collapse vs blurry/improbably samples - sample quality at the cost of missing modes vs compression at the cost of sample quality
-  - GANs work well with few couple hours of training
-  - density models are huge
-  - GANs allow interpolations and conditional generation
+  implicit (GANs) vs explicit density models:
+  - mode collapse in implicit models vs blurry/improbable samples in explicit models - sample quality at the cost of missing modes vs compression at the cost of sample quality
+  - implicit models work well with few couple hours of training
+  - explicit models are huge
+  - implicit models allow interpolations and conditional generation
 
   Compared to the PixelRNN, the runtime to generate a sample is smaller. GANs produce a sample in one shot, while PixelRNNs need to produce a sample one pixel at a time.  
   Compared to the VAE, there is no variational lower bound. If the discriminator net fits perfectly, then the generator net recovers the training distribution perfectly. In other words, GANs are asymptotically consistent, while VAE has some bias.  
@@ -521,9 +540,17 @@
 
   disadvantages:
   - plenty of varying engineering tricks and details
-  - hard to know which piece is significantly helping push the cutting edge results
+  - hard to know which piece is significantly helping to push the cutting edge results
   - sample diversity and mode dropping behavior in unconditional generation
   - evaluation metrics to account for generalization
+
+  future:
+  - Lipschitzness constraints
+  - conditioning tricks (noise at different levels, batch/instance normalization)
+  - architecture design (upsampling/downsampling, deep vs wide tradeoff)
+  - objective functions (Hinge loss, ...)
+  - stability and scalability (deeper models with fewer parameters + larger batch sizes)
+  - perturbations at different levels + coarse/fine interpolations
 
 ----
 
@@ -542,8 +569,10 @@
 
   ["An Introduction to Variational Autoencoders"](https://arxiv.org/abs/1906.02691) by Diederik Kingma and Max Welling `paper`
 
-  [overview](https://youtu.be/7o9dT6puHHg?t=31m48s) by Aravind Srinivas `video`  
-  overview ([1](https://youtu.be/NCRzGmM1ywE?t=1h11m23s), [2](https://youtu.be/0IoLKnAg6-s?t=1m11s), [3](https://youtube.com/watch?v=grsO57XMJMk)) by Peter Chen and Jonathan Ho `video`  
+  [overview](https://youtu.be/1sJuWg5dULg?t=16m49s) by Aravind Srinivas `video` `2020`  
+  [overview](https://youtu.be/7o9dT6puHHg?t=31m48s) by Aravind Srinivas `video` `2019`  
+  [overview](https://youtube.com/watch?v=FMuvUZXMzKM) by Pieter Abbeel `video` `2020`  
+  overview ([1](https://youtu.be/NCRzGmM1ywE?t=1h11m23s), [2](https://youtu.be/0IoLKnAg6-s?t=1m11s), [3](https://youtube.com/watch?v=grsO57XMJMk)) by Peter Chen and Jonathan Ho `video` `2019`  
 
   [overview](https://youtu.be/tjT4Wf86FMM?t=21m55s) by Dmitry Vetrov `video`  
   [overview](https://youtu.be/RdFqBHCizp8?t=21m6s) by Dmitry Vetrov `video`  
@@ -565,22 +594,24 @@
   examples: VAE, IWAE, VQ-VAE, VLAE, PixelVAE
 
   advantages:
-  - notion of "compressed" representation learning
-  - also gives you approximate log-likelihood
-  - interpolations, retrospective analysis of what the model learns
-  - disentangled representations
-  - generative model + density model + latent variable model + dimensionality reduction in single model
+  - generative model + density model + latent variables + dimensionality reduction
+  - compressed representation learning
+  - approximate log-likelihood estimate
+  - interpolations, analysis of learning
+  - disentangled representation learning
 
   disadvantages:
-  - encouraging disentaglement with the KL term still only shown on relatively toy domains
-  - there may be other ways to learn better representations or to get better samples or get better density estimates (not the best at any one thing but gives you all together)
+  - not the best way to learn representations, to get samples and densities
+  - blurry samples
+  - success on large scale is ongoing
+  - factorized gaussian posterior or decoder assumptions maybe too limiting
+  - disentaglement with KL term still only shown on relatively toy domains
 
-  comparison with [**generative adversarial networks**](#generative-models---generative-adversarial-networks):  
-  - easier to train and get working  
-  - relatively easy to implement and robust to hyperparameter choices  
-  - tractable likelihood  
-  - has an explicit inference network so it lets one do reconstruction  
-  - if p(x|z) makes conditional independence assumptions then it might make blurring effect  
+  future:
+  - modern decoder choices (cross-entropy based, weakly autoregressive)
+  - powerful posterior choices
+  - hierarchical latent variable models to learn coarse and fine features and interpolations
+  - discrete latent variable models to prevent posterior collapse and use PixelCNN decoders
 
 
 
@@ -625,9 +656,10 @@
 
   ["Deep Generative Models"](http://www.deeplearningbook.org/contents/generative_models.html) chapter (sections 20.10.7-20.10.10) of "Deep Learning" book by Goodfellow, Bengio, Courville
 
-  [overview](https://youtube.com/watch?v=iyEOk8KCRUw) by Pieter Abbeel `video`  
-  [overview](https://youtu.be/7o9dT6puHHg?t=3m50s) by Aravind Srinivas `video`  
-  [overview](https://youtu.be/zNmvH6OXDpk?t=28m51s) by Jonathan Ho `video`  
+  [overview](https://youtu.be/1sJuWg5dULg?t=2m22s) by Aravind Srinivas `video` `2020`  
+  [overview](https://youtu.be/7o9dT6puHHg?t=3m50s) by Aravind Srinivas `video` `2019`  
+  [overview](https://youtube.com/watch?v=iyEOk8KCRUw) by Pieter Abbeel `video` `2020`  
+  [overview](https://youtu.be/zNmvH6OXDpk?t=28m51s) by Jonathan Ho `video` `2019`  
 
   ["Sequence-To-Sequence Modeling with Neural Networks"](https://vimeo.com/240428387) by Oriol Vinyals and Navdeep Jaitly `video`  
   ["Generative Modelling as Sequence Learning"](https://youtube.com/watch?v=leu286ciQcE) by Nal Kalchbrenner `video`  
@@ -651,8 +683,15 @@
   - no single layer of learned representation
   - currently, sampling time is slow for practical deployment
   - not directly usable for downstream tasks
-  - no natural latent representation
   - no interpolations
+
+  future:
+  - advances with model-parallelism to come
+  - trillion parameter language models trained on all the Internet's text
+  - trillion parameter models for both text and images/videos trained on Wikipedia and Instagram/Youtube
+  - fast sampling with better low-level core engineering - new kernels with sparsity and efficiency
+  - models with weaker autoregressive structure and more independence assumptions trained on large scale
+  - design choices such as self-attention introducing inductive biases with lots of compute per parameter
 
 ----
 
@@ -685,9 +724,10 @@
 
   ["Normalizing Flows for Probabilistic Modeling and Inference"](https://arxiv.org/abs/1912.02762) by Papamakarios et al. `paper`
 
-  [overview](https://youtube.com/watch?v=JBb5sSC0JoY) by Pieter Abbeel `video`  
-  [overview](https://youtu.be/7o9dT6puHHg?t=24m8s) by Aravind Srinivas `video`  
-  overview ([1](https://youtu.be/mYCLVPRy2nc?t=1h46m30s), [2](https://youtu.be/NCRzGmM1ywE)) by Jonathan Ho `video`  
+  [overview](https://youtu.be/1sJuWg5dULg?t=13m12s) by Aravind Srinivas `video` `2020`  
+  [overview](https://youtu.be/7o9dT6puHHg?t=24m8s) by Aravind Srinivas `video` `2019`  
+  [overview](https://youtube.com/watch?v=JBb5sSC0JoY) by Pieter Abbeel `video` `2020`  
+  overview ([1](https://youtu.be/mYCLVPRy2nc?t=1h46m30s), [2](https://youtu.be/NCRzGmM1ywE)) by Jonathan Ho `video` `2019`  
   [overview](https://slideslive.com/38917907/tutorial-on-normalizing-flows) by Eric Jang `video`  
   [overview](https://youtube.com/watch?v=v4gp1dMvWJo) by Arsenii Ashukha `video`  
 
@@ -702,6 +742,15 @@
   - z is as big as x - models end up becoming big
   - as of now, no notion of lower dimensional embedding
   - careful initializaton
+
+  future:
+  - learning the mask for coupling
+  - close the gap with autoregressive models
+  - fewer expressive flows vs several shallow flows
+  - usage of multiscale loss - bits/dim vs sample quality tradeoffs
+  - representation learning with flows
+  - dimension reduction
+  - conditional flow models
 
 
 
@@ -721,9 +770,9 @@
 ---
 ### architectures - stochastic computation graph
 
-  ["Monte Carlo Gradient Estimation in Machine Learning"](https://arxiv.org/abs/1906.10652) by Mohamed et al. `paper`
+  ["Back-Propagation and Other Differentiation Algorithms"](https://www.deeplearningbook.org/contents/mlp.html) chapter of "Deep Learning" book by Goodfellow, Bengio, Courville
 
-  [**interesting papers - gradient estimation**](#interesting-papers---gradient-estimation)
+  [overview](https://youtube.com/watch?v=FBggC-XVF4M) by Wojciech Czarnecki `video`
 
 ----
 
@@ -739,6 +788,10 @@
   ["Reparametrization Trick: Revolution in Stochastic Computational Graphs"](https://youtu.be/0q5p7xP4cdA?t=5h3m29s)
 	by Dmitry Vetrov `video` `in russian` ([slides](https://sdsj.ru/slides/Vetrov.pdf) `in english`)  
 
+----
+
+  [**interesting papers - gradient estimation**](#interesting-papers---gradient-estimation)
+
 
 
 ---
@@ -746,12 +799,12 @@
 
   ["Convolutional Neural Network"](http://www.deeplearningbook.org/contents/convnets.html) chapter of "Deep Learning" book by Goodfellow, Bengio, Courville
 
-  [overview](https://youtube.com/watch?v=LxfUGhug-iQ) by Andrej Karpathy `video`  
-  [overview](https://youtube.com/watch?v=bNb2fEVKeEo) by Serena Young `video`  
-  [overview](https://youtube.com/watch?v=t_TY_5bG9J8) by Nando de Freitas `video`  
-  [overview](http://videolectures.net/deeplearning2016_fergus_neural_networks/) by Rob Fergus `video`  
-  [overview](https://youtu.be/Xogn6veSyxA?t=40m30s) by Ian Goodfellow `video`  
-  [overview](https://youtube.com/watch?v=6-yBs3XLM20) by Victor Lempitsky `video` `in russian`  
+  [overview](https://youtube.com/watch?v=shVKhOmT0HE) by Sander Dieleman `video` `2020`  
+  [overview](https://youtube.com/watch?v=t_TY_5bG9J8) by Nando de Freitas `video` `2017`  
+  [overview](https://youtube.com/watch?v=bNb2fEVKeEo) by Serena Young `video` `2017`  
+  [overview](https://youtube.com/watch?v=LxfUGhug-iQ) by Andrej Karpathy `video` `2016`  
+  [overview](http://videolectures.net/deeplearning2016_fergus_neural_networks/) by Rob Fergus `video` `2016`  
+  [overview](https://youtube.com/watch?v=6-yBs3XLM20) by Victor Lempitsky `video` `in russian` `2016`  
 
   [overview](http://cs231n.github.io/convolutional-networks/) by Andrej Karpathy  
   ["Conv Nets: A Modular Perspective"](http://colah.github.io/posts/2014-07-Conv-Nets-Modular/) by Chris Olah  
@@ -764,6 +817,8 @@
 
 ---
 ### architectures - graph neural network
+
+  ["Deep Learning with Graph-structured Representations"](https://dare.uva.nl/search?identifier=1b63b965-24c4-4bcd-aabb-b849056fa76d) by Thomas Kipf `paper`
 
   ["Graph Convolutional Networks"](https://tkipf.github.io/graph-convolutional-networks) by Thomas Kipf
 
@@ -783,6 +838,10 @@
   ["Convolutional Neural Networks on Graphs"](https://youtube.com/watch?v=v3jZRkvIOIM) by Xavier Bresson `video`  
   ["Large-scale Graph Representation Learning"](https://youtube.com/watch?v=oQL4E1gK3VU) by Jure Leskovec `video`  
 
+----
+
+  [papers](https://github.com/naganandy/graph-based-deep-learning-literature)
+
 
 
 ---
@@ -790,6 +849,7 @@
 
   ["Recurrent Neural Network"](http://www.deeplearningbook.org/contents/rnn.html) chapter of "Deep Learning" book by Goodfellow, Bengio, Courville
 
+  [overview](https://youtube.com/watch?v=87kLfzmYBy8) by Marta Garnelo `video`  
   [overview](https://youtube.com/watch?v=yCC09vCHzF8) by Andrej Karpathy `video`  
   [overview](https://youtube.com/watch?v=6niqTuYFZLQ) by Justin Johnson `video`  
   [overview](https://youtube.com/watch?v=ZVN14xYm7JA) by Ian Goodfellow `video`  
@@ -826,6 +886,7 @@
 ---
 ### architectures - attention
 
+  [overview](https://youtube.com/watch?v=AIiwuClvH6k) by Alex Graves `video`  
   [overview](https://youtube.com/watch?v=Q57rzaHHO0k) by Alex Graves `video`  
   [overview](https://facebook.com/icml.imls/videos/382464939283864?t=690) by Alex Smola and Aston Zhang `video`  
   [overview](https://youtube.com/watch?v=_XRBlhzb31U) by Mikhail Figurnov `video` `in russian`  
@@ -839,7 +900,8 @@
 
   [overview](https://youtube.com/watch?v=bYmeuc5voUQ) by Ashish Vaswani `video`
 
-  [**"Attention Is All You Need"**](#attention-is-all-you-need-vaswani-et-al) by Vaswani et al. `paper` `summary`
+  [**"Attention Is All You Need"**](#attention-is-all-you-need-vaswani-et-al) by Vaswani et al. `paper` `summary`  
+  ["Hopfield Networks is All You Need"](https://arxiv.org/abs/2008.02217) by Ramsauer et al. ([post](https://jku.at/index.php?id=18677), [overview](https://youtube.com/watch?v=nv6oFDp6rNQ) (Kilcher) `video`)  
 
 ----
 
@@ -1004,6 +1066,19 @@
 [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#deep-learning-theory)
 
 ----
+#### ["Reconciling Modern Machine Learning Practice and the Bias-variance Trade-off"](https://arxiv.org/abs/1812.11118) Belkin, Hsu, Ma, Mandal
+  `generalization`
+>	"Breakthroughs in machine learning are rapidly changing science and society, yet our fundamental understanding of this technology has lagged far behind. Indeed, one of the central tenets of the field, the bias-variance trade-off, appears to be at odds with the observed behavior of methods used in the modern machine learning practice. The bias-variance trade-off implies that a model should balance under-fitting and over-fitting: rich enough to express underlying structure in data, simple enough to avoid fitting spurious patterns. However, in the modern practice, very rich models such as neural networks are trained to exactly fit (i.e., interpolate) the data. Classically, such models would be considered over-fit, and yet they often obtain high accuracy on test data. This apparent contradiction has raised questions about the mathematical foundations of machine learning and their relevance to practitioners. In this paper, we reconcile the classical understanding and the modern practice within a unified performance curve. This "double descent" curve subsumes the textbook U-shaped bias-variance trade-off curve by showing how increasing model capacity beyond the point of interpolation results in improved performance. We provide evidence for the existence and ubiquity of double descent for a wide spectrum of models and datasets, and we posit a mechanism for its emergence. This connection between the performance and the structure of machine learning models delineates the limits of classical analyses, and has implications for both the theory and practice of machine learning."
+
+  - `video` <https://youtube.com/watch?v=OBCciGnOJVs> (Belkin)
+  - `video` <https://youtube.com/watch?v=LzL5naUS31s> (Belkin)
+  - `video` <https://youtube.com/watch?v=ZAW9EyNo2fw> (Kilcher)
+  - `video` <https://youtu.be/FBggC-XVF4M?t=1h10m52s> (Czarnecki)
+  - `post` <https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html#the-lottery-ticket-hypothesis>
+  - `paper` ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) by Nakkiran et al. ([post](https://openai.com/blog/deep-double-descent), [overview](https://youtube.com/watch?v=R29awq6jvUw) `video`)
+  - `paper` ["The Generalization Error of Random Features Regression: Precise Asymptotics and Double Descent Curve"](https://arxiv.org/abs/1908.05355) by Mei et al.
+
+
 #### ["Understanding Deep Learning Requires Rethinking Generalization"](http://arxiv.org/abs/1611.03530) Zhang, Bengio, Hardt, Recht, Vinyals
   `generalization`
 >	"Despite their massive size, successful deep artificial neural networks can exhibit a remarkably small difference between training and test performance. Conventional wisdom attributes small generalization error either to properties of the model family, or to the regularization techniques used during training. Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data. This phenomenon is qualitatively unaffected by explicit regularization, and occurs even if we replace the true images by completely unstructured random noise. We corroborate these experimental findings with a theoretical construction showing that simple depth two neural networks already have perfect finite sample expressivity as soon as the number of parameters exceeds the number of data points as it usually does in practice. We interpret our experimental findings by comparison with traditional models."
@@ -1027,6 +1102,7 @@
   - `video` <https://facebook.com/iclr.cc/videos/1710657292296663?t=3220> (Zhang)
   - `video` <https://youtu.be/mEYerIMYb5Q?t=18m2s> (Goncalves)
   - `video` <https://youtu.be/DSYzHPW26Ig?t=10m44s> (Graves)
+  - `video` <https://youtu.be/pFWiauHOFpY?t=1m41s> (Steenbrugge)
   - `post` <https://danieltakeshi.github.io/2017/05/19/understanding-deep-learning-requires-rethinking-generalization-my-thoughts-and-notes>
   - `notes` <https://theneuralperspective.com/2017/01/24/understanding-deep-learning-requires-rethinking-generalization/>
   - `notes` <https://blog.acolyer.org/2017/05/11/understanding-deep-learning-requires-re-thinking-generalization/>
@@ -1046,6 +1122,7 @@
 
   - `video` <https://vimeo.com/238241921> (Krueger)
   - `video` <http://videocrm.ca/Machine18/Machine18-20180423-5-YoshuaBengio.mp4> (42:27) (Bengio)
+  - `video` <https://youtube.com/watch?v=pFWiauHOFpY> (Steenbrugge)
 
 
 #### ["Deep Learning and the Information Bottleneck Principle"](https://arxiv.org/abs/1503.02406) Tishby, Zaslavsky
@@ -1121,6 +1198,7 @@
   - `video` <https://youtube.com/watch?v=ekUWO_pI2M8> (Tishby)
   - `video` <https://youtu.be/RKvS958AqGY?t=12m7s> (Tishby)
   - `video` <https://youtu.be/cHjI37DsQCQ?t=41m40s> (Selvaraj)
+  - `video` <https://youtu.be/pFWiauHOFpY?t=8m15s> (Steenbrugge)
   - `video` <https://youtube.com/watch?v=yoMC0P2x3Fg> + <https://youtube.com/watch?v=7OsyeNbKQjU> (Skorokodov) `in russian`
   - `post` <https://lilianweng.github.io/lil-log/2017/09/28/anatomize-deep-learning-with-information-theory.html>
   - `post` <https://reddit.com/r/MachineLearning/comments/be8qie/discussion_what_is_the_status_of_the_information/el9eqwf>
@@ -1834,11 +1912,13 @@ Yoshua Bengio:
   `word2vec` `Skip-gram`
 >	"We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities."
 
+  - `video` <https://youtube.com/watch?v=BnpB3GrpsfM> (Radford)
   - `video` <https://youtu.be/dMUes74-nYY?t=1h3m> (Srinivas)
-  - `video` <https://youtube.com/watch?v=fwcJpSYNsNs> (Mikolov)
-  - `video` <https://youtube.com/watch?v=c3yRH0XZN2g> (Boyd-Graber)
+  - `video` <https://youtube.com/watch?v=yexR53My2O4> (Kilcher)
   - `video` <https://youtube.com/watch?v=Ab5cgv9w7ac> (Scarfe)
   - `video` <https://youtube.com/watch?v=cQFOxMkzwf4> (Shorten)
+  - `video` <https://youtube.com/watch?v=c3yRH0XZN2g> (Boyd-Graber)
+  - `video` <https://youtube.com/watch?v=fwcJpSYNsNs> (Mikolov)
   - `notes` <http://www.shortscience.org/paper?bibtexKey=mikolov2013efficient>
   - `post` <http://jalammar.github.io/illustrated-word2vec>
   - `post` <http://alexminnaar.com/word2vec-tutorial-part-i-the-skip-gram-model.html>
@@ -1847,32 +1927,89 @@ Yoshua Bengio:
 
 
 #### ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"](https://arxiv.org/abs/1810.04805) Devlin, Chang, Lee, Toutanova
-  `BERT` `representation learning` `self-supervised learning`
+  `BERT` `representation learning`
 >	"We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement)."
 
 >	"Unlike recent language representation models (Peters et al., 2018; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT representations can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications."
 
   - `post` <https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html>
+  - `video` <https://youtube.com/watch?v=BWP3DyJ6k3g> (Chang)
   - `video` <https://youtube.com/watch?v=OR0wfP2FD3c> (Shorten)
   - `video` <https://youtube.com/watch?v=-9evrZnBorM> (Kilcher)
   - `video` <https://youtu.be/DSYzHPW26Ig?t=1h15m40s> (Graves)
   - `video` <https://youtu.be/AC4l_MY2Dhc?t=1h51m52s> (Srinivas)
+  - `video` <https://youtu.be/BnpB3GrpsfM?t=1h32m23s> (Radford)
+  - `video` <https://youtu.be/8zAP2qWAsKg?t=55m7s> (Hill)
   - `video` <https://youtube.com/watch?v=9-Om2YcHhIA> (Li)
   - `video` <https://youtube.com/watch?v=BhlOGGzC0Q0> + <https://youtube.com/watch?v=rMQMHA-uv_E> (Gharbieh)
   - `video` <https://youtube.com/watch?v=BhlOGGzC0Q0> (Luo)
+  - `video` <https://youtu.be/JO-RJRCkLvM?t=23m12s> + <https://youtube.com/watch?v=5o8gTP-7xwg> (Lobacheva) `in russian`
   - `video` <https://youtu.be/99CymZY-4Tc?t=5m36s> (Lyalin) `in russian`
+  - `video` <https://youtu.be/atSqU9HfJq0?t=1h9m13s> (Malykh) `in russian`
   - `video` <https://youtu.be/Q4HVS6c92qU?t=21m7s> (Alexeev) `in russian`
   - `post` <http://jalammar.github.io/illustrated-bert>
   - `post` <https://medium.com/dissecting-bert/dissecting-bert-part-1-d3c3d495cdb3> + <https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73> + <https://medium.com/dissecting-bert/dissecting-bert-appendix-the-decoder-3b86f66b0e5f>
   - `paper` ["Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference"](https://arxiv.org/abs/1902.01007) by McCoy et al.
   - `paper` ["Probing Neural Network Comprehension of Natural Language Arguments"](https://arxiv.org/abs/1907.07355) by Niven et al. ([post](https://thegradient.pub/nlps-clever-hans-moment-has-arrived) by Benjamin Heinzerling)
   - `paper` ["BERT Rediscovers the Classical NLP Pipeline"](https://arxiv.org/abs/1905.05950) by Tenney et al.
-  - `paper` ["XLNet: Generalized Autoregressive Pretraining for Language Understanding"](https://arxiv.org/abs/1906.08237) by Yang et al.
   - `paper` ["A Primer in BERTology: What We Know About How BERT Works"](https://arxiv.org/abs/2002.12327) by Rogers et al.
 
 
+#### ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) Radford, Wu, Child, Luan, Amodei, Sutskever
+  `GPT-2` `language modeling`
+>	"Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on task-specific datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset - matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underfits WebText."
+
+  - `demo` <https://talktotransformer.com>
+  - `post` <https://openai.com/blog/better-language-models>
+  - `post` <https://openai.com/blog/language-unsupervised> *(GPT-1)*
+  - `video` <https://youtu.be/BnpB3GrpsfM?t=1h55m8s> (Radford)
+  - `video` <https://youtu.be/BnpB3GrpsfM?t=1h26m40s> (Radford) *(GPT-1)*
+  - `video` <https://youtube.com/watch?v=UULqu7LQoHs> (Shorten)
+  - `video` <https://youtube.com/watch?v=9ebPNEHRwXU> (Shorten) *(GPT-1)*
+  - `video` <https://youtube.com/watch?v=u1_qMdb0kYU> (Kilcher)
+  - `video` <https://youtu.be/w3ues-NayAs?t=23m15s> (Sutskever)
+  - `video` <https://youtu.be/X-B3nAN7YRM?t=14m25s> (Sutskever)
+  - `video` <https://youtu.be/T0I88NhR_9M?t=6m11s> (Sutskever)
+  - `video` <https://youtube.com/watch?v=n_UlVuFAzbU> (Amjadian)
+  - `video` <https://youtu.be/qIEfJ6OBGj8?t=14m25s> (Hinton)
+  - `post` <https://amaarora.github.io/2020/02/18/annotatedGPT2.html>
+  - `post` <https://jalammar.github.io/illustrated-gpt2>
+  - `post` <https://gwern.net/GPT-2>
+  - `paper` ["Generative Pretraining from Pixels"](https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf) by Chen et al. `IMAGE GPT` ([post](https://openai.com/blog/image-gpt), [overview](https://youtube.com/watch?v=mtPmgsMtMQo) (Chen) `video`, [overview](https://youtube.com/watch?v=YBlNQK0Ao6g) (Kilcher) `video`, [overview](https://youtube.com/watch?v=7rFLnQdl22c) (Shorten) `video`)
+
+
+#### ["Language Models are Few-Shot Learners"](https://arxiv.org/abs/2005.14165) Brown et al.
+  `GPT-3` `language modeling` `meta-learning`
+>	"Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general."
+
+----
+>	"We find that larger models can often (but not always) perform NLP tasks given only natural language prompt and a few examples in the context. No fine-tuning. This in-context learning happens entirely within the forward-pass on a single sequence. We study this in the zero-, one- and few-shot settings. One way to think about this: In-context learning is the inner loop of meta-learning, and unsupervised pre-training is the outer loop. To do well at pre-training, a language model needs to learn to quickly recognize patterns within the context of a given sequence."
+
+>	"GPT-3 seems to be quite strong at question answering and trivia. We find that it can be competitive with the fine-tuned SOTA despite being shown only a few examples of the task and performing no gradient updates after pre-training."
+
+>	"For SuperGLUE, we find that GPT-3 with 32 examples per task performs slightly better than a fine-tuned BERT-large (which is far smaller than GPT-3). So in this case, massively scaling up the model massively reduced the data requirements."
+
+>	"GPT-3 is hamstrung by its training & data, but just simply training a big model on a lot of data induces meta-learning without even the slightest bit of meta-learning architecture being built in; and in general, training on more and harder tasks creates ever more human-like performance, generalization, and robustness."
+
+  - <https://gpt3examples.com> (demo)
+  - `video` <https://vimeo.com/427943407/98fe5258a7> (demo)
+  - <https://pscp.tv/Microsoft/1OyKAYWPRrWKb?t=29m19s> (demo)
+  - <https://justpaste.it/7eovk> (demo)
+  - `video` <https://youtube.com/watch?v=ZyQkaml-5iE> (Ryder)
+  - `video` <https://youtube.com/watch?v=7qPDwsCLbZc> (Kilcher, Shorten, Scarfe)
+  - `video` <https://youtube.com/watch?v=SY5PvZrJhLE> (Kilcher)
+  - `video` <https://youtube.com/watch?v=Mq97CF02sRY> (Heo)
+  - `post` <https://jalammar.github.io/how-gpt3-works-visualizations-animations>
+  - `post` <https://gwern.net/newsletter/2020/05#gpt-3>
+  - `post` <https://gwern.net/GPT-3>
+  - `post` <https://slatestarcodex.com/2020/06/10/the-obligatory-gpt-3-post>
+  - `post` <https://leogao.dev/2020/08/17/Building-AGI-Using-Language-Models>
+  - `notes` <https://blog.inten.to/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9>
+  - `notes` <https://lambdalabs.com/blog/demystifying-gpt-3>
+
+
 #### ["Representation Learning with Contrastive Predictive Coding"](https://arxiv.org/abs/1807.03748) Oord, Li, Vinyals
-  `CPC` `InfoNCE` `representation learning` `self-supervised learning`
+  `CPC` `InfoNCE` `representation learning`
 >	"While supervised learning has enabled great progress in many applications, unsupervised learning has not seen such widespread adoption, and remains an important and challenging endeavor for artificial intelligence. In this work, we propose a universal unsupervised learning approach to extract useful representations from high-dimensional data, which we call Contrastive Predictive Coding. The key insight of our model is to learn such representations by predicting the future in latent space by using powerful autoregressive models. We use a probabilistic contrastive loss which induces the latent space to capture information that is maximally useful to predict future samples. It also makes the model tractable by using negative sampling. While most prior work has focused on evaluating representations for a particular modality, we demonstrate that our approach is able to learn useful representations achieving strong performance on four distinct domains: speech, images, text and reinforcement learning in 3D environments."
 
 >	"Using mutual information between the representation of the current input, and input close in space or time as a self-supervised criteria."
@@ -1881,7 +2018,10 @@ Yoshua Bengio:
   - `video` <https://youtu.be/QoCyQBzi7us?t=1h9m51s> (Oord)
   - `video` <https://youtu.be/dMUes74-nYY?t=1h19m29s> (Srinivas)
   - `video` <https://youtu.be/AC4l_MY2Dhc?t=1h6m33s> (Srinivas)
+  - `video` <https://youtu.be/1sJuWg5dULg?t=33m12s> (Srinivas)
   - `video` <https://youtu.be/DSYzHPW26Ig?t=1h24m53s> (Graves)
+  - `video` <https://youtu.be/QE36xa8NqPA?t=31m15s> (Sobolev)
+  - `video` <https://youtube.com/watch?v=y8pgdXdYPwU> (Atanov) `in russian`
   - `post` <https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html>
   - `post` <https://machinethoughts.wordpress.com/2018/08/15/predictive-coding-and-mutual-information>
   - `paper` ["Data-Efficient Image Recognition with Contrastive Predictive Coding"](https://arxiv.org/abs/1905.09272) by Henaff et al. ([overview](https://facebook.com/icml.imls/videos/378993762742156?t=3335) by Henaff `video`, [overview](https://youtu.be/dMUes74-nYY?t=1h42m8s) by Srinivas `video`)  *(CPC v2)*
@@ -1890,7 +2030,7 @@ Yoshua Bengio:
 
 
 #### ["Revisiting Self-Supervised Visual Representation Learning"](https://arxiv.org/abs/1901.09005) Kolesnikov, Zhai, Beyer
-  `representation learning` `self-supervised learning`
+  `representation learning`
 >	"Unsupervised visual representation learning remains a largely unsolved problem in computer vision research. Among a big body of recently proposed approaches for unsupervised learning of visual representations, a class of self-supervised techniques achieves superior performance on many challenging benchmarks. A large number of the pretext tasks for self-supervised learning have been studied, but other important aspects, such as the choice of convolutional neural networks, has not received equal attention. Therefore, we revisit numerous previously proposed self-supervised models, conduct a thorough large scale study and, as a result, uncover multiple crucial insights. We challenge a number of common practices in selfsupervised visual representation learning and observe that standard recipes for CNN design do not always translate to self-supervised representation learning. As part of our study, we drastically boost the performance of previously proposed techniques and outperform previously published state-of-the-art results by a large margin. "
 
 >	"Specifically, we provide a re-implementation of the following self-supervised representation learning techniques:  
@@ -1914,7 +2054,9 @@ Yoshua Bengio:
 #### ["Self-training with Noisy Student Improves ImageNet Classification"](https://arxiv.org/abs/1911.04252) Xie et al.
 >	"We present a simple self-training method that achieves 87.4% top-1 accuracy on ImageNet, which is 1.0% better than the state-of-the-art model that requires 3.5B weakly labeled Instagram images. On robustness test sets, it improves ImageNet-A top-1 accuracy from 16.6% to 74.2%, reduces ImageNet-C mean corruption error from 45.7 to 31.2, and reduces ImageNet-P mean flip rate from 27.8 to 16.1. To achieve this result, we first train an EfficientNet model on labeled ImageNet images and use it as a teacher to generate pseudo labels on 300M unlabeled images. We then train a larger EfficientNet as a student model on the combination of labeled and pseudo labeled images. We iterate this process by putting back the student as the teacher. During the generation of the pseudo labels, the teacher is not noised so that the pseudo labels are as good as possible. But during the learning of the student, we inject noise such as data augmentation, dropout, stochastic depth to the student so that the noised student is forced to learn harder from the pseudo labels."
 
+  - `video` <https://youtube.com/watch?v=q7PjrmGNx5A> (Kilcher)
   - `video` <https://youtube.com/watch?v=Y8YaU9mv_us> (Shorten)
+  - `video` <https://youtube.com/watch?v=gVfnb4EOPZE> (Kaur, Fadel)
   - `notes` <https://harangdev.github.io/papers/9/>
 
 
@@ -1933,6 +2075,7 @@ Yoshua Bengio:
 >	"We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples."
 
   - <http://cs.stanford.edu/people/karpathy/gan/> (demo)
+  - `video` <https://youtube.com/watch?v=eyxmSmjmNS0> (Kilcher)
   - `video` <https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Generative-Adversarial-Networks> (Goodfellow)
   - `video` <https://youtu.be/1CT-kxjYbFU?t=13m34s> (Abbeel)
   - `post` <http://www.offconvex.org/2017/03/15/GANs/> (Arora)
@@ -2073,6 +2216,8 @@ Yoshua Bengio:
 ----
 >	"Latent variable probabilistic models are ubiquitous, but often inference in such models is intractable. Variational inference methods based on approximation of the true posterior currently are most popular deterministic inference techniques. Recently one particularly interesting method for parametric variational approximation was proposed called Auto-encoding variational bayes. In this method, approximate posterior explicitly depends on data and may be almost arbitrary complex, e.g. a deep neural network. Thus, the problem of variational inference may be considered as a learning of auto-encoder where the code is represented by latent variables, encoder is the likelihood model and decoder is our variational approximation. Since neural networks can serve as universal function approximators, such inference method may allow to obtain better results than for "shallow" parametric approximations or free-form mean-field ones."
 
+  - `video` <https://youtube.com/watch?v=FMuvUZXMzKM> (Abbeel)
+  - `video` <https://youtube.com/watch?v=h0UE8FzdE8U> (Lamb)
   - `video` <http://youtube.com/watch?v=rjZL7aguLAs> (Kingma)
   - `video` <https://youtu.be/tjT4Wf86FMM?t=21m55s> (Vetrov)
   - `video` <https://youtu.be/RdFqBHCizp8?t=21m6s> (Vetrov)
@@ -2100,6 +2245,23 @@ Yoshua Bengio:
 
   - `video` <http://techtalks.tv/talks/stochastic-backpropagation-and-approximate-inference-in-deep-generative-models/60885/>
   - `video` <http://vk.com/video-44016343_456239093> (Stepochkin) `in russian`
+
+
+#### ["Importance Weighted Autoencoders"](http://arxiv.org/abs/1509.00519) Burda, Grosse, Salakhutdinov
+  `IWAE`
+>	"The variational autoencoder (VAE; Kingma, Welling (2014)) is a recently proposed generative model pairing a top-down generative network with a bottom-up recognition network which approximates posterior inference. It typically makes strong assumptions about posterior inference, for instance that the posterior distribution is approximately factorial, and that its parameters can be approximated with nonlinear regression from the observations. As we show empirically, the VAE objective can lead to overly simplified representations which fail to use the network's entire modeling capacity. We present the importance weighted autoencoder (IWAE), a generative model with the same architecture as the VAE, but which uses a strictly tighter log-likelihood lower bound derived from importance weighting. In the IWAE, the recognition network uses multiple samples to approximate the posterior, giving it increased flexibility to model complex posteriors which do not fit the VAE modeling assumptions. We show empirically that IWAEs learn richer latent space representations than VAEs, leading to improved test log-likelihood on density estimation benchmarks."
+
+  - `video` <https://youtube.com/watch?v=FMuvUZXMzKM> (Abbeel)
+  - `video` <https://youtu.be/0IoLKnAg6-s?t=14m41s> (Chen)
+  - `video` <https://facebook.com/nipsfoundation/videos/1555493854541848?t=1771> (Teh)
+  - `video` <https://youtube.com/watch?v=rNmgOCWEGDg> (Struminsky) `in russian`
+  - `post` <http://dustintran.com/blog/importance-weighted-autoencoders/>
+  - `post` <https://casmls.github.io/general/2017/04/24/iwae-aae.html>
+  - `notes` <http://artem.sobolev.name/posts/2016-07-14-neural-variational-importance-weighted-autoencoders.html>
+  - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/BurdaGS15>
+  - `code` <https://github.com/yburda/iwae>
+  - `code` <https://github.com/arahuja/generative-tf>
+  - `code` <https://github.com/blei-lab/edward/blob/master/examples/iwvi.py>
 
 
 #### ["Semi-supervised Learning with Deep Generative Models"](http://arxiv.org/abs/1406.5298) Kingma, Rezende, Mohamed, Welling
@@ -2130,8 +2292,7 @@ Yoshua Bengio:
 
 >	"There have been many attempts at performing this kind of reasoning, dating back to the earliest years of the field. Despite this, progress has been slow for several reasons: First, the task is inherently ill-posed. Objects always appear under self-occlusion, and there are an infinite number of 3D structures that could give rise to a particular 2D observation. The natural way to address this problem is by learning statistical models that recognize which 3D structures are likely and which are not. Second, even when endowed with such a statistical model, inference is intractable. This includes the sub-tasks of mapping image pixels to 3D representations, detecting and establishing correspondences between different images of the same structures, and that of handling the multi-modality of the representations in this 3D space. Third, it is unclear how 3D structures are best represented, e.g., via dense volumes of voxels, via a collection of vertices, edges and faces that define a polyhedral mesh, or some other kind of representation. Finally, ground-truth 3D data is difficult and expensive to collect and therefore datasets have so far been relatively limited in size and scope."
 
->"
->	We design a strong generative model of 3D structures, defined over the space of volumes and meshes, using ideas from state-of-the-art generative models of images.  
+>	"We design a strong generative model of 3D structures, defined over the space of volumes and meshes, using ideas from state-of-the-art generative models of images.  
 >	We show that our models produce high-quality samples, can effectively capture uncertainty and are amenable to probabilistic inference, allowing for applications in 3D generation and simulation. We report log-likelihoods on a dataset of shape primitives, a 3D version of MNIST, and on ShapeNet, which to the best of our knowledge, constitutes the first quantitative benchmark for 3D density modeling.  
 >	We show how complex inference tasks, e.g., that of inferring plausible 3D structures given a 2D image, can be achieved using conditional training of the models. We demonstrate that such models recover 3D representations in one forward pass of a neural network and they accurately capture the multi-modality of the posterior.  
 >	We explore both volumetric and mesh-based representations of 3D structure. The latter is achieved by flexible inclusion of off-the-shelf renders such as OpenGL. This allows us to build in further knowledge of the rendering process, e.g., how light bounces of surfaces and interacts with its material’s attributes.  
@@ -2157,7 +2318,27 @@ Yoshua Bengio:
 >	- Use explicit information placement to restrict the reception of the autoregressive model, thereby forcing the model to use the latent code z which is globally provided.  
 >	- Parametrize the prior distribution with a autoregressive model showing that a type of autoregressive latent code can reduce inefficiency in Bits-Back coding."  
 
+  - `video` <https://youtu.be/FMuvUZXMzKM?t=2h2m12s> (Abbeel)
   - `post` <http://tsong.me/blog/lossy-vae/>
+
+
+#### ["beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework"](http://openreview.net/forum?id=Sy2fzU9gl) Higgins et al.
+  `β-VAE` `disentangled representations`
+>	"Learning an interpretable factorised representation of the independent data generative factors of the world without supervision is an important precursor for the development of artificial intelligence that is able to learn and reason in the same way that humans do. We introduce beta-VAE, a new state-of-the-art framework for automated discovery of interpretable factorised latent representations from raw image data in a completely unsupervised manner. Our approach is a modification of the variational autoencoder (VAE) framework. We introduce an adjustable hyperparameter beta that balances latent channel capacity and independence constraints with reconstruction accuracy. We demonstrate that beta-VAE with appropriately tuned beta > 1 qualitatively outperforms VAE (beta = 1), as well as state of the art unsupervised (InfoGAN) and semi-supervised (DC-IGN) approaches to disentangled factor learning on a variety of datasets (celebA, faces and chairs). Furthermore, we devise a protocol to quantitatively compare the degree of disentanglement learnt by different models, and show that our approach also significantly outperforms all baselines quantitatively. Unlike InfoGAN, beta-VAE is stable to train, makes few assumptions about the data and relies on tuning a single hyperparameter, which can be directly optimised through a hyper parameter search using weakly labelled data or through heuristic visual inspection for purely unsupervised data."
+
+----
+>	"This paper proposes a modification of the variational ELBO to encourage disentangled representations and proposes a measure of disentanglement."
+
+>	"Beta-VAE is a VAE with beta coefficient in KL divergence term where beta=1 is exactly same formulation of vanilla VAE. By increasing beta, the weighted factor forces model to learn more disentangled representation than VAE. The authors also proposed disentanglement metric by training a simple classifier with low capacity and use it’s prediction accuracy. But the metric can be only calculated in simulator (ground truth generator) setting where we can control independent factors to generate different samples with controlled property."
+
+  - `video` <https://youtu.be/XNGo9xqpgMo?t=10m8s> (Higgins)
+  - `video` <https://youtu.be/FMuvUZXMzKM?t=2h6m37s> (Abbeel)
+  - `video` <https://youtu.be/Wgvcxd98tvU?t=27m17s> (Achille)
+  - `video` <https://cds.cern.ch/record/2302480> (52:29) (Rezende)
+  - `post` <https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#beta-vae>
+  - `post` <https://towardsdatascience.com/what-a-disentangled-net-we-weave-representation-learning-in-vaes-pt-1-9e5dbc205bd1>
+  - `paper` ["Early Visual Concept Learning with Unsupervised Deep Learning"](http://arxiv.org/abs/1606.05579) by Higgins et al.
+  - `paper` ["Understanding Disentangling in β-VAE"](https://arxiv.org/abs/1804.03599) by Burgess et al.
 
 
 #### ["Adversarially Learned Inference"](http://arxiv.org/abs/1606.00704) Dumoulin, Belghazi, Poole, Lamb, Arjovsky, Mastropietro, Courville
@@ -2195,40 +2376,54 @@ Yoshua Bengio:
 
 #### ["Neural Discrete Representation Learning"](https://arxiv.org/abs/1711.00937) Oord, Vinyals, Kavukcuoglu
   `VQ-VAE`
->	"Language is inherently discrete, similarly speech is typically represented as a sequence of symbols. Images can often be described concisely by language. Furthermore, discrete representations are a natural fit for complex reasoning, planning and predictive learning."  
->	"We introduce a new family of generative models succesfully combining the VAE framework with discrete latent representations through a novel parameterisation of the posterior distribution of (discrete) latents given an observation. Our model, which relies on vector quantization, is simple to train, does not suffer from large variance, and avoids the “posterior collapse” issue which has been problematic with many VAE models that have a powerful decoder, often caused by latents being ignored. Additionally, it is the first discrete latent VAE model that get similar performance as its continuous counterparts, while offering the flexibility of discrete distributions."  
->	"Since VQ-VAE can make effective use of the latent space, it can successfully model important features that usually span many dimensions in data space (for example objects span many pixels in images, phonemes in speech, the message in a text fragment, etc.) as opposed to focusing or spending capacity on noise and imperceptible details which are often local."  
->	"When paired with a powerful prior, our samples are coherent and high quality on a wide variety of applications such as speech and video generation. We use a PixelCNN over the discrete latents for images, and a WaveNet for raw audio. Training the prior and the VQ-VAE jointly, which could strengthen our results, is left as future research."  
->	"The discrete latent space captures the important aspects of the audio, such as the content of the speech, in a very compressed symbolic representation. Because of this we can now train another WaveNet on top of these latents which can focus on modeling the long-range temporal dependencies without having to spend too much capacity on imperceptible details. With enough data one could even learn a language model directly from raw audio."  
->	"When we condition the decoder in the VQ-VAE on the speaker-id, we can extract latent codes from a speech fragment and reconstruct with a different speaker-id. The VQ-VAE never saw any aligned data during training and was always optimizing the reconstruction of the orginal waveform. These experiments suggest that the encoder has factored out speaker-specific information in the encoded representations, as they have same meaning across different voice characteristics. This behaviour arises naturally because the decoder gets the speaker-id for free so the limited bandwith of latent codes gets used for other speaker-independent, phonetic information. In the paper we show that the latent codes discovered by the VQ-VAE are actually very closely related to the human-designed alphabet of phonemes."  
->	"We show promising results on learning long term structure of environments for reinforcement learning."  
->	"VQ-VAE models only what we can perceive - doesn't predict the noise or high frequency signals we can't see."  
+>	"Learning useful representations without supervision remains a key challenge in machine learning. In this paper, we propose a simple yet powerful generative model that learns such discrete representations. Our model, the Vector Quantised-Variational AutoEncoder (VQ-VAE), differs from VAEs in two key ways: the encoder network outputs discrete, rather than continuous, codes; and the prior is learnt rather than static. In order to learn a discrete latent representation, we incorporate ideas from vector quantisation (VQ). Using the VQ method allows the model to circumvent issues of "posterior collapse" -- where the latents are ignored when they are paired with a powerful autoregressive decoder -- typically observed in the VAE framework. Pairing these representations with an autoregressive prior, the model can generate high quality images, videos, and speech as well as doing high quality speaker conversion and unsupervised learning of phonemes, providing further evidence of the utility of the learnt representations."
+
+>	"Language is inherently discrete, similarly speech is typically represented as a sequence of symbols. Images can often be described concisely by language. Furthermore, discrete representations are a natural fit for complex reasoning, planning and predictive learning."
+
 >	"Why discrete representation?  
 >	- Many important real-world things are discrete  
 >	- Easier modelling of the prior (e.g. softmax vs RNADE)  
->	- Preventing posterior collapse
+>	- Preventing posterior collapse  
 >	- Using PixelCNN-like decoders"  
+
+>	"We introduce a new family of generative models succesfully combining the VAE framework with discrete latent representations through a novel parameterisation of the posterior distribution of (discrete) latents given an observation. Our model, which relies on vector quantization, is simple to train, does not suffer from large variance, and avoids the “posterior collapse” issue which has been problematic with many VAE models that have a powerful decoder, often caused by latents being ignored. Additionally, it is the first discrete latent VAE model that get similar performance as its continuous counterparts, while offering the flexibility of discrete distributions."
+
+>	"Since VQ-VAE can make effective use of the latent space, it can successfully model important features that usually span many dimensions in data space (for example objects span many pixels in images, phonemes in speech, the message in a text fragment, etc.) as opposed to focusing or spending capacity on noise and imperceptible details which are often local."
+
+>	"When paired with a powerful prior, our samples are coherent and high quality on a wide variety of applications such as speech and video generation. We use a PixelCNN over the discrete latents for images, and a WaveNet for raw audio. Training the prior and the VQ-VAE jointly, which could strengthen our results, is left as future research."  
+>	"The discrete latent space captures the important aspects of the audio, such as the content of the speech, in a very compressed symbolic representation. Because of this we can now train another WaveNet on top of these latents which can focus on modeling the long-range temporal dependencies without having to spend too much capacity on imperceptible details. With enough data one could even learn a language model directly from raw audio."  
+>	"When we condition the decoder in the VQ-VAE on the speaker-id, we can extract latent codes from a speech fragment and reconstruct with a different speaker-id. The VQ-VAE never saw any aligned data during training and was always optimizing the reconstruction of the orginal waveform. These experiments suggest that the encoder has factored out speaker-specific information in the encoded representations, as they have same meaning across different voice characteristics. This behaviour arises naturally because the decoder gets the speaker-id for free so the limited bandwith of latent codes gets used for other speaker-independent, phonetic information. In the paper we show that the latent codes discovered by the VQ-VAE are actually very closely related to the human-designed alphabet of phonemes."  
+
+>	"We show promising results on learning long term structure of environments for reinforcement learning."
+
   - `post` <https://avdnoord.github.io/homepage/vqvae/> (demo)
   - `video` <https://youtu.be/QoCyQBzi7us?t=19m10s> (Oord)
+  - `video` <https://youtu.be/FMuvUZXMzKM?t=1h46m19s> (Abbeel)
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/1711.00937>
   - `slides` <https://avdnoord.github.io/homepage/slides/SANE2017.pdf>
-  - `code` <https://github.com/deepmind/sonnet/blob/master/sonnet/examples/vqvae_example.ipynb>
 
 
 #### ["Generating Diverse High-Fidelity Images with VQ-VAE-2"](https://arxiv.org/abs/1906.00446) Razavi, Oord, Vinyals
   `VQ-VAE-2` `VQ-VAE`
->	"VQ-VAE for large scale image generation"  
->	"We scale and enhance the autoregressive priors used in VQ-VAE."  
->	"We use simple feed-forward encoder and decoder networks, making our model an attractive candidate for applications where the encoding and/or decoding speed is critical."  
->	"VQ-VAE requires sampling an autoregressive model only in the compressed latent space, which is an order of magnitude faster than sampling in the pixel space, especially for large images."  
->	"A multi-scale hierarchical organization of VQ-VAE, augmented with powerful priors over the latent codes, is able to generate samples with quality that rivals that of state of the art GANs on multifaceted datasets such as ImageNet, while not suffering from GAN's known shortcomings such as mode collapse and lack of diversity."  
+>	"We explore the use of Vector Quantized Variational AutoEncoder (VQ-VAE) models for large scale image generation. To this end, we scale and enhance the autoregressive priors used in VQ-VAE to generate synthetic samples of much higher coherence and fidelity than possible before. We use simple feed-forward encoder and decoder networks, making our model an attractive candidate for applications where the encoding and/or decoding speed is critical. Additionally, VQ-VAE requires sampling an autoregressive model only in the compressed latent space, which is an order of magnitude faster than sampling in the pixel space, especially for large images. We demonstrate that a multi-scale hierarchical organization of VQ-VAE, augmented with powerful priors over the latent codes, is able to generate samples with quality that rivals that of state of the art Generative Adversarial Networks on multifaceted datasets such as ImageNet, while not suffering from GAN's known shortcomings such as mode collapse and lack of diversity."
+
+>	"We scale and enhance the autoregressive priors used in VQ-VAE."
+
+>	"We use simple feed-forward encoder and decoder networks, making our model an attractive candidate for applications where the encoding and/or decoding speed is critical."
+
+>	"VQ-VAE requires sampling an autoregressive model only in the compressed latent space, which is an order of magnitude faster than sampling in the pixel space, especially for large images."
+
+>	"A multi-scale hierarchical organization of VQ-VAE, augmented with powerful priors over the latent codes, is able to generate samples with quality that rivals that of state of the art GANs on multifaceted datasets such as ImageNet, while not suffering from GAN's known shortcomings such as mode collapse and lack of diversity."
+
 >	"- Mean Squared Error loss on pixels  
 >	- non-autoregressive image decoder  
 >	- discrete latents w/ straight through estimator"  
+
   - `video` <https://youtu.be/QoCyQBzi7us?t=57m37s> (Oord)
   - `video` <https://youtu.be/DSYzHPW26Ig?t=51m46s> (Graves)
+  - `video` <https://youtu.be/FMuvUZXMzKM?t=1h56m24s> (Abbeel)
   - `post` <https://machinethoughts.wordpress.com/2019/06/25/the-inevitability-of-vector-quantization-in-deep-architectures>
-  - `code` <https://github.com/deepmind/sonnet/blob/master/sonnet/examples/vqvae_example.ipynb>
+  - `post` <https://openai.com/blog/jukebox>
 
 
 #### ["Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations"](https://arxiv.org/abs/1811.12359) Locatello, Bauer, Lucic, Gelly, Scholkopf, Bachem
@@ -2420,27 +2615,48 @@ Yoshua Bengio:
 >	- self-attention (restricted): O(n/r)"  
 
 ----
+>	"The key innovation in Transformers is the introduction of a self-attention mechanism, which can be evaluated in parallel for each token of the input sequence, eliminating the sequential dependency in recurrent neural networks, like LSTM. This parallelism enables Transformers to leverage the full power of modern SIMD hardware accelerators like GPUs/TPUs, thereby facilitating training of NLP models on datasets of unprecedented size."
+
+>	"The self-attention mechanism overcomes constraints of RNNs (namely the sequential nature of RNN) by allowing each token in the input sequence to attend independently to every other token in the sequence. This design choice has several interesting repercussions. In particular, the full self-attention have computational and memory requirement that is quadratic in the sequence length. Using commonly available current hardware and model sizes, this requirement translates to roughly being able to handle input sequences of length 512 tokens. This reduces its direct applicability to tasks that require larger context, like question answering, document summarization, etc."
+
+----
+>	"Transformer networks take attention to its logical extreme: get rid of everything else (recurrent state, convolutions, external memory) and just use attention to repeatedly transform a complete sequence. Instead of a controller emitting a query, every vector in the input sequence is compared with every other: anarchist attention?"
+
+----
 >	"Transformer models are seq2seq models that differ from classical seq2seq architectures in the sense that they are not auto-regressive and do not make use of single-dimensional convolutions. They have proven useful in several domains, mainly due to the absence of locality bias and to the O(1) path length between pairs of distinct sequence elements. As a side-note, the O(1) number of sequential operations between elements is not always guaranteed. Indeed, for computational performance purposes, a limit is imposed on the size of the self-attentional window, thus very long sequences break this assumption."
 
 ----
 >	"Capsules is the theory of how you do visual perception using reconstruction, and also how you route information to the right places. In standard neural nets, the information, the activity in the layer, just automatically goes somewhere; you don't decide where to send it. The idea of capsules was to make decisions about where to send information. Now, since I started working on capsules, some other very smart people at Google invented transformers, which are doing the same thing. They're deciding where to route information, and that's a big win."
+
+----
+>	"The associative memory mechanisms in transformers are energy-based models. Associate memory associates perturbed memories with attractor states corresponding to learned patterns. The original Hopfield Network attempts to imitate neural associative memory with Hebb's Rule and is limited to fixed-length binary inputs, accordingly. Modern approaches have generalized the energy minimization approach of Hopfield Nets to overcome those and other hurdles. Modern continuous Hopfield Network's' update rule aligns well with key-value attention mechanisms from Transformers."
+
+----
+>	"Hopfield construction would allow iterating the attention, which Transformer doesn't do as it does the attention in a single step, but the authors find that iterating the Hopfield attention doesn't seem to be useful as it converges in a single step. The Hopfield layer also has beta in place of Transformer's 1/sqrt(d_k) scaling factor, and the authors note that this factor has a significant effect on the Hopfield network attraction point types, so it might lead to future understanding about what is the optimal value for this. Regardless they use the scaling factor from Transformer, 1/sqrt(d_k) in all the experiments."
+
 
   - `post` <https://research.googleblog.com/2017/08/transformer-novel-neural-network.html>
   - `video` <https://youtube.com/watch?v=bYmeuc5voUQ> (Vaswani)
   - `video` <https://facebook.com/nipsfoundation/videos/1554654864625747?t=1107> (Vaswani, Shazeer)
   - `video` <https://youtu.be/I0nX4HDmXKc?t=7m46s> (Polosukhin)
   - `video` <https://youtube.com/watch?v=rBCqOTEfxvg> (Kaiser)
+  - `video` <https://youtu.be/8zAP2qWAsKg?t=22m39s> (Hill)
+  - `video` <https://youtube.com/watch?v=iDulhoQ2pro> (Kilcher)
+  - `video` <https://youtu.be/AIiwuClvH6k?t=1h14m> (Graves)
   - `video` <https://youtube.com/watch?v=HsYPiKDTikg> (Li)
   - `video` <https://youtube.com/watch?v=S0KakHcj_rs> (Palermo)
-  - `video` <https://youtube.com/watch?v=iDulhoQ2pro> (Kilcher)
   - `video` <https://youtube.com/watch?v=KMY2Knr4iAs> (Chen)
   - `video` <https://youtube.com/watch?v=YQZRsowJZA8> (Lyalin) `in russian`
   - `video` <https://youtube.com/watch?v=KMgJFptbNlM> (Lyalin) `in russian`
+  - `video` <https://youtube.com/watch?v=atSqU9HfJq0> (Malykh) `in russian`
   - `video` <https://youtube.com/watch?v=Bg8Y5q1OiP0> + <https://youtube.com/watch?v=7I_D2EOxwwI> (Neychev) `in russian`
   - `video` <https://youtube.com/watch?v=ONuRVpJSvfY> (Alexeev) `in russian`
+  - `video` <https://youtu.be/JO-RJRCkLvM?t=1m16s> (Lobacheva) `in russian`
   - `video` <https://youtu.be/_XRBlhzb31U?t=48m35s> (Figurnov) `in russian`
   - `video` <https://youtu.be/LhH6wMvntSM?t=54m56s> (Suleymanov) `in russian`
+  - `video` <https://youtube.com/watch?v=znyvj3ijl7Q> (Sapunov) `in russian`
   - `audio` <https://soundcloud.com/nlp-highlights/36-attention-is-all-you-need-with-ashish-vaswani-and-jakob-uszkoreit> (Vaswani, Uszkoreit)
+  - `post` <https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html>
   - `post` <https://jalammar.github.io/illustrated-transformer/>
   - `post` <https://danieltakeshi.github.io/2019/03/30/transformers/>
   - `post` <http://nlp.seas.harvard.edu/2018/04/03/attention.html>
@@ -2448,11 +2664,13 @@ Yoshua Bengio:
   - `post` <https://medium.com/@adityathiruvengadam/transformer-architecture-attention-is-all-you-need-aeccd9f50d09>
   - `post` <https://staff.fnwi.uva.nl/s.abnar/?p=108>
   - `post` <http://peterbloem.nl/blog/transformers>
+  - `post` <https://towardsdatascience.com/transformers-are-graph-neural-networks-bca9f75412aa>
   - `notes` <https://ricardokleinklein.github.io/2017/11/16/Attention-is-all-you-need.html>
   - `notes` <https://blog.tomrochette.com/machine-learning/papers/ashish-vaswani-attention-is-all-you-need>
   - `notes` <https://medium.com/@sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91>
   - `code` <https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py>
   - `code` <https://colab.research.google.com/notebook#fileId=/v2/external/notebooks/t2t/hello_t2t.ipynb>
+  - `paper` ["Hopfield Networks is All You Need"](https://arxiv.org/abs/2008.02217) by Ramsauer et al. ([post](https://jku.at/index.php?id=18677), [overview](https://youtube.com/watch?v=nv6oFDp6rNQ) (Kilcher) `video`)
   - `paper` [**"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-raffel-et-al) by Raffel et al. `summary`
   - `paper` [**"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"**](#bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding-devlin-chang-lee-toutanova) by Devlin et al. `summary`
   - `paper` [**"Language Models are Unsupervised Multitask Learners"**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#language-models-are-unsupervised-multitask-learners-radford-wu-child-luan-amodei-sutskever) by Radford et al. `summary`
@@ -2645,8 +2863,9 @@ Yoshua Bengio:
 
   - `video` <http://techtalks.tv/talks/deep-residual-networks-deep-learning-gets-way-deeper/62358/> (He)
   - `video` <http://youtube.com/watch?v=1PGLj-uKT1w> (He)
-  - `video` <https://youtube.com/watch?v=jio04YvgraU> (Hoveidar)
+  - `video` <https://youtube.com/watch?v=GWt6Fu05voI> (Kilcher)
   - `video` <https://youtube.com/watch?v=sAzL4XMke80> (Shorten)
+  - `video` <https://youtube.com/watch?v=jio04YvgraU> (Hoveidar)
   - `post` <http://people.idsia.ch/~juergen/microsoft-wins-imagenet-through-feedforward-LSTM-without-gates.html> (Schmidhuber)
   - `post` <https://blog.init.ai/residual-neural-networks-are-an-exciting-area-of-deep-learning-research-acf14f4912e9>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=journals/corr/HeZRS15>
@@ -2753,6 +2972,7 @@ Yoshua Bengio:
 
 
 #### ["Neural Turing Machines"](http://arxiv.org/abs/1410.5401) Graves, Wayne, Danihelka
+  `NTM`
 >	"We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting and associative recall from input and output examples."
 
 >	"The researchers hoped that the NTM would invent a binary heap sort, but in fact it seemed to have invented a hash table. The vectors were stored in memory locations controlled by the priority and then read out in priority order to give a sorted list."
@@ -2782,6 +3002,7 @@ Yoshua Bengio:
 
   - `video` <https://youtu.be/Q57rzaHHO0k?t=51m48s> (Graves)
   - `video` <http://research.microsoft.com/apps/video/default.aspx?id=260037> (Graves)
+  - `video` <https://youtu.be/AIiwuClvH6k?t=49m37s> (Graves)
   - `video` <http://youtube.com/watch?v=otRoAQtc5Dk> (Polykovskiy)
   - `post` <https://distill.pub/2016/augmented-rnns/>
   - `notes` <http://rylanschaeffer.github.io/content/research/neural_turing_machine/main.html>
@@ -2990,6 +3211,12 @@ Yoshua Bengio:
   - `video` <http://sms.cam.ac.uk/media/2017973> (38:00) (Hinton)
 
 
+#### ["Backpropagation and the Brain"](https://www.nature.com/articles/s41583-020-0277-3) Lillicrap, Santoro, Marris, Akerman, Hinton
+>	"During learning, the brain modifies synapses to improve behaviour. In the cortex, synapses are embedded within multilayered networks, making it difficult to determine the effect of an individual synaptic modification on the behaviour of the system. The backpropagation algorithm solves this problem in deep artificial neural networks, but historically it has been viewed as biologically problematic. Nonetheless, recent developments in neuroscience and the successes of artificial neural networks have reinvigorated interest in whether backpropagation offers insights for understanding learning in the cortex. The backpropagation algorithm learns quickly by computing synaptic updates using feedback connections to deliver error signals. Although feedback connections are ubiquitous in the cortex, it is difficult to see how they could deliver the error signals required by strict formulations of backpropagation. Here we build on past and recent developments to argue that feedback connections may instead induce neural activities whose differences can be used to locally approximate these signals and hence drive effective learning in deep networks in the brain."
+
+  - `video` <https://youtube.com/watch?v=a0f07M2uj_A> (Kilcher)
+
+
 #### ["Towards Biologically Plausible Deep Learning"](http://arxiv.org/abs/1502.04156) Bengio, Lee, Bornschein, Lin
 >	"Neuroscientists have long criticised deep learning algorithms as incompatible with current knowledge of neurobiology. We explore more biologically plausible versions of deep representation learning, focusing here mostly on unsupervised learning but developing a learning mechanism that could account for supervised, unsupervised and reinforcement learning. The starting point is that the basic learning rule believed to govern synaptic weight updates (Spike-Timing-Dependent Plasticity) can be interpreted as gradient descent on some objective function so long as the neuronal dynamics push firing rates towards better values of the objective function (be it supervised, unsupervised, or reward-driven). The second main idea is that this corresponds to a form of the variational EM algorithm, i.e., with approximate rather than exact posteriors, implemented by neural dynamics. Another contribution of this paper is that the gradients required for updating the hidden states in the above variational interpretation can be estimated using an approximation that only requires propagating activations forward and backward, with pairs of layers learning to form a denoising auto-encoder. Finally, we extend the theory about the probabilistic interpretation of auto-encoders to justify improved sampling schemes based on the generative interpretation of denoising auto-encoders, and we validate all these ideas on generative learning tasks."
 
@@ -3015,6 +3242,7 @@ Yoshua Bengio:
 >	- Backpropagation requires all nodes to be stored in memory.  
 >	- I think this is a less important limitation, but many neural architectures require parameter sharing, which isn't necessarily achievable in the brain."  
 
+  - `video` <https://youtube.com/watch?v=4-wmpOjn6iU> (Bengio)
   - `video` <https://youtube.com/watch?v=TvZLAyOByMQ> (Bengio)
   - `video` <https://youtube.com/watch?v=W86H4DpFnLY> (Bengio)
   - `video` <https://archive.org/details/Redwood_Center_2016_09_27_Yoshua_Bengio> (Bengio)

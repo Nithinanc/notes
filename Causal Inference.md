@@ -14,6 +14,16 @@
 
   ["Causality for Machine Learning"](https://arxiv.org/abs/1911.10500) by Bernhard Scholkopf `paper`
 
+  ["On Pearl’s Hierarchy and the Foundations of Causal Inference"](https://causalai.net/r60.pdf) by Bareinboim, Correa, Ibeling, Icard `paper` ([talk](https://youtube.com/watch?v=fNuMHDrh6AY) `video`)
+
+  ["Causality"](http://www.homepages.ucl.ac.uk/~ucgtrbd/papers/causality.pdf) by Ricardo Silva `paper`
+
+  ["Introduction to Causal Inference"](http://jmlr.org/papers/volume11/spirtes10a/spirtes10a.pdf) by Peter Spirtes `paper`
+
+  ["Graphical Causal Models"](http://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch22.pdf) by Cosma Shalizi `paper`
+
+----
+
   ["Do we still need models or just more data and compute?"](https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/Model-versus-Data-AI-1.pdf) by Max Welling
 
   ["ML beyond Curve Fitting: An Intro to Causal Inference and do-Calculus"](http://inference.vc/untitled) by Ferenc Huszar  
@@ -28,17 +38,16 @@
   - ["The Data Processing Inequality"](https://medium.com/@akelleh/the-data-processing-inequality-da242b40800b)
   - ["Causal Graph Inference"](https://medium.com/@akelleh/causal-graph-inference-b3e3afd47110)
 
-  ["If Correlation Doesn’t Imply Causation, then What Does?"](http://michaelnielsen.org/ddi/if-correlation-doesnt-imply-causation-then-what-does) by Michael Nielsen  
-  ["Causality in Machine Learning"](http://unofficialgoogledatascience.com/2017/01/causality-in-machine-learning.html) by Muralidharan et al.  
-  ["Latent Variables and Model Mis-specification"](https://jsteinhardt.wordpress.com/2017/01/10/latent-variables-and-model-mis-specification/) by Jacob Steinhardt  
+  ["If Correlation Doesn’t Imply Causation, then What Does?"](http://michaelnielsen.org/ddi/if-correlation-doesnt-imply-causation-then-what-does) by Michael Nielsen
 
-  ["Causality"](http://www.homepages.ucl.ac.uk/~ucgtrbd/papers/causality.pdf) by Ricardo Silva `paper`  
-  ["Introduction to Causal Inference"](http://jmlr.org/papers/volume11/spirtes10a/spirtes10a.pdf) by Peter Spirtes `paper`  
-  ["Graphical Causal Models"](http://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch22.pdf) by Cosma Shalizi `paper`  
+  ["Latent Variables and Model Mis-specification"](https://jsteinhardt.wordpress.com/2017/01/10/latent-variables-and-model-mis-specification/) by Jacob Steinhardt
+
+  ["Causality in Machine Learning"](http://unofficialgoogledatascience.com/2017/01/causality-in-machine-learning.html) by Muralidharan et al.
 
 ----
 
-  ["The Book of Why: The New Science of Cause and Effect"](https://amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X) by Judea Pearl `book` ([overview](http://bayes.cs.ucla.edu/WHY/why-intro.pdf))  
+  ["The Book of Why: The New Science of Cause and Effect"](https://amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X) by Judea Pearl and Dana Mackenzie `book` ([overview](http://bayes.cs.ucla.edu/WHY/why-intro.pdf))  
+  ["Causal Inference in Statistics: A Primer"](https://books.google.co.uk/books/about/Causal_Inference_in_Statistics.html?id=IqCECwAAQBAJ) by Judea Pearl, Madelyn Glymour, Nicholas Jewell `book`  
   ["Causality: Models, Reasoning, and Inference"](https://dropbox.com/s/m2m1935e6tohii9/Pearl%20-%20Causality%3A%20Models%2C%20Reasoning%2C%20and%20Inference.pdf) by Judea Pearl `book` ([epilogue](http://bayes.cs.ucla.edu/BOOK-2K/causality2-epilogue.pdf))  
   ["Elements of Causal Inference"](https://mitpress.mit.edu/books/elements-causal-inference) by Jonas Peters, Dominik Janzing, Bernhard Scholkopf `book`  
   ["Causal Inference Book"](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) by Miguel Hernan and James Robins `book`  
@@ -59,12 +68,15 @@
 
 ----
 
+  ["Science vs Data: Contesting the Soul of Data Science"](https://youtube.com/watch?v=X_1MG4ViVGM) by Judea Pearl `video`  
   ["The Foundations of Causal Inference with Reflections on Machine Learning and Artificial Intelligence"](https://youtube.com/watch?v=nWaM6XmQEmU) by Judea Pearl `video`  
   ["The New Science of Cause and Effect"](https://youtube.com/watch?v=ZaPV1OSEpHw) by Judea Pearl `video`  
   ["The Mathematics of Causal Inference with Reflections on Machine Learning"](https://youtube.com/watch?v=bcRl7sXR1hE) by Judea Pearl `video`  
   ["The Mathematics of Causal Inference, with Reflections on Machine Learning and the Logic of Science"](https://youtube.com/watch?v=zHjdd--W6o4) by Judea Pearl `video`  
 
+  ["On the Causal Foundations of AI (Explainability & Decision-Making)"](https://youtube.com/watch?v=fNuMHDrh6AY) by Elias Bareinboim `video`  
   ["Causal Data Science: A General Framework for Data Fusion and Causal Inference"](https://youtube.com/watch?v=dUsokjG4DHc) by Elias Bareinboim `video`  
+  "Towards Causal Reinforcement Learning" ([[1]](https://youtube.com/watch?v=QRTgLWfFBMM), [[2]](https://youtube.com/watch?v=2hGvd_9ho6s)) by Elias Bareinboim `video`  
   ["Causal Reinforcement Learning"](https://youtube.com/watch?v=bwz3NpVfz6k) by Elias Bareinboim `video`  
 
   ["Learning Causal Mechanisms"](https://facebook.com/iclr.cc/videos/2123421684353553?t=294) by Bernhard Scholkopf `video`  
