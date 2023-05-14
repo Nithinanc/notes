@@ -9,20 +9,7 @@
 ---
 ### overview
 
-  ["The Seven Tools of Causal Inference with Reflections on Machine Learning"](https://dl.acm.org/citation.cfm?id=3241036) by Judea Pearl `paper` ([talk](https://youtube.com/watch?v=nWaM6XmQEmU) `video`)  
-  ["Theoretical Impediments to Machine Learning"](http://web.cs.ucla.edu/~kaoru/theoretical-impediments.pdf) by Judea Pearl `paper`  
-
-  ["Causality for Machine Learning"](https://arxiv.org/abs/1911.10500) by Bernhard Scholkopf `paper`
-
-  ["On Pearl’s Hierarchy and the Foundations of Causal Inference"](https://causalai.net/r60.pdf) by Bareinboim, Correa, Ibeling, Icard `paper` ([talk](https://youtube.com/watch?v=fNuMHDrh6AY) `video`)
-
-  ["Causality"](http://www.homepages.ucl.ac.uk/~ucgtrbd/papers/causality.pdf) by Ricardo Silva `paper`
-
-  ["Introduction to Causal Inference"](http://jmlr.org/papers/volume11/spirtes10a/spirtes10a.pdf) by Peter Spirtes `paper`
-
-  ["Graphical Causal Models"](http://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch22.pdf) by Cosma Shalizi `paper`
-
-----
+  ["Why Correlation Usually != Causation"](https://gwern.net/Causality) by Gwern Branwen
 
   ["Do we still need models or just more data and compute?"](https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/Model-versus-Data-AI-1.pdf) by Max Welling
 
@@ -46,6 +33,22 @@
 
 ----
 
+  ["The Seven Tools of Causal Inference with Reflections on Machine Learning"](https://dl.acm.org/citation.cfm?id=3241036) by Judea Pearl `paper` ([talk](https://youtube.com/watch?v=nWaM6XmQEmU) `video`)  
+  ["Theoretical Impediments to Machine Learning"](http://web.cs.ucla.edu/~kaoru/theoretical-impediments.pdf) by Judea Pearl `paper`  
+
+  ["Causality for Machine Learning"](https://arxiv.org/abs/1911.10500) by Bernhard Scholkopf `paper`  
+  ["Towards Causal Representation Learning"](https://arxiv.org/abs/2102.11107) by Scholkopf et al. `paper`  
+
+  ["On Pearl’s Hierarchy and the Foundations of Causal Inference"](https://causalai.net/r60.pdf) by Bareinboim, Correa, Ibeling, Icard `paper` ([talk](https://youtube.com/watch?v=fNuMHDrh6AY) `video`)
+
+  ["Causality"](http://www.homepages.ucl.ac.uk/~ucgtrbd/papers/causality.pdf) by Ricardo Silva `paper`
+
+  ["Introduction to Causal Inference"](http://jmlr.org/papers/volume11/spirtes10a/spirtes10a.pdf) by Peter Spirtes `paper`
+
+  ["Graphical Causal Models"](http://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch22.pdf) by Cosma Shalizi `paper`
+
+----
+
   ["The Book of Why: The New Science of Cause and Effect"](https://amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X) by Judea Pearl and Dana Mackenzie `book` ([overview](http://bayes.cs.ucla.edu/WHY/why-intro.pdf))  
   ["Causal Inference in Statistics: A Primer"](https://books.google.co.uk/books/about/Causal_Inference_in_Statistics.html?id=IqCECwAAQBAJ) by Judea Pearl, Madelyn Glymour, Nicholas Jewell `book`  
   ["Causality: Models, Reasoning, and Inference"](https://dropbox.com/s/m2m1935e6tohii9/Pearl%20-%20Causality%3A%20Models%2C%20Reasoning%2C%20and%20Inference.pdf) by Judea Pearl `book` ([epilogue](http://bayes.cs.ucla.edu/BOOK-2K/causality2-epilogue.pdf))  
@@ -57,6 +60,8 @@
   [tutorial](https://youtube.com/watch?v=CTcQlRSnvvM) by Bernhard Scholkopf `video`  
   [tutorial](https://youtube.com/watch?v=zvrcyqcN9Wo) by Jonas Peters `video`  
   [tutorial](https://youtube.com/watch?v=_wFagI5Fn9I) by Jonas Peters `video`  
+
+  [course](https://youtube.com/channel/UCbOJ2eEdvf2wOPrAmA72Gzg) by Brady Neal `video`
 
   ["Causal Inference in Everyday Machine Learning"](https://youtube.com/watch?v=HOgx_SBBzn0) tutorial by Ferenc Huszar `video`  
   ["Causal Inference in Online Systems: Methods, Pitfalls and Best Practices"](https://mediasite.kellogg.northwestern.edu/Mediasite/Play/8e78dc83c6fb4d20abeeb18028a8f7071d?catalog=1533bdef-0c88-4513-ad97-5fce50c92e62) tutorial by Amit Sharma `video` ([slides](https://github.com/amit-sharma/causal-inference-tutorial))  

@@ -84,6 +84,8 @@
 #### ["On the Difficulty of Evaluating Baselines: A Study on Recommender Systems"](https://arxiv.org/abs/1905.01395) Rendle, Zhang, Koren
 >	"Numerical evaluations with comparisons to baselines play a central role when judging research in recommender systems. In this paper, we show that running baselines properly is difficult. We demonstrate this issue on two extensively studied datasets. First, we show that results for baselines that have been used in numerous publications over the past five years for the Movielens 10M benchmark are suboptimal. With a careful setup of a vanilla matrix factorization baseline, we are not only able to improve upon the reported results for this baseline but even outperform the reported results of any newly proposed method. Secondly, we recap the tremendous effort that was required by the community to obtain high quality results for simple methods on the Netflix Prize. Our results indicate that empirical findings in research papers are questionable unless they were obtained on standardized benchmarks where baselines have been tuned extensively by the research community."
 
+  - `video` <https://youtube.com/watch?v=fEVk2987Ik4> (Korepanov) `in russian`
+
 
 
 ---
@@ -95,6 +97,9 @@
 >	learning item-to-item similarity on offline data (e.g. item2 often bought with item1)
 
 >	"problem with algorithms based on computing correlations between users and items: did you watch a movie because you liked it or because we showed it to you or both? requires computing causal interventions instead of correlations: p(Y|X) -> p(Y|X,do(R))"  
+
+  - `video` <https://youtube.com/watch?v=GSQj27ps854> (Wilke)
+  - `post` <https://amazon.science/the-history-of-amazons-recommendation-algorithm>
 
 
 #### ["Real-time Personalization using Embeddings for Search Ranking at Airbnb"](https://kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb) Grbovic, Cheng

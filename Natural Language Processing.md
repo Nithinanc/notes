@@ -39,6 +39,7 @@
   [course](http://phontron.com/class/nn4nlp2020) from CMU ([videos](https://youtube.com/user/neubig/playlists))  
   [course](http://github.com/oxford-cs-deepnlp-2017/lectures) from Oxford and DeepMind `video`  
   [course](http://youtube.com/playlist?list=PLt1IfGj6-_-f55ULcae3v7YuG8p_eUjnk) from iPavlov and Yandex `video` `in russian`  
+  [course](https://github.com/yandexdataschool/nlp_course) from Yandex `video` `in russian`  
   [course](http://youtube.com/playlist?list=PLHvlTBWld13NDsJpNQU095K81vw5bH7X3) from Huawei Russia `video` `in russian`  
   [course](https://my.compscicenter.ru/courses/introduction-nlp) by Anton Alexeev ([videos](https://youtube.com/playlist?list=PLlb7e2G7aSpRTcBciP6VBJJPvdH_DXRXQ)) `in russian`  
 
@@ -81,6 +82,8 @@
 ----
 
   ["The Limits of Modern AI: A Story"](https://thebestschools.org/magazine/limits-of-modern-ai) by Erik Larson
+
+  ["Machine Learning Won't Solve Natural Language Understanding"](https://thegradient.pub/machine-learning-wont-solve-the-natural-language-understanding-challenge) by Walid Saba ([overview](https://youtube.com/watch?v=b9qwLkJW2ig) `video`)
 
   ["A Paradigm for Situated and Goal-Driven Language Learning"](#a-paradigm-for-situated-and-goal-driven-language-learning-gauthier-mordatch) by Jon Gauthier and Igor Mordatch `paper` `summary`  
 >	"We outlined a paradigm for grounded and goal-driven language learning in artificial agents. The paradigm is centered around a utilitarian definition of language understanding, which equates language understanding with the ability to cooperate with other language users in real-world environments. This position demotes language from its position as a separate task to be solved to one of several communicative tools agents might use to accomplish their real-world goals."
@@ -296,6 +299,8 @@
 
 
 [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#natural-language-processing)
+
+[papers](https://github.com/dair-ai/nlp_paper_summaries)
 
 
 

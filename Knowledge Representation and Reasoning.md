@@ -1,8 +1,6 @@
   Knowledge representation captures information in some computable form in order to solve problems.  
   Reasoning is algebraic manipulation of previously acquired knowledge in order to solve problems.  
 
-  How knowledge can be represented? How knowledge can be used? How knowledge can be acquired?
-
 
   * [**overview**](#overview)
   * [**knowledge representation**](#knowledge-representation)
@@ -35,6 +33,8 @@
 ### knowledge representation
 
   Knowledge representation captures information in some computable form in order to solve problems.
+
+  How knowledge can be represented? How knowledge can be used? How knowledge can be acquired?
 
   ["What Is a Knowledge Representation"](https://aaai.org/ojs/index.php/aimagazine/article/view/1029) by Davis, Shrobe, Szolovits `paper`
 
@@ -189,6 +189,11 @@
   Knowledge representation formalisms use (a subset of) first-order logic to describe relational properties of a domain in a general manner (universal quantification) and draw upon probabilistic graphical models (such as Bayesian networks or Markov networks) to model the uncertainty.  
   Not strictly limited to learning aspects - equally concerned with reasoning (specifically probabilistic inference) and knowledge representation.  
 
+
+----
+
+  [course](https://youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn) by Jure Leskovec *(lectures 10 and 11)* `video`
+
 ----
 
   ["Statistical Relational Artificial Intelligence: Logic, Probability and Computation"](https://facebook.com/nipsfoundation/videos/1552222671535633/) tutorial by Raedt, Poole, Kersting, Natarajan `video`  
@@ -247,6 +252,7 @@
   ["Knowledge Graph Construction From Text: Embedding-Based Techniques"](https://kgtutorial.github.io/slides/Part3b_Embds.pdf) by Pujara, Singh, Dalvi `slides`
 
 
+  [overview](https://youtube.com/watch?v=1JGFTpm1rdQ) by Graham Neubig `video`  
   [overview](https://youtu.be/Lcb5YKE21P8?t=14m32s) by Graham Neubig `video`  
   [overview](https://youtu.be/FRrokFy02ZA?t=1h17m39s) by Mikhail Galkin 'video' `in russian`  
 
@@ -431,6 +437,7 @@
 ### probabilistic database - Markov Logic Network
 
   overview by Pedro Domingos:  
+  - ["Unifying Logical and Statistical AI with Markov Logic"](https://youtube.com/watch?v=0TYS6mpcsG4) `video`  
   - ["Unifying Logical and Statistical AI"](http://youtube.com/watch?v=bW5DzNZgGxY) `video`  
   - ["Combining Logic and Probability: Languages, Algorithms and Applications"](http://videolectures.net/uai2011_domingos_kersting_combining/) `video`  
   - ["Incorporating Prior Knowledge into NLP with Markov Logic"](http://videolectures.net/icml08_domingos_ipk/) `video`  
@@ -704,13 +711,20 @@
 
 ----
 
-  ["Computer Understandable Math and Science"](https://slideslive.com/38909911/no-one-shall-drive-us-from-the-semantic-ai-paradise-of-computerunderstandable-math-and-science) by Josef Urban `video`
-
-----
+  ["AI and Theorem Proving"](https://youtube.com/watch?v=UnYrWuOzOlc) by Josef Urban `video`  
+  ["Computer Understandable Math and Science"](https://slideslive.com/38909911/no-one-shall-drive-us-from-the-semantic-ai-paradise-of-computerunderstandable-math-and-science) by Josef Urban `video`  
 
   "Quite reachable is deep automated semantic understanding of most of LaTeX-written mathematical textbooks. This has been blocked by three factors: (i) lack of annotated formal/informal corpora to train such semantic parsing on, (ii) lack of sufficiently large repository of background mathematical knowledge needed for “obvious-knowledge gap-filling”, and (iii) lack of sufficiently strong large-theory ATP that could fill the reasoning gaps using the large repository of background knowledge. One way to try to get them automatically is again through basic computer understanding of LaTeX-written mathematical texts, and learning what high-level concepts like “by analogy” and “using diagonalization” exactly semantically mean in various contexts. This is also related to the ability to reformulate problems and map them to a setting (for current ATPs, the best is purely equational) where the theorem proving becomes more easy. And another related work that needs to be done is “explaining back” the long ATP proofs using an understandable mathematical presentation."
 
   [*(Josef Urban)*](https://intelligence.org/2013/12/21/josef-urban-on-machine-learning-and-automated-reasoning/)
+
+----
+
+  [overview](https://youtube.com/watch?v=ehNGGYFO6ms) of autoformalization by Christian Szegedy `video`  
+  [overview](https://youtu.be/p_UXra-_ORQ?t=14m48s) of autoformalization by Christian Szegedy `video`  
+  ["Language Modeling for Mathematical Reasoning"](https://youtube.com/watch?v=Y0hpHm74FYs) by Christian Szegedy `video`  
+
+  ["A Promising Path Towards Autoformalization and General Artificial Intelligence"](https://link.springer.com/chapter/10.1007/978-3-030-53518-6_1) by Christian Szegedy `paper`
 
 
 
@@ -719,6 +733,7 @@
 
   [**bayesian inference and learning**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)  
   [**Solomonoff induction**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-artificial-intelligence---solomonoff-induction)  
+  [**active inference**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#active-inference)  
 
 ----
 
@@ -911,6 +926,7 @@
 
 ----
 
+  [overview](https://youtube.com/watch?v=CR3aICkhCJM) by Peter Clark `video`  
   [overview](https://youtube.com/watch?v=u7n7vKEmfb4) by Peter Clark `video`  
   [overview](https://youtube.com/watch?v=eyjpLPjhSPU) by Peter Clark `video`  
 

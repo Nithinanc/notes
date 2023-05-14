@@ -8,6 +8,7 @@
   * [**decisions and actions**](#decisions-and-actions)
   * [**universal artificial intelligence**](#universal-artificial-intelligence)
   * [**artificial curiosity and creativity**](#artificial-curiosity-and-creativity)
+  * [**active inference**](#active-inference)
   * [**interesting papers**](#interesting-papers)
     - [**definitions and measures of intelligence**](#interesting-papers---definitions-and-measures-of-intelligence)
     - [**universal artificial intelligence**](#interesting-papers---universal-artificial-intelligence)
@@ -22,24 +23,26 @@
   ["Compression Progress: The Algorithmic Principle Behind Curiosity and Creativity"](https://youtube.com/watch?v=h7F5sCLIbKQ) by Juergen Schmidhuber `video`  
   ["The Future of Artificial Intelligence Belongs to Search and Learning"](http://www.fields.utoronto.ca/video-archive/2016/10/2267-16158) by Richard Sutton `video`  
   ["What's Next"](https://youtube.com/watch?v=U3veC3UEvJ0) by Yoshua Bengio `video`  
+  ["The Free Energy Principle"](https://youtube.com/watch?v=NIu_dJGyIQI) by Karl Friston `video`  
   ["Building Machines That See, Learn and Think Like People"](https://youtube.com/watch?v=7ROelYvo8f0) by Joshua Tenenbaum `video`  
   ["AI: A Return To Meaning"](https://youtube.com/watch?v=1n-cwezu8j4) by David Ferucci `video`  
   ["Steps Toward Super Intelligence and the Search for a New Path"](https://youtube.com/watch?v=CcxG0IFssGg) by Rodney Brooks `video`  
 
 ----
 
-  ["Learning in Brains and Machines"](http://blog.shakirm.com/category/computational-and-biological-learning) by Shakir Mohamed
-
-----
-
   ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547) by Francois Chollet  
   ["Intelligence Confuses the Intelligent"](https://blog.piekniewski.info/2017/04/13/ai-confuses-intelligent) by Filip Piekniewski  
   ["Intelligence is not Artificial"](https://www.toddhylton.net/2016/04/intelligence-is-not-artificial.html) by Todd Hylton  
+  ["Why AI is Harder Than We Think"](https://arxiv.org/abs/2104.12871) by Melanie Mitchell  
   ["The Limits of Modern AI: A Story"](https://thebestschools.org/magazine/limits-of-modern-ai) by Erik Larson  
   ["Steps Toward Super Intelligence"](https://rodneybrooks.com/forai-steps-toward-super-intelligence-i-how-we-got-here) by Rodney Brooks  
-  ["The Limitations of Deep Learning"](https://blog.keras.io/the-limitations-of-deep-learning.html) by Francois Chollet  
   ["A Critique of Pure Learning and What ANNs Can Learn from Animal Brains"](https://nature.com/articles/s41467-019-11786-6) by Anthony Zador  
   ["On GPT-3: Meta-Learning, Scaling, Implications, And Deep Theory"](https://gwern.net/newsletter/2020/05#gpt-3) by Gwern Branwen  
+  ["Progress and Hype in AI Research"](https://github.com/brylevkirill/posts/blob/master/AI.md) by Kirill Brylev  
+
+----
+
+  ["Learning in Brains and Machines"](http://blog.shakirm.com/category/computational-and-biological-learning) by Shakir Mohamed
 
 ----
 
@@ -103,6 +106,7 @@
   - [**causal inference**](https://github.com/brylevkirill/notes/blob/master/Causal%20Inference.md)
   - [**bayesian inference**](https://github.com/brylevkirill/notes/blob/master/Bayesian%20Inference%20and%20Learning.md)
   - [**Solomonoff induction**](#universal-artificial-intelligence---solomonoff-induction)
+  - [**active inference**](#active-inference)
 
 ----
 
@@ -152,6 +156,29 @@
 
 --- 
 ### inference and reasoning - deductive vs inductive
+
+  reasoning primitives according to Charles Peirce (1898):
+
+  *deduction*: (rule, case) -> result  
+  rule: "All beans in this bag are white"  
+  case: "These beans are from this bag"  
+  result: "These beans are white"  
+
+  *induction*: (case, result) -> rule  
+  case: "These beans are from this bag"  
+  result: "These beans are white"  
+  rule: "All beans in this bag are white"  
+
+  *abduction*: (rule, result) -> case  
+  rule: "All beans in this bag are white"  
+  result: "These beans are white"  
+  case: "These beans are from this bag"  
+
+  *deduction* (example, what?) -> *induction* (rule, how?) -> *abduction* (explanation, why?)
+
+  [overview](https://whimsical.com/mar-26th-christian-szegedy-CpgGhnEYDBrDMFoATU6XYC)
+
+----
 
   "Reasoning is deductive when enough information is at hand to permit it and inductive/plausible when necessary information is not available.
 
@@ -218,6 +245,7 @@
   - [**artificial curiosity and creativity**](#artificial-curiosity-and-creativity)
   - [**reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Reinforcement%20Learning.md)
   - [**meta-learning**](https://github.com/brylevkirill/notes/blob/master/Machine%20Learning.md#meta-learning) [*(Goedel Machine)*](#meta-learning---goedel-machine)
+  - [**active inference**](#active-inference)
 
 
 
@@ -230,6 +258,10 @@
 
   [General Reinforcement Learning Agent Zoo](http://aslanides.io/aixijs) by John Aslanides
 	([demo](http://aslanides.io/aixijs/demo.html), [code](https://github.com/aslanides/aixijs), [paper](https://arxiv.org/abs/1705.07615))
+
+----
+
+  [critique](https://youtu.be/PUAdj3w3wO4?t=2h20m44s) of viewing intelligence as compression by Francois Chollet `video`
 
 ----
 
@@ -258,6 +290,8 @@
 
   [tutorial](http://videolectures.net/ssll09_hutter_uai/) by Marcus Hutter `video`  
   [tutorial](http://videolectures.net/mlss08au_hutter_fund/) by Marcus Hutter `video`  
+
+  [overview](https://youtube.com/watch?v=V2KtvlJf6fI) by Juergen Schmidhuber `video`
 
 ----
 
@@ -375,6 +409,8 @@
 ---
 ### artificial curiosity and creativity
 
+  [overview](https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html) by Juergen Schmidhuber
+
   ["Formal Theory of Creativity and Fun and Intrinsic Motivation"](http://people.idsia.ch/~juergen/creativity.html) by Juergen Schmidhuber  
   ["Active Exploration, Artificial Curiosity & What's Interesting"](http://people.idsia.ch/~juergen/interest.html) by Juergen Schmidhuber  
 
@@ -449,7 +485,8 @@
 
 ----
 
-  [overview](https://youtu.be/nqiUFc52g78?t=21m13s) by Juergen Schmidhuber `video`
+  [overview](https://youtube.com/watch?v=voczu4I3_xQ) by Juergen Schmidhuber `video`  
+  [overview](https://youtu.be/nqiUFc52g78?t=21m13s) by Juergen Schmidhuber `video`  
 
   [discussion](https://youtu.be/YMdFUay0k20?t=1h30s) with Marcus Hutter `video`
 
@@ -479,6 +516,77 @@
   "It’s currently not sufficiently formalized, so it’s difficult to state if and how it really works. Searching for proofs is extremely complicated: Making a parallel with Levin search, where given a goal output string (an improvement in the Goedel Machine), you enumerate programs (propositions in the Goedel Machine) and run them to see if they output the goal string (search for a proof of improvement in Goedel Machine). This last part is the problem: in Levin Search, the programs are fast to run, whereas in Goedel Machine there is an additional search step for each proposition, so this looks very roughly like going from exponential (Levin Search) to double-exponential (Goedel Machine). And Levin Search is already not really practical. Theorem proving is even more complicated when you need to prove that there will be an improvement of the system at an unknown future step. Maybe it would work better if the kinds of proofs were limited to some class, for example use simulation of the future steps up to some horizon given a model of the world. These kinds of proofs are easier to check and have a guaranteed termination, e.g. if the model class for the environment is based on Schmidhuber’s Speed Prior. But this starts to look pretty much like an approximation of AIXI."
 
   *(Laurent Orseau)*
+
+
+
+---
+### active inference
+
+  [Free energy principle](https://en.wikipedia.org/wiki/Free_energy_principle)
+
+  [introduction](http://slatestarcodex.com/2018/03/04/god-help-us-lets-try-to-understand-friston-on-free-energy) by Scott Alexander `post`  
+  [tutorial](https://medium.com/@solopchuk/tutorial-on-active-inference-30edcf50f5dc) on active inference by Oleg Solopchuk `post`  
+  [tutorial](https://medium.com/@solopchuk/free-energy-action-value-and-curiosity-514097bccc02) on free energy, action value, curiosity by Oleg Solopchuk `post`  
+  [implementation](https://kaiu.me/2017/07/11/introducing-the-deep-active-inference-agent) by Kai Ueltzhöffer `post`  
+
+----
+
+  ["The Mathematics of Mind-time"](https://aeon.co/essays/consciousness-is-not-a-thing-but-a-process-of-inference) by Karl Friston `post`  
+  ["Am I Self-Conscious? (Or Does Self-Organization Entail Self-Consciousness?)"](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.00579/full) by Karl Friston `post`  
+
+  ["The Free-Energy Principle: A Rough Guide to the Brain?"](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf) by Friston `paper`  
+  ["Reinforcement Learning or Active Inference?"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006421) by Friston et al. `paper`  
+  ["The Free-Energy Principle: A Unified Brain Theory?"](https://researchgate.net/publication/41001209_Friston_KJ_The_free-energy_principle_a_unified_brain_theory_Nat_Rev_Neurosci_11_127-138) by Friston `paper`  
+  ["Exploration, Novelty, Surprise, and Free Energy Minimization"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3791848) by Schwartenbeck et al. `paper`  
+  ["Action and Behavior: a Free-energy Formulation"](https://www.fil.ion.ucl.ac.uk/~karl/Action%20and%20behavior%20A%20free-energy%20formulation.pdf) by Friston et al. `paper`  
+  ["Computational Mechanisms of Curiosity and Goal-directed Exploration"](https://biorxiv.org/content/early/2018/09/07/411272) by Schwartenbeck et al. `paper`  
+
+  ["Expanding the Active Inference Landscape: More Intrinsic Motivations in the Perception-Action Loop"](https://arxiv.org/abs/1806.08083) by Biehl et al. `paper`  
+  ["Action and Perception as Divergence Minimization"](https://arxiv.org/abs/2009.01791) by Hafner et al. `paper` `Google` ([overview](https://youtube.com/watch?v=f8NpuOPfkDQ) `video`, [overview](https://youtube.com/watch?v=Iepi6w3f_so) `video`)  
+
+----
+
+  [introduction](https://youtube.com/watch?v=NIu_dJGyIQI) by Karl Friston `video`  
+  [introduction](https://youtube.com/watch?v=KkR24ieh5Ow) by Karl Friston `video`  
+  [introduction](https://youtube.com/watch?v=TcFLQvz5uEg) by Karl Friston `video`  
+
+  ["Me and My Markov Blanket"](https://youtube.com/watch?v=d4KrWxrP-T0) by Karl Friston `video` `2021`  
+  ["Me and My Markov Blanket"](https://youtube.com/watch?v=rmkjnfMvjv4) by Karl Friston `video` `2020`  
+  ["Neuroscience and the Free Energy Principle"](https://youtube.com/watch?v=NwzuibY5kUs) by Karl Friston `video` `2020`  
+  ["Markov Blankets and Bayesian Mechanics"](https://youtube.com/watch?v=j53lfLyFOPA) by Karl Friston `video` `2020`  
+  ["Free Energy Principle"](https://youtube.com/watch?v=YUOp-EbiuCk) by Karl Friston `video` `2019`  
+  ["Active Inference and Deep Generative Models"](https://youtube.com/watch?v=_DvJwUAjM1w) by Karl Friston `video` `2019`  
+  ["I Am Therefore I Think"](https://youtube.com/watch?v=G_sQZeFRjR8) by Karl Friston `video` `2019`  
+  ["Active Inference and Deep Temporal Models"](https://youtube.com/watch?v=6aOoAXMQ9rY) by Karl Friston `video` `2017`  
+  ["Active Inference and Artificial Curiosity"](https://youtube.com/watch?v=Y1egnoCWgUg) by Karl Friston `video` `2017`  
+  ["Active Inference and Artificial Curiosity"](https://youtube.com/watch?v=VHJiTO5ZlYA) by Karl Friston `video` `2016`  
+  ["Action and Perception as Divergence Minimization"](https://youtube.com/watch?v=VHJiTO5ZlYA) by Karl Friston `video` `2016`  
+  ["Predictive Coding, Active Inference and Belief Propagation"](https://youtube.com/watch?v=b1hEc6vay_k) by Karl Friston `video` `2016`  
+  ["The Variational Foundations of Movement"](https://youtube.com/watch?v=zWFfZHqOnvM) by Karl Friston `video` `2015`  
+  ["Consciousness by Inference"](https://youtube.com/watch?v=HeQfO4byFhg) by Karl Friston `video` `2014`  
+
+  ["Uncertainty and Active Inference"](https://youtube.com/watch?v=pHOAg9FZYeA) by Thomas Parr `video` `2019`
+
+  [Active Inference Lab](https://youtube.com/c/ActiveInference) `video`
+
+----
+
+  "The free energy principle seems like an attempt to unify perception, cognition, homeostasis, and action. Free energy is a mathematical concept that represents the failure of some things to match other things they’re supposed to be predicting. The brain tries to minimize its free energy with respect to the world, i.e. minimize the difference between its models and reality. Sometimes it does that by updating its models of the world. Other times it does that by changing the world to better match its models. Perception and cognition are both attempts to create accurate models that match the world, thus minimizing free energy. Homeostasis and action are both attempts to make reality match mental models. Action tries to get the organism’s external state to match a mental model. Homeostasis tries to get the organism’s internal state to match a mental model. Since even bacteria are doing something homeostasis-like, all life shares the principle of being free energy minimizers. So life isn’t doing four things – perceiving, thinking, acting, and maintaining homeostasis. It’s really just doing one thing – minimizing free energy – in four different ways – with the particular way it implements this in any given situation depending on which free energy minimization opportunities are most convenient."
+
+  [*(Scott Alexander)*](http://slatestarcodex.com/2018/03/04/god-help-us-lets-try-to-understand-friston-on-free-energy)
+
+----
+
+  "Adaptive agents must occupy a limited repertoire of states and therefore minimize the long-term average of surprise associated with sensory exchanges with the world. Minimizing surprise enables them to resist a natural tendency to disorder."  
+  "Surprise rests on predictions about sensations, which depend on an internal generative model of the world. Although surprise cannot be measured directly, a free-energy bound on surprise can be, suggesting that agents minimize free energy by changing their predictions (perception) or by changing the predicted sensory inputs (action)."  
+  "Perception optimizes predictions by minimizing free energy with respect to synaptic activity (perceptual inference), efficacy (learning and memory) and gain (attention and salience). This furnishes Bayes-optimal (probabilistic) representations of what caused sensations (providing a link to the Bayesian brain hypothesis)."  
+  "Bayes-optimal perception is mathematically equivalent to predictive coding and maximizing the mutual information between sensations and the representations of their causes. This is a probabilistic generalization of the principle of efficient coding (the infomax principle) or the minimum-redundancy principle."  
+  "Learning under the free-energy principle can be formulated in terms of optimizing the connection strengths in hierarchical models of the sensorium. This rests on associative plasticity to encode causal regularities and appeals to the same synaptic mechanisms as those underlying cell assembly formation."  
+  "Action under the free-energy principle reduces to suppressing sensory prediction errors that depend on predicted (expected or desired) movement trajectories. This provides a simple account of motor control, in which action is enslaved by perceptual (proprioceptive) predictions."  
+  "Perceptual predictions rest on prior expectations about the trajectory or movement through the agent's state space. These priors can be acquired (as empirical priors during hierarchical inference) or they can be innate (epigenetic) and therefore subject to selective pressure."  
+  "Predicted motion or state transitions realized by action correspond to policies in optimal control theory and reinforcement learning. In this context, value is inversely proportional to surprise (and implicitly free energy), and rewards correspond to innate priors that constrain policies."  
+
+  *(Karl Friston)*
 
 
 
@@ -530,11 +638,15 @@
 #### ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547) Chollet
 >	"To make deliberate progress towards more intelligent and more human-like artificial systems, we need to be following an appropriate feedback signal: we need to be able to define and evaluate intelligence in a way that enables comparisons between two systems, as well as comparisons with humans. Over the past hundred years, there has been an abundance of attempts to define and measure intelligence, across both the fields of psychology and AI. We summarize and critically assess these definitions and evaluation approaches, while making apparent the two historical conceptions of intelligence that have implicitly guided them.  We note that in practice, the contemporary AI community still gravitates towards benchmarking intelligence by comparing the skill exhibited by AIs and humans at specific tasks, such as board games and video games. We argue that solely measuring skill at any given task falls short of measuring intelligence, because skill is heavily modulated by prior knowledge and experience: unlimited priors or unlimited training data allow experimenters to “buy” arbitrary levels of skills for a system, in a way that masks the system’s own generalization power. We then articulate a new formal definition of intelligence based on Algorithmic Information Theory, describing intelligence as skill-acquisition efficiency and highlighting the concepts of scope, generalization difficulty, priors, and experience, as critical pieces to be accounted for in characterizing intelligent systems. Using this definition, we propose a set of guidelines for what a general AI benchmark should look like. Finally, we present a new benchmark closely following these guidelines, the Abstraction and Reasoning Corpus (ARC), built upon an explicit set of priors designed to be as close as possible to innate human priors. We argue that ARC can be used to measure a human-like form of general fluid intelligence and that it enables fair general intelligence comparisons between AI systems and humans."
 
-  - `video` <https://youtube.com/watch?v=oD54vJlG-S4> (Chollet)
+  - `video` <https://youtu.be/J0p_thJJnoo?t=59m9s> (Chollet)
+  - `video` <https://youtube.com/watch?v=PUAdj3w3wO4> + <https://youtube.com/watch?v=oD54vJlG-S4> (Chollet)
+  - `video` <https://youtube.com/watch?v=VvRz885Un1Q> (Scarfe)
   - `video` <https://youtube.com/watch?v=3_qGrmD6iQY> + <https://youtube.com/watch?v=THcuTJbeD34> + <https://youtube.com/watch?v=cuyM63ugsxI> + <https://youtube.com/watch?v=O9kFX33nUcU> (Kilcher)
   - `video` <https://youtube.com/watch?v=qWEOVWDsv-k> (Shorten)
-  - `video` <https://youtube.com/watch?v=mEVnu-KZjq4> (Kilcher, Shorten, Scarfe, Chollet)
-  - `video` <https://youtube.com/watch?v=GpWLZUbPhr0> (Kilcher, Shorten, Scarfe, Chollet)
+  - `video` <https://youtube.com/watch?v=mEVnu-KZjq4> (Kilcher, Shorten, Scarfe)
+  - `video` <https://youtube.com/watch?v=GpWLZUbPhr0> (Kilcher, Shorten, Scarfe)
+  - `video` <https://youtu.be/hfaZwgk_iS0?t=55m10s> (Zahavy, Scarfe, Kilcher, Lange)
+  - `notes` <https://whimsical.com/chollet-show-QQ2atZUoRR3yFDsxKVzCbj>
   - <https://kaggle.com/c/abstraction-and-reasoning-challenge>
 
 
@@ -787,6 +899,9 @@
 >	"In the real world external rewards are rare. But unsupervised AGIs using additional intrinsic rewards as described in this paper will be motivated to learn many useful behaviors even in absence of external rewards, behaviors that lead to predictable or compressible results and thus reflect regularities in the environment, such as repeatable patterns in the world’s reactions to certain action sequences. Often a bias towards exploring previously unknown environmental regularities through artificial curiosity / creativity is a priori desirable because goal-directed learning may greatly profit from it, as behaviors leading to external reward may often be rather easy to compose from previously learnt curiosity-driven behaviors. It may be possible to formally quantify this bias towards novel patterns in form of a mixture-based prior, a weighted sum of probability distributions on sequences of actions and resulting inputs, and derive precise conditions for improved expected external reward intake. Intrinsic reward may be viewed as analogous to a regularizer in supervised learning, where the prior distribution on possible hypotheses greatly influences the most probable interpretation of the data in a Bayesian framework (for example, the well-known weight decay term of neural networks is a consequence of a Gaussian prior with zero mean for each weight). Following the introductory discussion, some of the AGIs based on the creativity principle will become scientists, artists, or comedians."
 
 ----
+>	"Take humor for example. Consider the following statement: Biological organisms are driven by the "Four Big F's": Feeding, Fighting, Fleeing, Mating. Some subjective observers who read this for the first time think it is funny. Why? As the eyes are sequentially scanning the text the brain receives a complex visual input stream. The latter is subjectively partially compressible as it relates to the observer's previous knowledge about letters and words. That is, given the reader's current knowledge and current compressor, the raw data can be encoded by fewer bits than required to store random data of the same size. But the punch line after the last comma is unexpected for those who expected another "F." Initially this failed expectation results in sub-optimal data compression—storage of expected events does not cost anything, but deviations from predictions require extra bits to encode them. The compressor, however, does not stay the same forever: within a short time interval, its learning algorithm kicks in and improves its performance on the data seen so far, by discovering the non-random, non-arbitrary and therefore compressible pattern relating the punch line to previous text and previous elaborate predictive knowledge about the "Four Big F's." This saves a few bits of storage. The number of saved bits (or a similar measure of learning progress) becomes the observer's intrinsic reward, possibly strong enough to motivate her to read on in search for more reward through additional yet unknown patterns. While previous attempts at explaining humor also focused on the element of surprise, they lacked the essential concept of novel pattern detection measured by compression progress due to learning. This progress is zero whenever the unexpected is just random white noise, and thus no fun at all."
+
+----
 >	"The fine arts can be formally understood as a consequence of the principle: given some subjective observer, great works of art and music yield observation histories exhibiting more novel, previously unknown compressibility / regularity / predictability (with respect to the observer’s particular learning algorithm) than lesser works, thus deepening the observer’s understanding of the world and what is possible in it."
 
   - [**Artificial Curiosity and Creativity**](#artificial-curiosity-and-creativity) theory by Schmidhuber
@@ -817,6 +932,9 @@
 >	This motivates the unsupervised two brain system to focus on "interesting" computational questions, losing interest in "boring" computations (potentially involving the environment) whose outcomes are consistently predictable by both brains, as well as computations whose outcomes are currently still hard to predict by any brain. Again, in the absence of external reward, each brain maximizes the value function minimised by the other.  
 >	Using the meta-learning Success-Story RL algorithm, agent learns when to learn and what to learn. Agent will also minimize the computational cost of learning new skills, provided both brains receive a small negative reward for each computational step, which introduces a bias towards simple still surprising experiments (reflecting simple still unsolved problems). This may facilitate hierarchical construction of more and more complex experiments, including those yielding external reward (if there is any). In fact, this artificial creativity may not only drive artificial scientists and artists but can also accelerate the intake of external reward, intuitively because a better understanding of the world can help to solve certain problems faster."
 
+----
+>	"An agent may ask: if we run this policy (or program) for a while until it executes a special interrupt action, will the internal storage cell number 15 contain the value 5, or not? There are two learning, reward-maximizing adversaries playing a zero sum game, occasionally betting on different yes/no outcomes of such computational experiments. The winner of such a bet gets a reward of 1, the loser -1. So each adversary is motivated to come up with questions whose answers surprise the other. And both are motivated to avoid seemingly trivial questions where both already agree on the outcome, or seemingly hard questions that none of them can reliably answer for now. Experiments showed that this type of curiosity may also accelerate the intake of external reward."
+
   - `post` <http://people.idsia.ch/~juergen/unsupervised-neural-nets-fight-minimax-game.html>
   - `post` <http://people.idsia.ch/~juergen/interest.html>
   - `post` <http://people.idsia.ch/~juergen/ica.html>
@@ -832,6 +950,13 @@
 
 ----
 >	"Pure scientists do not only invent new methods to solve given problems. They also invent new problems. The recent PowerPlay framework formalizes this type of curiosity and creativity in a new, general, yet practical way. To acquire problem solving prowess through playing, PowerPlay-based artificial explorers by design continually come up with the fastest to find, initially novel, but eventually solvable problems. They also continually simplify or speed up solutions to previous problems. We report on results of first experiments with PowerPlay. A self-delimiting recurrent neural network (SLIM RNN) is used as a general computational architecture to implement the system’s solver. Its weights can encode arbitrary, self-delimiting, halting or non-halting programs affecting both environment (through effectors) and internal states encoding abstractions of event sequences. In open-ended fashion, our PowerPlay-driven RNNs learn to become increasingly general problem solvers, continually adding new problem solving procedures to the growing repertoire, exhibiting interesting developmental stages."
+
+----
+>	"What is the set of all formalisable questions that any curious system could possibly ask? How to decide whether a given question has been answered by a learning machine? To define a question, we need a computational procedure that takes a solution candidate (possibly proposed by a policy) and decides whether it is an answer to the question or not. PowerPlay essentially enumerates the set of all such procedures (or some user-defined subset thereof), thus enumerating all possible questions or problems (including environments in which problems are to be solved). It searches for the simplest question that the current policy cannot yet answer but can quickly learn to answer without forgetting the answers to previously answered questions. The computational costs of verifying that nothing has been forgotten are taken into account. What is the simplest such Q&A to be added to the repertoire? It is the cheapest one—the one that is found first. Then the next trial starts, where new Q&As may build on previous Q&As."
+
+>	"One Big Net For Everything offers a simplified, less strict NN version of PowerPlay."
+
+>	"PowerPlay can use the metalearning OOPS to continually invent on its own new goals and tasks, incrementally learning to become a more and more general problem solver in an active, partially unsupervised or self-supervised fashion."
 
   - `video` <https://youtu.be/SAcHyzMdbXc?t=16m6s> (de Freitas)
   - `paper` ["First Experiments with PowerPlay"](https://arxiv.org/abs/1210.8385) by Srivastava, Steunebrink, Stollenga, Schmidhuber

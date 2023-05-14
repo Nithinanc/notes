@@ -45,6 +45,12 @@ interesting older papers:
 [**interesting older papers**](https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#interesting-papers---theory)
 
 ----
+#### ["Underspecification Presents Challenges for Credibility in Modern Machine Learning"](https://arxiv.org/abs/2011.03395) DAmour et al.
+  `generalization`
+>	"ML models often exhibit unexpectedly poor behavior when they are deployed in real-world domains. We identify underspecification as a key reason for these failures. An ML pipeline is underspecified when it can return many predictors with equivalently strong held-out performance in the training domain. Underspecification is common in modern ML pipelines, such as those based on deep learning. Predictors returned by underspecified pipelines are often treated as equivalent based on their training domain performance, but we show here that such predictors can behave very differently in deployment domains. This ambiguity can lead to instability and poor model behavior in practice, and is a distinct failure mode from previously identified issues arising from structural mismatch between training and deployment domains. We show that this problem appears in a wide variety of practical ML pipelines, using examples from computer vision, medical imaging, natural language processing, clinical risk prediction based on electronic health records, and medical genomics. Our results show the need to explicitly account for underspecification in modeling pipelines that are intended for real-world deployment in any domain."  
+  - `video` <https://youtube.com/watch?v=gch94ttuy5s> (Kilcher) `video`
+  - `post` <https://technologyreview.com/2020/11/18/1012234/training-machine-learning-broken-real-world-heath-nlp-computer-vision>
+
 #### ["Reconciling Modern Machine Learning Practice and the Bias-variance Trade-off"](https://arxiv.org/abs/1812.11118) Belkin, Hsu, Ma, Mandal
   `generalization`
   - <https://github.com/brylevkirill/notes/blob/master/Deep%20Learning.md#reconciling-modern-machine-learning-practice-and-the-bias-variance-trade-off-belkin-hsu-ma-mandal>
@@ -149,6 +155,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `video` <https://youtube.com/watch?v=CobEbJEYUnU> (Frankle)
   - `video` <https://youtu.be/8UxS4ls6g1g?t=1h25m> (Frankle)
   - `video` <https://youtube.com/watch?v=SfjJoevBbjU> (Frankle, Kilcher, Shorten, Scarfe, Salvaris)
+  - `video` <https://youtube.com/watch?v=0cU8r6dgD_A> (Carbin)
   - `video` <https://youtube.com/watch?v=ZVVnvZdUMUk> (Kilcher)
   - `video` <https://youtube.com/watch?v=LXm_6eq0Cs4> (Shorten)
   - `video` <https://youtube.com/watch?v=5PF-I1NKTmk> (LaLonde)
@@ -404,6 +411,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   `IAF` `variational inference` `posterior approximation` `normalizing flows`
 >	"Most VAEs have so far been trained using crude approximate posteriors, where every latent variable is independent. Normalizing Flows have addressed this problem by conditioning each latent variable on the others before it in a chain, but this is computationally inefficient due to the introduced sequential dependencies. Inverse autoregressive flow, unlike previous work, allows us to parallelize the computation of rich approximate posteriors, and make them almost arbitrarily flexible."  
   - `video` <https://slideslive.com/38917907/tutorial-on-normalizing-flows?t=1925> (Jang)
+  - `video` <https://youtu.be/0h5RlFQUwAY?t=1h52m13s> (Pletnev) `in russian`
   - `post` <http://bjlkeng.github.io/posts/variational-autoencoders-with-inverse-autoregressive-flows>
   - `post` <http://akosiorek.github.io/ml/2018/04/03/norm_flows.html>
   - `post` <https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html#inverse-autoregressive-flow>
@@ -843,6 +851,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `post` <https://danieltakeshi.github.io/2018/04/01/maml>
   - `post` <https://blog.evjang.com/2019/02/maml-jax.html>
   - `post` <http://noahgolmant.com/maml.html>
+  - `post` <https://medium.com/@cody.marie.wild/a-search-for-efficient-meta-learning-mamls-reptiles-and-related-species-e47b8fc454f2>
   - `paper` ["Probabilistic Model-Agnostic Meta-Learning"](https://arxiv.org/abs/1806.02817) by Finn et al. ([overview](https://youtu.be/5oGEZGxJAl4?t=22m37s) by Levine `video`)
   - `paper` ["Recasting Gradient-Based Meta-Learning as Hierarchical Bayes"](https://arxiv.org/abs/1801.08930) by Grant et al.
 
@@ -1126,13 +1135,16 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
 >	"Contrastive Predictive Coding (CPC) based pipelines use groups of image patches separated by a carefully chosen spatial offset for anchors and positives while the negatives come from other patches within the image and from other images. While patches are a powerful way to incorporate spatial and instance discrimination together, they introduce extra hyperparameters and architectural design choices which may be hard to adapt for a new problem. SimCLR and MoCo opt for a simpler design where there is no patch extraction. Discriminating transformed image instances as opposed to image-patches within the same image optimizes a simpler instance discrimination objective with the InfoNCE loss and requires minimal architectural adjustments. One could view contrastive instance discrimination setups like SimCLR and MoCo as maximizing mutual information between an image and its augmented version."  
 >	"can be considered as an end-to-end version of MoCo where one just uses all negatives from the batch and no momentum encoder"  
   - `post` <https://ai.googleblog.com/2020/04/advancing-self-supervised-and-semi.html>
+  - `video` <https://youtube.com/watch?v=1EqJyMy0LnE&t=50m44s> (Kornblith)
   - `video` <https://youtu.be/dMUes74-nYY?t=2h10m45s> (Srinivas)
   - `video` <https://youtu.be/1sJuWg5dULg?t=36m16s> (Srinivas)
   - `video` <https://youtube.com/watch?v=APki8LmdJwY> (Shorten)
+  - `video` <https://youtube.com/watch?v=aDHnSPYROCs> (Saroufim)
   - `video` <https://youtube.com/watch?v=5lsmGWtxnKA>
   - `video` <https://youtu.be/y8pgdXdYPwU?t=30m56s> (Atanov) `in russian`
   - `video` <https://youtu.be/OSzynwC1gow?t=4m59s> (Mosin) `in russian`
   - `notes` <https://habr.com/en/company/ods/blog/493016/#9-a-simple-framework-for-contrastive-learning-of-visual-representations> `in russian`
+  - `paper` ["Self-organizing neural network that discovers surfaces in random-dot stereograms"](https://researchgate.net/publication/21425437_Self-organizing_neural_network_that_discovers_surfaces_in_random-dot_stereograms) by Becker and Hinton
 
 #### ["Momentum Contrast for Unsupervised Visual Representation Learning"](https://arxiv.org/abs/1911.05722) He et al.
   `MoCo` `representation learning`
@@ -1843,6 +1855,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
 >	"We show that data augmentations such as random crop, color jitter, patch cutout, and random convolutions can enable simple RL algorithms to match and even outperform complex state-of-the-art methods across common benchmarks in terms of data-efficiency, generalization, and wall-clock speed. We find that data diversity alone can make agents focus on meaningful information from high-dimensional observations without any changes to the reinforcement learning method."  
 
 #### ["Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels"](https://arxiv.org/abs/2004.13649) Kostrikov, Yarats, Fergus
+  `DrQ`
 >	"We propose a simple data augmentation technique that can be applied to standard model-free reinforcement learning algorithms, enabling robust learning directly from pixels without the need for auxiliary losses or pre-training. The approach leverages input perturbations commonly used in computer vision tasks to regularize the value function. Existing model-free approaches, such as Soft Actor-Critic (SAC), are not able to train deep networks effectively from image pixels. However, the addition of our augmentation method dramatically improves SAC's performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based (Dreamer, PlaNet, and SLAC) methods and recently proposed contrastive learning (CURL)."  
 
 ----
@@ -1879,8 +1892,12 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `audio` <https://youtu.be/VAnsd_wfAmI?t=20m45s> (Schmidhuber)
   - `video` <https://youtube.com/watch?v=RrvC8YW0pT0> (Kilcher)
   - `video` <https://youtube.com/watch?v=ed7QQMG24MM> (Shorten)
+  - `audio` <https://youtu.be/HswDdrDzZDg?t=32m2s> (Arulkumaran)
   - `video` <https://youtube.com/watch?v=yDqyFYDjLzQ> (Svidchenko) `in russian`
   - `paper` ["Training Agents using Upside-Down Reinforcement Learning"](https://arxiv.org/abs/1912.02877) by Srivastava et al.
+  - `paper` ["Reward-Conditioned Policies"](https://arxiv.org/abs/1912.13465) by Kumar et al.
+  - `paper` ["Learning to Reach Goals via Iterated Supervised Learning"](https://arxiv.org/abs/1912.06088) by Ghosh et al.
+  - `post` <https://ogma.ai/2019/08/acting-without-rewards>
 
 #### ["Credit Assignment as a Proxy for Transfer in Reinforcement Learning"](https://arxiv.org/abs/1907.08027) Ferret et al.
   `credit assignment`
@@ -2516,6 +2533,13 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `code` <http://github.com/etalvitie/hdaggermc>
 
 ----
+#### ["Mastering Atari with Discrete World Models"](https://arxiv.org/abs/2010.02193) Hafner, Lillicrap, Norouzi, Ba
+  `DreamerV2` `learning to plan` `learning abstract environment model`
+>	"While learning world models from image inputs has recently become feasible for some tasks, modeling Atari games accurately enough to derive successful behaviors has remained an open challenge for many years. We introduce DreamerV2, a reinforcement learning agent that learns behaviors purely from predictions in the compact latent space of a powerful world model. The world model uses discrete representations and is trained separately from the policy."
+  - `post` <https://ai.googleblog.com/2021/02/mastering-atari-with-discrete-world.html>
+  - `video` <https://youtube.com/watch?v=_e3BKzK6xD0> (Hafner)
+  - `video` <https://youtube.com/watch?v=o75ybZ-6Uu8> (Kilcher)
+
 #### ["Dream to Control: Learning Behaviors by Latent Imagination"](https://arxiv.org/abs/1912.01603) Hafner, Lillicrap, Ba, Norouzi
   `Dreamer` `learning to plan` `learning abstract environment model`
 >	"a reinforcement learning agent that solves long-horizon tasks from images purely by latent imagination"  
@@ -3301,7 +3325,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `video` <https://youtube.com/watch?v=FQSPkCMtDyY> (Grishin) `in russian`
 
 #### ["Robust and Efficient Transfer Learning with Hidden Parameter Markov Decision Processes"](https://arxiv.org/abs/1706.06544) Killian, Daulton, Konidaris, Doshi-Velez
-  `semantic representation`
+  `HiP-MDP` `semantic representation`
 >	"A new framework for modeling families of related tasks using low-dimensional latent embeddings, which correctly models the joint uncertainty in the latent parameters and the state space."  
 >	"Define a new class of MDPs that includes a parameter θ which defines a parameterized transition function. Then, learning is done in the parameterized space; if the agent effectively learns the parameter, it can transfer knowledge to any MDP in the class."  
   - `video` <https://vimeo.com/248527846#t=14m49s> (Killian)
@@ -3556,6 +3580,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
 >	"When observing the actions of others, humans make inferences about why they acted as they did, and what this implies about the world; humans also use the fact that their actions will be interpreted in this manner, allowing them to act informatively and thereby communicate efficiently with others."  
 >	"Bayesian action decoder uses an approximate Bayesian update to obtain a public belief that conditions on the actions taken by all agents in the environment. BAD introduces a new Markov decision process, the public belief MDP, in which the action space consists of all deterministic partial policies, and exploits the fact that an agent acting only on this public belief state can still learn to use its private information if the action space is augmented to be over all partial policies mapping private information into environment actions. The Bayesian update is closely related to the theory of mind reasoning that humans carry out when observing others’ actions."  
 >	"We first validate BAD on a proof-of-principle two-step matrix game, where it outperforms policy gradient methods; we then evaluate BAD on the challenging, cooperative partial-information card game Hanabi, where, in the two-player setting, it surpasses all previously published learning and hand-coded approaches, establishing a new state of the art."  
+  - `video` <https://youtu.be/ii_SwIsY8aU?t=11m50s> (Foerster)
   - `video` <https://youtu.be/9qPhrEYIRF4?t=20m41s> (Foerster)
 
 ----
@@ -3634,6 +3659,19 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
 [overview](https://alexpolozov.com/blog/program-synthesis-2018) of recent papers by Oleksandr Polozov
 
 ----
+#### ["Neural Program Synthesis with a Differentiable Fixer"](https://arxiv.org/abs/2006.10924) Balog, Singh, Maniatis, Sutton
+>	"We present a new program synthesis approach that combines an encoder-decoder based synthesis architecture with a differentiable program fixer. Our approach is inspired from the fact that human developers seldom get their program correct on the first attempt, and perform iterative testing-based program fixing to get to the desired program functionality. Similarly, our approach first learns a distribution over programs conditioned on an encoding of a set of input-output examples, and then iteratively performs fix operations using the differentiable fixer. The fixer takes as input the original examples and the current program’s outputs on example inputs, and generates a new distribution over the programs with the goal of reducing the discrepancies between the current program outputs and the desired example outputs. We train our architecture end-to-end on the RobustFill domain, and show that the addition of the fixer module leads to a significant improvement on synthesis accuracy compared to using beam search."  
+>	"We showed that adding the differentiable fixer to a baseline seq2seq model is a more efficient way of increasing the model size, as it provides an inductive bias that leads to higher validation accuracies."  
+>	"We also analyzed the qualitative difference between fixing incorrect predictions and predicting multiple candidate programs from a beam search, demonstrating that the learned fixer is more effective."  
+>	"We have introduced a learned program encoder, which provides the fixer with a representation of the (failed) candidate program, in addition to that program’s outputs. Our RNN-based program encoder did not seem justified as using the same additional parameter budget on the fixer itself yielded better results. This variant could possibly be improved by using program encoders based on grammar or static-analysis graphs."  
+>	"We tried incorporating several types of auxiliary losses during training: predicting program length, program grammatical validity, per-concat expression validity, and per-example correctness, but none showed marked improvement."  
+>	"An exciting direction for future work is to combine our approach with execution-guided synthesis, where intermediate steps during the construction of a candidate program are informed by partial execution traces, especially for languages in which partial programs can be meaningfully executed, even beyond string processing."  
+  - `video` <https://youtu.be/2RvxsJYn2UI?t=20m24s> (Singh)
+
+#### ["Latent Programmer: Discrete Latent Codes for Program Synthesis"](https://arxiv.org/abs/2012.00377) Hong, Dohan, Singh, Sutton, Zaheer
+>	"In many sequence learning tasks, such as program synthesis and document summarization, a key problem is searching over a large space of possible output sequences. We propose to learn representations of the outputs that are specifically meant for search: rich enough to specify the desired output but compact enough to make search more efficient. Discrete latent codes are appealing for this purpose, as they naturally allow sophisticated combinatorial search strategies. The latent codes are learned using a self-supervised learning principle, in which first a discrete autoencoder is trained on the output sequences, and then the resulting latent codes are used as intermediate targets for the end-to-end sequence prediction task. Based on these insights, we introduce the Latent Programmer, a program synthesis method that first predicts a discrete latent code from input/output examples, and then generates the program in the target language."
+  - `video` <https://youtu.be/2RvxsJYn2UI?t=15m23s> (Singh)
+
 #### ["Learning Compositional Neural Programs with Recursive Tree Search and Planning"](https://arxiv.org/abs/1905.12941) Pierrot et al.
   `AlphaNPI`
 >	"AlphaNPI incorporates the strengths of Neural Programmer-Interpreters (NPI) and AlphaZero. NPI contributes structural biases in the form of modularity, hierarchy and recursion, which are helpful to reduce sample complexity, improve generalization and increase interpretability. AlphaZero contributes powerful neural network guided search algorithms, which we augment with recursion. AlphaNPI only assumes a hierarchical program specification with sparse rewards: 1 when the program execution satisfies the specification, and 0 otherwise. Using this specification, AlphaNPI is able to train NPI models effectively with RL for the first time, completely eliminating the need for strong supervision in the form of execution traces. The experiments show that AlphaNPI can sort as well as previous strongly supervised NPI variants. The AlphaNPI agent is also trained on a Tower of Hanoi puzzle with two disks and is shown to generalize to puzzles with an arbitrary number of disks."  
@@ -3703,6 +3741,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `notes` <https://theneuralperspective.com/2017/03/14/making-neural-programming-architecture-generalize-via-recursion/>
 
 #### ["RobustFill: Neural Program Learning under Noisy I/O"](https://arxiv.org/abs/1703.07469) Devlin, Uesato, Bhupatiraju, Singh, Mohamed, Kohli
+  `RobustFill`
   - `video` <https://vimeo.com/238227939> (Uesato, Bhupatiraju)
   - `video` <https://youtu.be/Fs7FquuLprM?t=16m35s> (Singh)
   - `video` <https://facebook.com/nipsfoundation/videos/1552060484885185?t=5885> (Reed)
@@ -3711,6 +3750,7 @@ We find that a standard pruning technique naturally uncovers subnetworks whose i
   - `video` <https://vimeo.com/238227833> (Gaunt)
 
 #### ["Neuro-Symbolic Program Synthesis"](https://arxiv.org/abs/1611.01855) Parisotto, Mohamed, Singh, Li, Zhou, Kohli
+  - `video` <https://youtu.be/2RvxsJYn2UI?t=6m55s> (Singh)
   - `video` <https://youtu.be/Fs7FquuLprM?t=8m39s> (Singh)
 
 #### ["TerpreT: A Probabilistic Programming Language for Program Induction"](http://arxiv.org/abs/1608.04428) Gaunt, Brockschmidt, Singh, Kushman, Kohli, Taylor, Tarlow

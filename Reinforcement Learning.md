@@ -42,6 +42,8 @@
 
   [datacenter cooling](https://deepmind.com/blog/safety-first-ai-autonomous-data-centre-cooling-and-industrial-control/) at Google ([paper](https://papers.nips.cc/paper/7638-data-center-cooling-using-model-predictive-control.pdf) by Lazic et al., [patent](http://freepatentsonline.com/y2018/0204116.html))
 
+  [stratospheric balloons](https://medium.com/loon-for-all/drifting-efficiently-through-the-stratosphere-using-deep-reinforcement-learning-c38723ee2e90) at Google ([paper](https://nature.com/articles/s41586-020-2939-8) by Bellemare et al., [overview](https://youtu.be/F-6sc88xPuA?t=25m55s) `video`)
+
   [artwork personalization](https://medium.com/netflix-techblog/artwork-personalization-c589f074ad76) at Netflix
 
 ----
@@ -74,8 +76,10 @@
 
 	[AlphaStar overview](https://deepmind.com/blog/article/AlphaStar-Grandmaster-level-in-StarCraft-II-using-multi-agent-reinforcement-learning)
 
-	[**"Grandmaster Level in StarCraft II using Multi-agent Reinforcement Learning"**](#grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning-vinyals-et-al) by Vinyals et al. `paper` `summary` *(AlphaStar)*
+	[**"Grandmaster Level in StarCraft II using Multi-agent Reinforcement Learning"**](#grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning-vinyals-et-al) by Vinyals et al. `paper` `summary` *(AlphaStar)*  
+	["StarCraft II Unplugged: Large Scale Offline Reinforcement Learning"](https://openreview.net/forum?id=Np8Pumfoty) by Mathieu et al. `paper`  
 
+	[overview](https://youtu.be/-fdexQBpRas?t=29m26s) by Oriol Vinyals `video`  
 	[overview](https://slideslive.com/38922724/grandmaster-level-in-starcraft-ii-using-multiagent-reinforcement-learning) by Oriol Vinyals `video`  
 	[overview](https://youtu.be/3UdH3lPF7nE) by Oriol Vinyals `video`  
 	[overview](https://slideslive.com/38916905/alphastar-mastering-the-game-of-starcraft-ii) by David Silver `video`  
@@ -118,11 +122,14 @@
 
 	[Libratus overview](https://int8.io/counterfactual-regret-minimization-for-poker-ai/#Libratus_8211_DeepStack8217s_main_rival_from_Carnegie_Mellon_University) by Kamil Czarnogorski  
 	[Libratus overview](https://thegradient.pub/libratus-poker) by Jiren Zhu  
+	[Pluribus overview](https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker)  
 
 	["Superhuman AI for Heads-up No-limit Poker: Libratus Beats Top Professionals"](http://science.sciencemag.org/content/early/2017/12/15/science.aao1733.full) by Brown and Sandholm `paper` *(Libratus)*  
-	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://arxiv.org/abs/1705.02955) by Brown and Sandholm `paper` *(Libratus)* ([talk](https://vimeo.com/248533943#t=53s) `video`, [post](https://thegradient.pub/libratus-poker))  
+	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://arxiv.org/abs/1705.02955) by Brown and Sandholm `paper` *(Libratus)* ([overview](https://vimeo.com/248533943#t=53s) `video`)  
 	["Depth-Limited Solving for Imperfect-Information Games"](https://arxiv.org/abs/1805.08195) by Brown et al. `paper` ([overview](https://youtube.com/watch?v=S4-g3dPT2gY) `video`)  
-	[**"Deep Counterfactual Regret Minimization"**](#deep-counterfactual-regret-minimization-brown-lerer-gross-sandholm) by Brown et al. `paper` `summary`  
+	["Superhuman AI for Multiplayer Poker"](https://science.sciencemag.org/content/365/6456/885) by Brown and Sandholm `paper` ([overview](https://youtube.com/watch?v=JuvN4mi861k) `video`) *(Pluribus)*  
+	[**"Deep Counterfactual Regret Minimization"**](#deep-counterfactual-regret-minimization-brown-lerer-gross-sandholm) by Brown et al. `paper` `summary` *(Deep CFR)*  
+	[**"Combining Deep Reinforcement Learning and Search for Imperfect-Information Games"**](#combining-deep-reinforcement-learning-and-search-for-imperfect-information-games-brown-et-al) by Brown et al. `paper` `summary` *(ReBeL)*  
 
 	[Libratus overview](https://youtube.com/watch?v=EhvH4jdF-ko) by Tuomas Sandholm `video`  
 	[Libratus overview](https://youtube.com/watch?v=xrWulRY_t1o) by Tuomas Sandholm `video`  
@@ -130,6 +137,7 @@
 	[Libratus overview](https://youtube.com/watch?v=McV4a6umbAY) by Noam Brown `video`  
 	[Libratus overview](https://youtube.com/watch?v=2dX0lwaQRX0) by Noam Brown `video`  
 	[Libratus overview](https://youtube.com/watch?v=UTogLB99JKQ) by Noam Brown `video`  
+	[Pluribus overview](https://youtube.com/watch?v=JuvN4mi861k) by Noam Brown `video`  
 
 	["New Results for Solving Imperfect-Information Games"](https://vimeo.com/313942390) by Tuomas Sandholm `video`  
 	["Safe and Nested Subgame Solving for Imperfect-Information Games"](https://vimeo.com/248533943#t=53s) by Noam Brown `video`  
@@ -142,13 +150,11 @@
 	[Libratus discussion](https://youtube.com/watch?v=wKey6eKccYM) with Noam Brown `audio`  
 	[Libratus discussion](https://reddit.com/r/MachineLearning/comments/7jn12v/ama_we_are_noam_brown_and_professor_tuomas) with Noam Brown and Tuomas Sandholm  
 
-	[Libratus vs top players](https://youtube.com/watch?v=crgmYTMfrSc) games highlights `video`
-
-	[Pluribus overview](https://ai.facebook.com/blog/pluribus-first-ai-to-beat-pros-in-6-player-poker)  
-	[Pluribus "Science" magazine](https://science.sciencemag.org/content/early/2019/07/10/science.aay2400) `paper`  
-
 	[Pluribus discussion](https://reddit.com/r/MachineLearning/comments/ceece3/ama_we_are_noam_brown_and_tuomas_sandholm) with Noam Brown and Tuomas Sandholm  
 	[Pluribus discussion](https://news.ycombinator.com/item?id=20415379) with Noam Brown  
+
+	[Libratus vs top players](https://youtube.com/watch?v=crgmYTMfrSc) games highlights `video`  
+	[Pluribus vs top players](https://youtube.com/playlist?list=PLm7RXNGNZs2V6en-KZx5dTV_BP-Ejem3q) games `video`  
 
 ----
   - *Poker*  
@@ -181,12 +187,11 @@
 
 	[AlphaGo Zero overview](http://www.depthfirstlearning.com/2018/AlphaGoZero)
 
-	["Monte-Carlo Tree Search as Regularized Policy Optimization"](https://proceedings.icml.cc/static/paper_files/icml/2020/3655-Paper.pdf) by Grill et al. `paper`  
 	[**"Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model"**](#mastering-atari-go-chess-and-shogi-by-planning-with-a-learned-model-schrittwieser-et-al) by Schrittwieser et al. `paper` `summary` *(MuZero)*  
 	[**"Mastering the Game of Go without Human Knowledge"**](#mastering-the-game-of-go-without-human-knowledge-silver-et-al) by Silver et al. `paper` `summary` *(AlphaGo Zero)*  
 	[**"Mastering the Game of Go with Deep Neural Networks and Tree Search"**](#mastering-the-game-of-go-with-deep-neural-networks-and-tree-search-silver-et-al) by Silver et al. `paper` `summary` *(AlphaGo)*  
-	["Sample-Based Learning and Search with Permanent and Transient Memories"](https://researchgate.net/publication/221346457_Sample-based_learning_and_search_with_permanent_and_transient_memories) by Silver et al. ([talk](http://videolectures.net/icml08_silver_sbl) `video`) *(Dyna-2)*  
-	["Combining Online and Offline Knowledge in UCT"](https://researchgate.net/publication/29651027_Combining_Online_and_Offline_Knowledge_in_UCT) by Gelly and Silver `paper` ([talk](https://youtube.com/watch?v=Bm7zah_LrmE) `video`) *(MoGo)*  
+	["Sample-Based Learning and Search with Permanent and Transient Memories"](https://researchgate.net/publication/221346457_Sample-based_learning_and_search_with_permanent_and_transient_memories) by Silver et al. ([overview](http://videolectures.net/icml08_silver_sbl) `video`) *(Dyna-2)*  
+	["Combining Online and Offline Knowledge in UCT"](https://researchgate.net/publication/29651027_Combining_Online_and_Offline_Knowledge_in_UCT) by Gelly and Silver `paper` ([overview](https://youtube.com/watch?v=Bm7zah_LrmE) `video`) *(MoGo)*  
 
 	[AlphaGo, AlphaGo Zero, MuZero overview](https://youtube.com/playlist?list=PLnn6VZp3hqNsrsp_Bg-bEfzzhJ3SuEZE9) `video`
 
@@ -210,6 +215,7 @@
 ----
   - *Chess*  
 
+	["Vector Quantized Models for Planning"](https://arxiv.org/abs/2106.04615) by Ozair et al. `paper`  
 	[**"Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model"**](#mastering-atari-go-chess-and-shogi-by-planning-with-a-learned-model-schrittwieser-et-al) by Schrittwieser et al. `paper` `summary` *(MuZero)*  
 	[**"Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm"**](#mastering-chess-and-shogi-by-self-play-with-a-general-reinforcement-learning-algorithm-silver-et-al) by Silver et al. `paper` `summary` *(AlphaZero)*  
 	[**"Giraffe: Using Deep Reinforcement Learning to Play Chess"**](#giraffe-using-deep-reinforcement-learning-to-play-chess-lai) by Lai `paper` `summary` *(Giraffe)*  
@@ -229,7 +235,7 @@
 	[AlphaZero vs Stockfish](https://youtube.com/playlist?list=PLDnx7w_xuguHIxbL7akaYgEvV4spwYkmn) games `video`  
 	[AlphaZero vs Stockfish](https://youtube.com/playlist?list=PL-qLOQ-OEls607FPLAsPZ6De4f1W3ZF-I) games `video`  
 
-	["Game Changer: AlphaZero's Groundbreaking Chess Strategies and the Promise of AI"](https://amazon.com/Game-Changer-AlphaZeros-Groundbreaking-Strategies/dp/9056918184) by Matthew Sadler and Natasha Regan `book` ([talk](https://youtube.com/watch?v=HgZYIDslnAI) `video`, [games](https://youtube.com/playlist?list=UUkK8M0dMhAX8JinU-6aD7xA) `video`)
+	["Game Changer: AlphaZero's Groundbreaking Chess Strategies and the Promise of AI"](https://amazon.com/Game-Changer-AlphaZeros-Groundbreaking-Strategies/dp/9056918184) by Matthew Sadler and Natasha Regan `book` ([overview](https://youtube.com/watch?v=HgZYIDslnAI) `video`, [games](https://youtube.com/playlist?list=UUkK8M0dMhAX8JinU-6aD7xA) `video`)
 
 	[Leela Chess Zero](https://youtube.com/playlist?list=PLDnx7w_xuguH7UO4bNGo56w94NXAef6YH) games `video` ([overview](https://en.wikipedia.org/wiki/Leela_Chess_Zero))
 
@@ -300,6 +306,7 @@
 
   [course](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19) by Pieter Abbeel `video`
 
+  [overview](https://youtube.com/watch?v=T57lx_adnH0) by Sergey Levine `video`  
   [overview](https://youtube.com/watch?v=DoDUpLhvWQk) by Sergey Levine `video`  
   [overview](https://youtube.com/watch?v=DoDUpLhvWQk) by Sergey Levine `video`  
   [overview](https://youtube.com/watch?v=sXQlQg7Hax8) by Sergey Levine `video`  
@@ -313,6 +320,7 @@
   [overview](https://youtube.com/watch?v=jtjW5Pye_44) by Sergey Levine `video`  
   [overview](http://videolectures.net/iclr2016_levine_deep_learning) by Sergey Levine `video`  
 
+  [overview](https://youtube.com/watch?v=l9pwlXXsi7Q) by Pieter Abbeel `video`  
   [overview](https://youtube.com/watch?v=WGza-jN4CZs) by Pieter Abbeel `video`  
   [overview](https://slideslive.com/38915873/deep-learning-for-robotics) by Pieter Abbeel `video`  
   [overview](https://facebook.com/nipsfoundation/videos/1554594181298482) by Pieter Abbeel `video`  
@@ -356,6 +364,12 @@
 	[OpenAI Dactyl demo](https://youtube.com/watch?v=DKe8FumoD4E) `video`  
 
 ----
+  - *bipedal robots*
+
+	["Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots"](https://arxiv.org/abs/2103.14295) by Li et al. `paper`
+
+	[demo](https://youtube.com/watch?v=goxCjGPQH7U) `video`
+
   - *legged robots*
 
 	[ANYmal](https://anybotics.com/anymal-legged-robot)
@@ -409,11 +423,16 @@
   [course](https://youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) by David Silver `video`  *(basic)*  
   [course](https://udacity.com/course/reinforcement-learning--ud600) by Michael Littman `video`  *(basic)*  
   [course](https://youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u) by Emma Brunskill `video`  *(basic)*  
+  [course](https://youtube.com/playlist?list=PLnn6VZp3hqNvRrdnMOVtgV64F_O-61C1D) by Connor Shorten `video`  *(basic)*  
 
-  [course](http://rail.eecs.berkeley.edu/deeprlcourse) from UC Berkeley ([videos](https://youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A))  *(advanced)*  
-  [course](https://youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs) from DeepMind `video`  *(advanced)*  
+  [course](http://rail.eecs.berkeley.edu/deeprlcourse) from UC Berkeley ([videos](https://youtube.com/playlist?list=PL_iWQOsE6TfURIIhCrlt-wj9ByIVpbfGc)) `2020`  *(advanced)*  
+  [course](http://rail.eecs.berkeley.edu/deeprlcourse/resources#prev-off) from UC Berkeley ([videos](https://youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A)) `2019`  *(advanced)*  
+  [course](https://youtube.com/playlist?list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm) from DeepMind `video` `2021`  *(advanced)*  
+  [course](https://youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs) from DeepMind `video` `2018`  *(advanced)*  
   [course](https://youtube.com/playlist?list=PLkFD6_40KJIznC9CDbVTjAF2oyt8_VAe3) by Sergey Levine, John Schulman and Chelsea Finn `video`  *(advanced)*  
   [course](https://github.com/yandexdataschool/Practical_RL/) from Yandex and HSE `video` `in russian`  *(advanced)*  
+  [course](https://deeppavlov.ai/rl_course_2020) from MIPT and Yandex ([videos](https://youtube.com/playlist?list=PLt1IfGj6-_-eXjZDFBfnAhAJmCyX227ir)) `in russian` `2020`  *(advanced)*  
+  [course](https://youtube.com/playlist?list=PLwdBkWbW0oHEUmY07a0G5jabP_fWfGQet) by Sergey Nikolenko `video` `in russian`  *(advanced)*  
 
 ----
 
@@ -597,7 +616,7 @@
 ----
 #### forms of supervision
 
-  - scalar rewards (online vs [**batch/offline learning**](#batch-reinforcement-learning), on-policy vs [**off-policy learning**](#off-policy-reinforcement-learning))
+  - scalar rewards (online vs [**offline/batch learning**](#offline-reinforcement-learning), on-policy vs [**off-policy learning**](#off-policy-reinforcement-learning))
   - demonstrated behavior ([**imitation learning**](#imitation-learning), [**inverse reinforcement learning**](#inverse-reinforcement-learning))
   - self-supervision ([**unsupervised learning**](#unsupervised-reinforcement-learning))
   - auxiliary objectives ([**exploration and intrinsic motivation**](#exploration-and-intrinsic-motivation), learning task-relevant problems)
@@ -609,14 +628,23 @@
 
 
 ----
-#### batch reinforcement learning
+#### offline reinforcement learning
 
-  Batch reinforcement learning offers a mechanism for learning offline from a fixed dataset without restrictions on the quality of the data.
+  Offline/batch reinforcement learning offers a mechanism for learning offline from a fixed dataset without restrictions on the quality of the data.
 
+  ["Decisions from Data: How Offline Reinforcement Learning Will Change How We Use Machine Learning"](https://medium.com/@sergey.levine/decisions-from-data-how-offline-reinforcement-learning-will-change-how-we-use-ml-24d98cb069b0) by Sergey Levine
+
+  [introduction](https://youtube.com/watch?v=tW-BNW1ApN8) by Sergey Levine `video`
+
+  tutorial by Sergey Levine and Aviral Kumar [1](https://youtube.com/watch?v=9tMLmjVq6bA), [2](https://youtube.com/watch?v=536a-CvHUZ8) `video`  
+  tutorial by Emma Brunskill [1](https://youtube.com/watch?v=MEK8lTaiUvQ), [2](https://youtube.com/watch?v=JZ2opp8Wy4A) `video`  
+
+  ["Offline Reinforcement Learning"](https://youtube.com/watch?v=qgZPZREor5I) by Sergey Levine `video`  
   ["Offline RL: Challenges, Algorithms, and Benchmarks"](https://youtube.com/watch?v=IUAePhU0E7Y) by Sergey Levine `video`  
   ["The Sub-basement of RL"](https://youtube.com/watch?v=373_zVWceqA) by Dale Schuurmans `video`  
 
   ["Offline Reinforcement Learning: Tutorial, Review,and Perspectives on Open Problems"](https://arxiv.org/abs/2005.01643) by Levine et al. `paper`  
+  ["RL Unplugged: Benchmarks for Offline Reinforcement Learning"](https://arxiv.org/abs/2006.13888) by Gulcehre et al. `paper`  
   ["Batch Reinforcement Learning"](http://tgabel.de/cms/fileadmin/user_upload/documents/Lange_Gabel_EtAl_RL-Book-12.pdf) by Lange et al. `paper`  
 
 
@@ -643,6 +671,7 @@
   [overview](https://facebook.com/icml.imls/videos/428362527678268) by Yisong Yue and Hoang Le `video`  
   [overview](http://videolectures.net/DLRLsummerschool2018_daume_imitation_learning) by Hal Daume `video`  
   [overview](https://youtube.com/watch?v=0DkPUecLLpI) by Fedor Ratnikov `video` `in russian`  
+  [overview](https://youtube.com/watch?v=OiS7uT7OusY) by Artem Tsypin `video` `in russian`  
 
   ["An Invitation to Imitation"](http://ri.cmu.edu/pub_files/2015/3/InvitationToImitation_3_1415.pdf) by Andrew Bagnell  
   ["Imitation Learning"](http://ciml.info) chapter by Hal Daume  
@@ -860,6 +889,8 @@
 
 	> "The tendency to be intrinsically attracted by novelty has often been used as an example in the literature on intrinsic motivation. A straightforward manner to computationally implement it is to build a system that, for every event ek that is actually observed, will generate a reward r(ek) inversely proportional to its probability of observation: r(ek, t) = C·(1 − P(ek, t)), where C is a constant."
 
+	find rare inputs under a density model
+
 	[**"Action-Conditional Video Prediction using Deep Networks in Atari Games"**](#action-conditional-video-prediction-using-deep-networks-in-atari-games-oh-guo-lee-lewis-singh) by Oh et al. `paper` `summary`  
 	[**"Unifying Count-Based Exploration and Intrinsic Motivation"**](#unifying-count-based-exploration-and-intrinsic-motivation-bellemare-srinivasan-ostrovski-schaul-saxton-munos) by Bellemare et al. `paper` `summary`  
 	[**"Count-Based Exploration with Neural Density Models"**](#count-based-exploration-with-neural-density-models-ostrovski-bellemare-van-den-oord-munos) by Ostrovski et al. `paper` `summary`  
@@ -875,10 +906,11 @@
 
 	> "It has been proposed in psychology and education that humans have a natural propensity to learn and assimilate. In information theoretic terms, this notion of assimilation or of “pleasure of learning” can be modeled by the decrease of uncertainty in the knowledge about the world that the agent possesses after an event ek has happened: r(ek, t) = C·(H(E, t) − H(E, t+1)), where H is entropy."
 
-	maximize KL divergence between posterior (after seeing observation) and prior (before seeing it)
+	minimize entropy of belief over environment dynamics ~ maximize KL divergence between posterior (after seeing observation) and prior (before seeing observation)
 
 	[overview](https://youtu.be/DSYzHPW26Ig?t=2h1m40s) by Alex Graves `video`
 
+	["Reinforcement Driven Information Acquisition In Non-Deterministic Environments"](https://researchgate.net/publication/277286220_Reinforcement_Driven_Information_Acquisition_In_Non-Deterministic_Environments) by Storck, Hochreiter, Schmidhuber `paper`  
 	[**"Universal Knowledge-Seeking Agents for Stochastic Environments"**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-knowledge-seeking-agents-for-stochastic-environments-orseau-lattimore-hutter) by Orseau et al. `paper` `summary` ([**Knowledge-Seeking Agent**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-artificial-intelligence---knowledge-seeking-agent) theory by Hutter and Orseau)  
 	[**"Curiosity Driven Reinforcement Learning for Motion Planning on Humanoids"**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#curiosity-driven-reinforcement-learning-for-motion-planning-on-humanoids-frank-leitner-stollenga-forster-schmidhuber) by Frank et al. `paper` `summary`  
 	[**"VIME: Variational Information Maximizing Exploration"**](#vime-variational-information-maximizing-exploration-houthooft-chen-duan-schulman-turck-abbeel) by Houthooft et al. `paper` `summary`  
@@ -893,7 +925,7 @@
 
 	> "A reward measure that pushes an agent to produce sequences of actions that can transfer a maximal amount of information to its sensors through the environment. It is defined as the channel capacity from the sequence of actions At, At+1, ..., At+n−1 to the perceptions St+n after an arbitrary number of timesteps: r(At, At+1, ..., At+n−1 →  St+n) = max {p(a)} I(At, At+1, ..., At+n−1, St+n), where p(a) is the probability distribution function of the action sequences a=(at, at+1, ..., at+n−1) and I is mutual information."
 
-	maximize channel capacity or mutual information between actions and future states, i.e. information contained in a about s' or information that can be "injected" into s' by a, to encourage agent to occupy states from which it can reach most states within its planning horizon and to control its future as much as possible
+	maximally influence sensory inputs ~ maximize channel capacity or mutual information between actions and future states, i.e. information contained in a about s' or information that can be "injected" into s' by a, to encourage agent to occupy states from which it can reach most states within its planning horizon and to control its future as much as possible
 
 	[overview](https://youtu.be/DSYzHPW26Ig?t=2h9m23s) by Alex Graves `video`
 
@@ -990,6 +1022,8 @@
   [overview](http://youtube.com/watch?v=eJ3wZ14RRBQ) by Csaba Szepesvari `video`  
   [overview](http://youtu.be/fIKkhoI1kF4?t=19m23s) by Emma Brunskill `video`  
   [overview](http://videolectures.net/DLRLsummerschool2018_lattimore_bandits) by Tor Lattimore `video`  
+  [overview](https://youtube.com/watch?v=M6DNMESf5Xk) by Nicolo Cesa-Bianchi `video`  
+  [overview](https://youtu.be/e1sAltJhG3k?t=40m52s) by Sergey Nikolenko `video` `in russian`  
 
   tutorial by Csaba Szepesvari
 	([part 1](https://youtube.com/watch?v=VVcLnAoU9Gw),
@@ -1067,6 +1101,7 @@
 ----
 
   [overview](https://youtu.be/sGuiWX07sKw?t=1h29m7s) by David Silver `video`  
+  [overview](https://youtube.com/watch?v=A6wNJ4-MpIg) by Alekh Agarwal and John Langford `video`  
   [overview](https://vimeo.com/240429210) by John Langford and Alekh Agarwal `video`  
   [overview](https://youtu.be/zr6H4kR8vTg) by John Langford `video`  
   [overview](https://youtu.be/GXjc-tomqpo) by Dale Schuurmans `video`  
@@ -1080,10 +1115,11 @@
 
 ----
 
-  ["A Contextual Bandit Bake-off"](https://arxiv.org/abs/1802.04064) by Bietti, Agarwal, Langford `paper` ([overview](https://youtu.be/zr6H4kR8vTg?t=50m36s) by John Langford `video`)  
+  ["A Contextual-Bandit Approach to Personalized News Article Recommendation"](https://arxiv.org/abs/1003.0146) by Li, Chu, Langford, Schapire `paper` ([overview](https://coursera.org/lecture/fundamentals-of-reinforcement-learning/jonathan-langford-contextual-bandits-for-real-world-reinforcement-learning-GkDVA) by John Langford `video`, [overview](https://youtu.be/B4Fk2KNHzFY?t=1h12m58s) by Konstantin Vorontsov `video` `in russian`)  
   ["Doubly Robust Policy Evaluation and Learning"](https://arxiv.org/abs/1103.4601) by Dudik, Langford, Li `paper` ([overview](https://youtu.be/gzxRDw3lXv8?t=35m45s) by Robert Schapire `video`) ([notes](https://medium.com/@sharaf/a-paper-a-day-12-doubly-robust-policy-evaluation-and-learning-7e6a09665d7f))  
   ["Taming the Monster: A Fast and Simple Algorithm for Contextual Bandits"](https://arxiv.org/abs/1402.0555) by Agarwal et al. `paper` ([overview](https://youtube.com/watch?v=mi_G5tw7Etg) by Alekh Agarwal `video`) ([overview](https://youtu.be/gzxRDw3lXv8?t=37m8s) by Robert Schapire `video`)  
   [**"Making Contextual Decisions with Low Technical Debt"**](#making-contextual-decisions-with-low-technical-debt-agarwal-et-al) by Agarwal et al. `paper` `summary`  
+  ["A Contextual Bandit Bake-off"](https://arxiv.org/abs/1802.04064) by Bietti, Agarwal, Langford `paper` ([overview](https://youtu.be/zr6H4kR8vTg?t=50m36s) by John Langford `video`)  
 
 ----
 
@@ -1130,11 +1166,7 @@
 
 ----
 
-  "A/B testing only uses data collected using π to evaluate π."
-
-  "Using a fixed exploration dataset, accurate counterfactual estimates of how arbitrary policies would have performed can be computed without actually running them in real time. This is precisely the question A/B testing attempts to answer, except A/B testing must run a live experiment to test each policy."
-
-  "Lets compare the statistical efficiency of MWT to that of A/B testing. Suppose N data points are collected using an exploration policy which places probability at least on each action (for EpsilonGreedy, ε = ε0/#actions), and we wish to evaluate K different policies. Then the ips estimators for all K policies have confidence intervals whose width is (C/(εN)\*log(K/δ))^1/2, with probability at least 1−δ, where C is a small absolute constant and δ > 0 and N > 1/ε. This is an exponential (in K) improvement over A/B testing since an A/B test of K policies collecting N data points has confidence intervals of width C\*(K/N\*log(K/δ))^1/2. This also shows the necessity of exploration for policy learning. If ε = 0, we cannot correctly evaluate arbitrary policies."
+  "A/B testing only uses data collected using a policy to evaluate this policy. Using a fixed exploration dataset, accurate counterfactual estimates of how arbitrary policies would have performed can be computed without actually running them in real time. This is precisely the question A/B testing attempts to answer, except A/B testing must run a live experiment to test each policy."
 
   "Contextual bandits allow testing and optimization over exponentially more policies for a given number of events. In one realistic scenario, one can handle 1 billion policies for the data collection cost of 21 A/B tests. The essential reason for such an improvement is that each data point can be used to evaluate all the policies picking the same action for the same context (i.e., make the same decision for the same input features rather than just a single policy as in A/B testing). An important property is that policies being tested do not need to be approved, implemented in production, and run live for a period of time (thus saving much business and engineering effort). Furthermore, the policies do not even need to be known during data collection."
 
@@ -1210,6 +1242,8 @@
 
   ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) by Richard Sutton ([talk](http://www.fields.utoronto.ca/video-archive/2016/10/2267-16158) `video`)  
   ["Do we still need models or just more data and compute?"](https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/Model-versus-Data-AI-1.pdf) by Max Welling  
+
+  ["Model-based Reinforcement Learning: A Survey"](https://arxiv.org/abs/2006.16712) by Moerland et al. `paper`
 
 ----
 
@@ -1352,6 +1386,7 @@
   [**policy search in Bayes-Adaptive MDP**](#bayesian-reinforcement-learning---policy-search-in-bayes-adaptive-mdp)  
   [**reinforcement learning as inference**](#bayesian-reinforcement-learning---policy-search-as-inference)  
   [**universal reinforcement learning**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#universal-artificial-intelligence)  
+  [**active inference**](https://github.com/brylevkirill/notes/blob/master/Artificial%20Intelligence.md#active-inference)  
 
 ----
 
@@ -1827,13 +1862,21 @@ interesting recent papers:
 
 >	"We tested our model-based learning algorithm against a comparable model-free learning algorithm. When evaluated on Ms. Pacman, our model-free algorithm achieved identical results to R2D2, but learned significantly slower than MuZero and converged to a much lower final score. We conjecture that the search-based policy improvement step of MuZero provides a stronger learning signal than the high bias, high variance targets used by Q-learning."
 
+  - `post` <http://www.furidamu.org/blog/2020/12/22/muzero-intuition>
+  - `post` <https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules>
   - `video` <https://youtube.com/playlist?list=PLnn6VZp3hqNsrsp_Bg-bEfzzhJ3SuEZE9>
-  - `video` <https://slideslive.com/38922026/deep-reinforcement-learning-2?t=3855> (Schrittwieser)
+  - `video` <https://youtube.com/watch?v=L0A86LmH7Yw> (Schrittwieser)
+  - `video` <https://slideslive.com/38922736/latebreaking-papers-mastering-atari-go-chess-and-shogi-by-planning-with-a-learned-model> (Schrittwieser)
+  - `video` <https://youtube.com/watch?v=vt5jOSy7cz8> (Schrittwieser)
   - `video` <https://pscp.tv/w/1mnGelLjoBWKX> (44:00) (Lillicrap)
   - `video` <https://youtube.com/watch?v=We20YSAJZSE> (Kilcher)
   - `video` <https://slideslive.com/38923124/nonsupervised-learning-and-decision-making?t=1832> (Rezende)
   - `video` <https://youtu.be/BGyRM5vCkfw?t=26m54s> (Engalych) `in russian`
   - `notes` <https://www.shortscience.org/paper?bibtexKey=journals/corr/1911.08265>
+  - `paper` <https://rdcu.be/ccErB> ("Nature" magazine)
+  - `paper` ["Vector Quantized Models for Planning"](https://arxiv.org/abs/2106.04615) by Ozair et al.
+  - `paper` ["Learning and Planning in Complex Action Spaces"](https://arxiv.org/abs/2104.06303) by Hubert et al.
+  - `paper` ["Online and Offline Reinforcement Learning by Planning with a Learned Model"](https://arxiv.org/abs/2104.06294) by Schrittwieser et al. ([talk](https://youtube.com/watch?v=pgZhGavMHcU) `video`, [post](https://www.furidamu.org/blog/2021/12/04/online-and-offline-reinforcement-learning-by-planning-with-a-learned-model)) *(MuZero Unplugged)*
 
 
 #### ["Mastering the Game of Go without Human Knowledge"](https://deepmind.com/documents/119/agz_unformatted_nature.pdf) Silver et al.
@@ -1945,6 +1988,15 @@ interesting recent papers:
   - `paper` ["Sample-Based Learning and Search with Permanent and Transient Memories"](https://researchgate.net/publication/221346457_Sample-based_learning_and_search_with_permanent_and_transient_memories) by Silver et al. ([talk](http://videolectures.net/icml08_silver_sbl) `video`) *(Dyna-2)*
 
 
+#### ["Combining Deep Reinforcement Learning and Search for Imperfect-Information Games"](https://arxiv.org/abs/2007.13544) Brown et al.
+  `ReBeL`
+>	"The combination of deep reinforcement learning and search at both training and test time is a powerful paradigm that has led to a number of successes in single-agent settings and perfect-information games, best exemplified by AlphaZero. However, prior algorithms of this form cannot cope with imperfect-information games. This paper presents ReBeL, a general framework for self-play reinforcement learning and search that provably converges to a Nash equilibrium in any two-player zero-sum game. In the simpler setting of perfect-information games, ReBeL reduces to an algorithm similar to AlphaZero. Results in two different imperfect-information games show ReBeL converges to an approximate Nash equilibrium. We also show ReBeL achieves superhuman performance in heads-up no-limit Texas hold'em poker, while using far less domain knowledge than any prior poker AI."
+
+  - `post` <https://ai.facebook.com/blog/rebel-a-general-game-playing-ai-bot-that-excels-at-poker-and-more>
+  - `video` <https://youtube.com/watch?v=mCldyXOYNok> (Brown)
+  - `video` <https://youtube.com/watch?v=BhUWvQmLzSk> (Kilcher)
+
+
 #### ["DeepStack: Expert-Level Artificial Intelligence in No-Limit Poker"](http://arxiv.org/abs/1701.01724) Moravcik et al.
   `DeepStack`
 >	"Artificial intelligence has seen a number of breakthroughs in recent years, with games often serving as significant milestones. A common feature of games with these successes is that they involve information symmetry among the players, where all players have identical information. This property of perfect information, though, is far more common in games than in real-world problems. Poker is the quintessential game of imperfect information, and it has been a longstanding challenge problem in artificial intelligence. In this paper we introduce DeepStack, a new algorithm for imperfect information settings such as poker. It combines recursive reasoning to handle information asymmetry, decomposition to focus computation on the relevant decision, and a form of intuition about arbitrary poker situations that is automatically learned from selfplay games using deep learning. In a study involving dozens of participants and 44,000 hands of poker, DeepStack becomes the first computer program to beat professional poker players in heads-up no-limit Texas hold’em. Furthermore, we show this approach dramatically reduces worst-case exploitability compared to the abstraction paradigm that has been favored for over a decade."
@@ -2027,6 +2079,7 @@ interesting recent papers:
   - `video` <https://youtu.be/WM4HC720Cms?t=1h34m49s> (Nikolenko) `in russian`
   - `notes` <https://blog.acolyer.org/2018/01/10/mastering-chess-and-shogi-by-self-play-with-a-general-reinforcement-learning-algorithm/>
   - `code` <https://lczero.org>
+  - `paper` ["Monte-Carlo Tree Search as Regularized Policy Optimization"](https://arxiv.org/abs/2007.12509) by Grill et al.
 
 
 #### ["Giraffe: Using Deep Reinforcement Learning to Play Chess"](http://arxiv.org/abs/1509.01549) Lai
@@ -2640,6 +2693,8 @@ interesting recent papers:
 >	"Reinforcement learning allows solving complex tasks, however, the learning tends to be task-specific and the sample efficiency remains a challenge. We present Plan2Explore, a self-supervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration. During exploration, unlikeprior methods which retrospectively compute the novelty of observations after the agent has already reached them, our agent acts efficiently by leveraging planning to seek out expected future novelty. After exploration, the agent quickly adapts to multiple downstream tasks in a zero or a few-shot manner. We evaluate on challenging control tasks from high-dimensional image inputs. Without any training supervision or task-specific interaction, Plan2Explore outperforms prior self-supervised exploration methods, and in fact, almost matches the performances oracle which has access to rewards."
 
   - <https://ramanans1.github.io/plan2explore>
+  - `post` <https://bair.berkeley.edu/blog/2020/10/06/plan2explore/>
+  - `post` <https://blog.ml.cmu.edu/2020/10/06/plan2explore/>
   - `video` <https://youtube.com/watch?v=gan79mAVfq8> (Pathak)
   - `video` <https://pscp.tv/w/1mnGelLjoBWKX> (1:03:12) (Lillicrap)
   - `video` <https://youtube.com/watch?v=GyEzjW1m7kU> (Rybkin)

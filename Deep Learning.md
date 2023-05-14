@@ -71,16 +71,22 @@
 
 #### courses
 
-  [course](https://course.fast.ai) by Jeremy Howard `video`  
+  [course](https://course.fast.ai) from FastAI `video` `2021`  
   [course](https://youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF) from DeepMind `video` `2020`  
   [course](https://youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs) from DeepMind `video` `2018`  
-  [course](http://introtodeeplearning.com) from CMU ([videos](https://youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/playlists)) `2020`  
+  [course](https://youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/playlists) from CMU `video` `2020`  
+  [course](https://atcold.github.io/pytorch-Deep-Learning) from NYU `video` `2020`  
   [course](https://youtube.com/playlist?list=PLLssT5z_DsK_gyrQ_biidwvPYCRNGI3iv) by Geoffrey Hinton `video` `2012`  
   [course](https://youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle `video` `2013`  
   [course](https://youtube.com/playlist?list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg) by Andrej Karpathy `video` `2016`  
+  [course](https://youtube.com/playlist?list=PLTKMiZHVd_2KJtIXOW0zFhFfBaJJilH51) by Sebastian Raschka `video` `2021`  
 
+  [course](https://youtube.com/c/SergeyNikolenko/playlists) by Sergey Nikolenko `video` `in russian` `2020`  
+  [course](https://youtube.com/c/DeepLearningSchool/playlists) from MIPT `video` `in russian` `2020`  
+  [course](https://github.com/yandexdataschool/Practical_DL) by Yandex, HSE, Skoltech `video` `in russian` `2020`  
   [course](https://dlcourse.ai) by Simon Kozlov et al. `video` `in russian` `2020`  
   [course](https://sphere.mail.ru/curriculum/program/discipline/120/) by Daniil Polykovsky and Kuzma Hrabrov `in russian` ([videos](https://youtube.com/playlist?list=PLrCZzMib1e9oOGNLh6_d65HyfdqlJwTQP) `2017`)  
+
   [course](https://github.com/aosokin/DL_CSHSE_spring2018) by Anton Osokin `in russian` ([videos](https://youtube.com/playlist?list=PLzY5g-rVmFayEkCcgO3_-it6HZwPZL3ld) `2018`)  
 
 
@@ -362,10 +368,13 @@
 ---
 ### self-supervised learning
 
+  [overview](https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence) by Yann LeCun ([overview](https://youtube.com/watch?v=Ag1bw8MfHGQ) `video`)  
   [overview](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html) by Lilian Weng  
-  [overview](https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html) by Ankesh Anand  
   [overview](https://amitness.com/2020/02/illustrated-self-supervised-learning) by Amit Chaudhary  
   [overview](https://amitness.com/2020/05/self-supervised-learning-nlp) by Amit Chaudhary  
+
+  [overview](https://lilianweng.github.io/lil-log/2021/05/31/contrastive-representation-learning.html) of contrastive learning by Lilian Weng  
+  [overview](https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html) of contrastive learning by Ankesh Anand  
 
   ["Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey"](https://arxiv.org/abs/1902.06162) by Jing and Tian `paper`
 
@@ -398,6 +407,8 @@
 
   ["Deep Generative Models"](http://www.deeplearningbook.org/contents/generative_models.html) chapter of "Deep Learning" book by Goodfellow, Bengio, Courville
 
+  ["Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models"](https://arxiv.org/abs/2103.04922) by Bond-Taylor et al. `paper`
+
   ["Do we still need models or just more data and compute?"](https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/Model-versus-Data-AI-1.pdf) by Max Welling
 
 ----
@@ -406,14 +417,13 @@
 
   [overview](https://youtube.com/watch?v=1sJuWg5dULg) by Aravind Srinivas `video` `2020`  *(strengths and weaknesses of models)*  
   [overview](https://youtube.com/watch?v=7o9dT6puHHg) by Aravind Srinivas `video` `2019`  *(strengths and weaknesses of models)*  
-  [overview](https://youtube.com/watch?v=oRJ1hJTRs-0) by Danilo Rezende `video`  
-  [overview](http://videolectures.net/deeplearning2016_mohamed_generative_models) by Shakir Mohamed `video`  
+  [overview](https://youtube.com/watch?v=oRJ1hJTRs-0) by Danilo Rezende `video` `2019`  
+  [overview](http://videolectures.net/deeplearning2016_mohamed_generative_models) by Shakir Mohamed `video` `2016`  
 
-  ["Generative Models, Thermodynamics and Symmetries"](http://scgp.stonybrook.edu/video/video.php?id=4383) by Danilo Rezende `video`
+  ["Generative Models, Thermodynamics and Symmetries"](http://scgp.stonybrook.edu/video/video.php?id=4383) by Danilo Rezende `video` `2020`
 
-----
-
-  [**interesting recent papers**](https://github.com/brylevkirill/notes/blob/master/interesting%20recent%20papers.md#generative-models)
+  [course](https://youtube.com/playlist?list=PLk4h7dmY2eYHjH6wjO1Wytb2ipXJX-aWj) from MIPT `video` `in russian` `2020`  
+  [course](https://youtube.com/playlist?list=PLk4h7dmY2eYH9RtoKGzxHKji0GLiBzSlZ) from MIPT `video` `in russian` `2019`  
 
 ----
 
@@ -496,11 +506,12 @@
   [overview](https://youtu.be/7o9dT6puHHg?t=37m39s) by Aravind Srinivas `video` `2019`  
   overview ([[1]](https://youtube.com/watch?v=1CT-kxjYbFU), [[2]](https://youtube.com/watch?v=0W1dixJfKL4)) by Pieter Abbeel and Aravind Srinivas `video` `2020`  
   overview ([[1]](https://youtu.be/grsO57XMJMk?t=1h1m41s), [[2]](https://youtu.be/5NMIUZ7_nrg)) by Aravind Srinivas and Xi Chen `video` `2019`  
+  [overview](https://youtube.com/watch?v=wFsI2WqUfdA) by Jeff Donahue and Mihaela Rosca `video` `2020`  
 
-  [tutorial](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Generative-Adversarial-Networks) by Ian Goodfellow `video` ([paper](https://arxiv.org/abs/1701.00160))
+  [overview](https://youtube.com/watch?v=BN4CXnd3NNY) by Sergey Nikolenko `video` `in russian` `2020`  
+  [course](https://lektorium.tv/node/36609) by Sergey Nikolenko `video` `in russian` `2019`  
 
-  [course](https://lektorium.tv/node/36609) by Sergey Nikolenko `video` `in russian`
-
+  [overview](https://youtube.com/watch?v=3ktD752xq5k) by Denis Korzhenkov `video`  
   [overview](https://youtube.com/watch?v=T4UuL7U5asA) by Egor Zakharov `video`  
   [overview](https://youtube.com/watch?v=m80Vp-jz-Io) by Iliya Tolstikhin `video`  
   [overview](https://youtube.com/watch?v=jAI3rBI6poU) by Dmitry Ulyanov `video` `in russian`  
@@ -803,7 +814,7 @@
   [overview](https://youtube.com/watch?v=t_TY_5bG9J8) by Nando de Freitas `video` `2017`  
   [overview](https://youtube.com/watch?v=bNb2fEVKeEo) by Serena Young `video` `2017`  
   [overview](https://youtube.com/watch?v=LxfUGhug-iQ) by Andrej Karpathy `video` `2016`  
-  [overview](http://videolectures.net/deeplearning2016_fergus_neural_networks/) by Rob Fergus `video` `2016`  
+  [overview](https://youtube.com/watch?v=inDswouzWtA) by Sergey Nikolenko `video` `in russian` `2020`  
   [overview](https://youtube.com/watch?v=6-yBs3XLM20) by Victor Lempitsky `video` `in russian` `2016`  
 
   [overview](http://cs231n.github.io/convolutional-networks/) by Andrej Karpathy  
@@ -818,25 +829,32 @@
 ---
 ### architectures - graph neural network
 
-  ["Deep Learning with Graph-structured Representations"](https://dare.uva.nl/search?identifier=1b63b965-24c4-4bcd-aabb-b849056fa76d) by Thomas Kipf `paper`
+  ["A Gentle Introduction to Graph Neural Networks"](https://distill.pub/2021/gnn-intro) by Sanchez-Lengeling et al.
 
-  ["Graph Convolutional Networks"](https://tkipf.github.io/graph-convolutional-networks) by Thomas Kipf
+  ["Relational Inductive Biases, Deep Learning, and Graph Networks"](https://arxiv.org/abs/1806.01261) by Battaglia et al.
+
+  ["Graph Representation Learning"](https://morganclaypoolpublishers.com/catalog_Orig/product_info.php?products_id=1576) by William Hamilton `book`
+
+----
+
+  ["Geometric Deep Learning Blueprint"](https://youtube.com/watch?v=bIZB1hIJ4u8) with Michael Bronstein, Petar Veličković, Taco Cohen, Joan Bruna `video`
+
+  [course](https://youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn) by Jure Leskovec `video`
+
+  ["Graph Neural Networks: Variations and Applications](https://youtube.com/watch?v=cWIeTMklzNg) by Alexander Gaunt `video`  
+  ["Convolutional Neural Networks on Graphs"](https://youtube.com/watch?v=v3jZRkvIOIM) by Xavier Bresson `video`  
+  ["Large-scale Graph Representation Learning"](https://youtube.com/watch?v=oQL4E1gK3VU) by Jure Leskovec `video`  
 
 ----
 
   <http://geometricdeeplearning.com>
 
-  ["Geometric Deep Learning: Going beyond Euclidean Data"](https://arxiv.org/abs/1611.08097) by Bronstein, Bruna, LeCun, Szlam, Vandergheynst `paper`
+  ["Geometric Deep Learning: Going beyond Euclidean Data"](https://arxiv.org/abs/1611.08097) by Bronstein et al. `paper`
 
-  ["Geometric Deep Learning"](https://vimeo.com/248497329) by Bronstein, Bruna, Szlam, Bresson, LeCun `video`  
+  ["Geometric Deep Learning"](https://youtube.com/watch?v=JCAVvTiKqZU) by Michael Bronstein `video`  
+  ["Geometric Deep Learning"](https://vimeo.com/248497329) by Michael Bronstein, Joan Bruna, Arthur Szlam `video`  
   ["Geometric Deep Learning"](https://youtube.com/watch?v=ptcBmEHDWds) by Michael Bronstein `video`  
   ["Geometric Deep Learning"](https://youtube.com/watch?v=Qtgep2CEExY) by Joan Bruna and Michael Bronstein `audio`  
-
-----
-
-  ["Graph Neural Networks: Variations and Applications](https://youtube.com/watch?v=cWIeTMklzNg) by Alexander Gaunt `video`  
-  ["Convolutional Neural Networks on Graphs"](https://youtube.com/watch?v=v3jZRkvIOIM) by Xavier Bresson `video`  
-  ["Large-scale Graph Representation Learning"](https://youtube.com/watch?v=oQL4E1gK3VU) by Jure Leskovec `video`  
 
 ----
 
@@ -853,7 +871,7 @@
   [overview](https://youtube.com/watch?v=yCC09vCHzF8) by Andrej Karpathy `video`  
   [overview](https://youtube.com/watch?v=6niqTuYFZLQ) by Justin Johnson `video`  
   [overview](https://youtube.com/watch?v=ZVN14xYm7JA) by Ian Goodfellow `video`  
-  [overview](http://videolectures.net/deeplearning2016_bengio_neural_networks/) by Yoshua Bengio `video`  
+  [overview](https://youtube.com/watch?v=ehTMJwMsl8g) by Sergey Nikolenko `video` `in russian`  
 
   ["When Recurrent Models Don't Need to be Recurrent"](http://offconvex.org/2018/07/27/approximating-recurrent/) by John Miller  
   ["The Unreasonable Effectiveness of Recurrent Neural Networks"](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy  
@@ -865,6 +883,7 @@
   **Long Short Term Memory (LSTM)**
 
   [overview](https://youtu.be/yCC09vCHzF8?t=45m31s) by Andrej Karpathy `video`  
+  [overview](https://youtube.com/watch?v=k6fSgUaWUF8) by Sebastian Raschka `video`  
 
   ["Understanding LSTM Networks"](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) by Chris Olah  
   ["Understanding, Deriving and Extending the LSTM"](http://r2rt.com/written-memories-understanding-deriving-and-extending-the-lstm.html)  
@@ -886,9 +905,11 @@
 ---
 ### architectures - attention
 
+  [overview](https://youtu.be/-fdexQBpRas?t=13m46s) by Oriol Vinyals `video`  
   [overview](https://youtube.com/watch?v=AIiwuClvH6k) by Alex Graves `video`  
   [overview](https://youtube.com/watch?v=Q57rzaHHO0k) by Alex Graves `video`  
   [overview](https://facebook.com/icml.imls/videos/382464939283864?t=690) by Alex Smola and Aston Zhang `video`  
+  [overview](https://youtube.com/watch?v=z15hfmcKPiE) by Sergey Nikolenko `video` `in russian`  
   [overview](https://youtube.com/watch?v=_XRBlhzb31U) by Mikhail Figurnov `video` `in russian`  
 
   [overview](http://wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/) by Denny Britz  
@@ -900,8 +921,10 @@
 
   [overview](https://youtube.com/watch?v=bYmeuc5voUQ) by Ashish Vaswani `video`
 
+  ["What is going on in a neural network?"](https://youtu.be/ehNGGYFO6ms?t=48m18s) by Christian Szegedy `video`
+
   [**"Attention Is All You Need"**](#attention-is-all-you-need-vaswani-et-al) by Vaswani et al. `paper` `summary`  
-  ["Hopfield Networks is All You Need"](https://arxiv.org/abs/2008.02217) by Ramsauer et al. ([post](https://jku.at/index.php?id=18677), [overview](https://youtube.com/watch?v=nv6oFDp6rNQ) (Kilcher) `video`)  
+  ["Hopfield Networks is All You Need"](https://arxiv.org/abs/2008.02217) by Ramsauer et al. `paper` ([post](https://jku.at/index.php?id=18677), [overview](https://youtube.com/watch?v=nv6oFDp6rNQ) by Kilcher `video`)  
 
 ----
 
@@ -909,6 +932,9 @@
 
   [overview](https://youtube.com/watch?v=x5Vxk9twXlE) by Geoffrey Hinton `video`
 
+  [**"How to Represent Part-whole Hierarchies in a Neural Network"**](#how-to-represent-part-whole-hierarchies-in-a-neural-network-hinton) by Hinton `paper` `summary` *(GLOM)*  
+  ["Canonical Capsules: Self-Supervised Capsules in Canonical Pose"](https://arxiv.org/abs/2012.04718) by Sun et al. `paper` ([overview](https://youtube.com/watch?v=tUQJV2W7Z8g) `video`)  
+  ["Unsupervised Part Representation by Flow Capsules"](https://arxiv.org/abs/2011.13920) by Sabour et al. `paper`  
   [**"Stacked Capsule Autoencoders"**](#stacked-capsule-autoencoders-kosiorek-sabour-teh-hinton) by Kosiorek et al. `paper` `summary`  
   [**"Matrix Capsules with EM Routing"**](#matrix-capsules-with-em-routing-hinton-sabour-frosst) by Hinton et al. `paper` `summary`  
   [**"Dynamic Routing Between Capsules"**](#dynamic-routing-between-capsules-sabour-frosst-hinton) by Hinton et al. `paper` `summary`  
@@ -977,6 +1003,8 @@
 
 
   ["Representation Learning"](http://www.deeplearningbook.org/contents/representation.html) chapter of "Deep Learning" book by Goodfellow, Bengio, Courville
+
+  ["Induction, Inductive Biases, and Infusing Knowledge into Learned Representations"](https://sgfin.github.io/2020/06/22/Induction-Intro) by Sam Finlayson
 
   ["Visualizing Representations"](http://colah.github.io/posts/2015-01-Visualizing-Representations/) by Chris Colah
 
@@ -1074,8 +1102,10 @@
   - `video` <https://youtube.com/watch?v=LzL5naUS31s> (Belkin)
   - `video` <https://youtube.com/watch?v=ZAW9EyNo2fw> (Kilcher)
   - `video` <https://youtu.be/FBggC-XVF4M?t=1h10m52s> (Czarnecki)
+  - `video` <https://youtu.be/SKYXBPCJHCg?t=42m14s> (Vetrov) `in russian`
   - `post` <https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html#the-lottery-ticket-hypothesis>
-  - `paper` ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) by Nakkiran et al. ([post](https://openai.com/blog/deep-double-descent), [overview](https://youtube.com/watch?v=R29awq6jvUw) `video`)
+  - `paper` ["Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation"](https://arxiv.org/abs/2105.14368) by Belkin ([overview](https://youtube.com/watch?v=vEyeDMe50Io) `video` `in russian`)
+  - `paper` ["Deep Double Descent: Where Bigger Models and More Data Hurt"](https://arxiv.org/abs/1912.02292) by Nakkiran et al. ([post](https://openai.com/blog/deep-double-descent), [overview](https://youtube.com/watch?v=R29awq6jvUw) `video`, [overview](https://youtu.be/SKYXBPCJHCg?t=42m14s) `video` `in russian`)
   - `paper` ["The Generalization Error of Random Features Regression: Precise Asymptotics and Double Descent Curve"](https://arxiv.org/abs/1908.05355) by Mei et al.
 
 
@@ -1254,11 +1284,9 @@
   `generalization`
 >	"Deep neural networks are highly expressive models that have recently achieved state of the art performance on speech and visual recognition tasks. While their expressiveness is the reason they succeed, it also causes them to learn uninterpretable solutions that could have counter-intuitive properties. In this paper we report two such properties. First, we find that there is no distinction between individual high level units and random linear combinations of high level units, according to various methods of unit analysis. It suggests that it is the space, rather than the individual units, that contains the semantic information in the high layers of neural networks. Second, we find that deep neural networks learn input-output mappings that are fairly discontinuous to a significant extent. We can cause the network to misclassify an image by applying a certain hardly perceptible perturbation, which is found by maximizing the network’s prediction error. In addition, the specific nature of these perturbations is not a random artifact of learning: the same perturbation can cause a different network, that was trained on a different subset of the dataset, to misclassify the same input."
 
-  - <http://deeplearning.twbbs.org> (demo)
+  - `video` <https://youtu.be/iuhmBFbY4Xw?t=1h10m46s> (Szegedy)
   - `video` <http://youtube.com/watch?v=pdODJ7JQfjo> (Zaremba)
   - `post` <https://danieltakeshi.github.io/2019/04/27/adversarial-stuff>
-  - `code` <https://github.com/tensorflow/cleverhans>
-  - `code` <https://github.com/bethgelab/foolbox>
 
 
 #### ["Explaining and Harnessing Adversarial Examples"](http://arxiv.org/abs/1412.6572) Goodfellow, Shlens, Szegedy
@@ -1313,6 +1341,8 @@ Yoshua Bengio:
   - `video` <https://youtube.com/watch?v=EK61htlw8hY> (Hinton)
   - `video` <http://videolectures.net/deeplearning2017_larochelle_neural_networks/> (part 2, 1:28:45) (Larochelle)
   - `video` <https://youtube.com/watch?v=-4PGNj1CqZc> (Truskovskyi) `in russian`
+  - `video` <https://youtu.be/wfbe2yaXAkI?t=1h43m35s> (Vorontsov) `in russian`
+  - `post` <https://wandb.ai/authors/knowledge-distillation/reports/Distilling-Knowledge-in-Neural-Networks--VmlldzoyMjkxODk>
   - `paper` ["Distilling a Neural Network Into a Soft Decision Tree"](https://arxiv.org/abs/1711.09784) by Frosst, Hinton
 
 
@@ -1386,11 +1416,12 @@ Yoshua Bengio:
   - `video` <https://youtube.com/watch?v=OioFONrSETc> (Kilcher)
   - `video` <https://youtube.com/watch?v=6b1JVBBX0dI> (Raj)
   - `video` <https://youtube.com/watch?v=-1yfr_YBzX4> (Lykov) `in russian`
+  - `post` <https://gradientscience.org/batchnorm>
   - `post` <https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html>
   - `post` <https://kevinzakka.github.io/2016/09/14/batch_normalization/>
   - `post` <https://twitter.com/dcpage3/status/1171867587417952260>
   - `notes` <http://www.shortscience.org/paper?bibtexKey=conf/icml/IoffeS15>
-  - `paper` ["How Does Batch Normalization Help Optimization?"](https://arxiv.org/abs/1805.11604) by Santurkar et al.
+  - `paper` ["How Does Batch Normalization Help Optimization?"](https://arxiv.org/abs/1805.11604) by Santurkar et al. ([post](https://gradientscience.org/batchnorm))
 
 
 #### ["Self-Normalizing Neural Networks"](https://arxiv.org/abs/1706.02515) Klambauer, Unterthiner, Mayr, Hochreiter
@@ -1933,6 +1964,7 @@ Yoshua Bengio:
 >	"Unlike recent language representation models (Peters et al., 2018; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT representations can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications."
 
   - `post` <https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html>
+  - `video` <https://youtube.com/watch?v=knTc-NQSjKA> (Devlin)
   - `video` <https://youtube.com/watch?v=BWP3DyJ6k3g> (Chang)
   - `video` <https://youtube.com/watch?v=OR0wfP2FD3c> (Shorten)
   - `video` <https://youtube.com/watch?v=-9evrZnBorM> (Kilcher)
@@ -1940,13 +1972,17 @@ Yoshua Bengio:
   - `video` <https://youtu.be/AC4l_MY2Dhc?t=1h51m52s> (Srinivas)
   - `video` <https://youtu.be/BnpB3GrpsfM?t=1h32m23s> (Radford)
   - `video` <https://youtu.be/8zAP2qWAsKg?t=55m7s> (Hill)
+  - `video` <https://youtube.com/watch?v=_BFp4kjSB-I> (Raschka)
   - `video` <https://youtube.com/watch?v=9-Om2YcHhIA> (Li)
   - `video` <https://youtube.com/watch?v=BhlOGGzC0Q0> + <https://youtube.com/watch?v=rMQMHA-uv_E> (Gharbieh)
   - `video` <https://youtube.com/watch?v=BhlOGGzC0Q0> (Luo)
+  - `video` <https://youtu.be/0rZBf5Hrsz0?t=1h18m11s> + <https://youtu.be/0h5RlFQUwAY?t=50m> (Grabovoy) `in russian`
   - `video` <https://youtu.be/JO-RJRCkLvM?t=23m12s> + <https://youtube.com/watch?v=5o8gTP-7xwg> (Lobacheva) `in russian`
   - `video` <https://youtu.be/99CymZY-4Tc?t=5m36s> (Lyalin) `in russian`
   - `video` <https://youtu.be/atSqU9HfJq0?t=1h9m13s> (Malykh) `in russian`
   - `video` <https://youtu.be/Q4HVS6c92qU?t=21m7s> (Alexeev) `in russian`
+  - `video` <https://youtu.be/1DygevyV2eA?t=17m27s> (Neychev) `in russian`
+  - `video` <https://youtu.be/zhsUpUFClEU?t=32m16s> (Astakhov) `in russian`
   - `post` <http://jalammar.github.io/illustrated-bert>
   - `post` <https://medium.com/dissecting-bert/dissecting-bert-part-1-d3c3d495cdb3> + <https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73> + <https://medium.com/dissecting-bert/dissecting-bert-appendix-the-decoder-3b86f66b0e5f>
   - `paper` ["Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference"](https://arxiv.org/abs/1902.01007) by McCoy et al.
@@ -1970,6 +2006,7 @@ Yoshua Bengio:
   - `video` <https://youtu.be/w3ues-NayAs?t=23m15s> (Sutskever)
   - `video` <https://youtu.be/X-B3nAN7YRM?t=14m25s> (Sutskever)
   - `video` <https://youtu.be/T0I88NhR_9M?t=6m11s> (Sutskever)
+  - `video` <https://youtube.com/watch?v=BXv1m9Asl7I> (Raschka)
   - `video` <https://youtube.com/watch?v=n_UlVuFAzbU> (Amjadian)
   - `video` <https://youtu.be/qIEfJ6OBGj8?t=14m25s> (Hinton)
   - `post` <https://amaarora.github.io/2020/02/18/annotatedGPT2.html>
@@ -1991,19 +2028,33 @@ Yoshua Bengio:
 
 >	"GPT-3 is hamstrung by its training & data, but just simply training a big model on a lot of data induces meta-learning without even the slightest bit of meta-learning architecture being built in; and in general, training on more and harder tasks creates ever more human-like performance, generalization, and robustness."
 
+  - <https://github.com/elyase/awesome-gpt3> (demo)
   - <https://gpt3examples.com> (demo)
+  - <https://aiwriter.email> (demo)
+  - <https://twitter.com/QasimMunye/status/1278750809094750211>
   - `video` <https://vimeo.com/427943407/98fe5258a7> (demo)
-  - <https://pscp.tv/Microsoft/1OyKAYWPRrWKb?t=29m19s> (demo)
+  - `video` <https://pscp.tv/Microsoft/1OyKAYWPRrWKb?t=29m19s> (demo)
   - <https://justpaste.it/7eovk> (demo)
-  - `video` <https://youtube.com/watch?v=ZyQkaml-5iE> (Ryder)
+  - <https://reddit.com/user/thegentlemetre/comments> (demo)
+  - `video` <https://youtube.com/watch?v=QMqPAM_knrE> (Kaplan)
+  - `video` <https://youtube.com/watch?v=iccd86vOz3w> (Scarfe, Kilcher, Leahy, Saba, Marcus)
+  - `video` <https://youtube.com/watch?v=fTvB5xMNfTY&t=39m20s> (Kilcher, Scarfe, Duggar, Leahy)
   - `video` <https://youtube.com/watch?v=7qPDwsCLbZc> (Kilcher, Shorten, Scarfe)
   - `video` <https://youtube.com/watch?v=SY5PvZrJhLE> (Kilcher)
+  - `video` <https://youtube.com/watch?v=wYdKn-X4MhY> (Raschka)
   - `video` <https://youtube.com/watch?v=Mq97CF02sRY> (Heo)
+  - `video` <https://youtu.be/J0p_thJJnoo?t=37m3s> (Chollet)
+  - `video` <https://youtu.be/PUAdj3w3wO4?t=42m24s> (Chollet)
+  - `video` <https://youtube.com/watch?v=GJkXBGRHZWQ> (Shamshiev) `in russian`
+  - `video` <https://youtu.be/zhsUpUFClEU?t=18m5s> (Astakhov) `in russian`
   - `post` <https://jalammar.github.io/how-gpt3-works-visualizations-animations>
   - `post` <https://gwern.net/newsletter/2020/05#gpt-3>
   - `post` <https://gwern.net/GPT-3>
   - `post` <https://slatestarcodex.com/2020/06/10/the-obligatory-gpt-3-post>
+  - `post` <https://bmk.sh/2020/05/29/GPT-3-A-Brief-Summary>
   - `post` <https://leogao.dev/2020/08/17/Building-AGI-Using-Language-Models>
+  - `post` <https://medium.com/@ChrisGPotts/is-it-possible-for-language-models-to-achieve-language-understanding-81df45082ee2>
+  - `notes` <https://erogol.com/short-notes-on-gpt-3>
   - `notes` <https://blog.inten.to/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9>
   - `notes` <https://lambdalabs.com/blog/demystifying-gpt-3>
 
@@ -2013,6 +2064,9 @@ Yoshua Bengio:
 >	"While supervised learning has enabled great progress in many applications, unsupervised learning has not seen such widespread adoption, and remains an important and challenging endeavor for artificial intelligence. In this work, we propose a universal unsupervised learning approach to extract useful representations from high-dimensional data, which we call Contrastive Predictive Coding. The key insight of our model is to learn such representations by predicting the future in latent space by using powerful autoregressive models. We use a probabilistic contrastive loss which induces the latent space to capture information that is maximally useful to predict future samples. It also makes the model tractable by using negative sampling. While most prior work has focused on evaluating representations for a particular modality, we demonstrate that our approach is able to learn useful representations achieving strong performance on four distinct domains: speech, images, text and reinforcement learning in 3D environments."
 
 >	"Using mutual information between the representation of the current input, and input close in space or time as a self-supervised criteria."
+
+----
+>	"Linsker [1988] developed the InfoMax principle in 1988. It theorizes that the brain learns to process its perceptions by maximally preserving the information of the input activities in each layer. On top of this, neuroscience suggests that the brain predicts its future inputs and learns by minimizing this prediction error [Friston, 2010]. Empirical evidence indicates, for example, that retinal cells carry significant mutual information between the current and the future state of their own activity [Palmer et al., 2015]."
 
   - `post` <https://medium.com/syncedreview/new-deepmind-unsupervised-image-model-challenges-alexnet-d658ef92ab1e>
   - `video` <https://youtu.be/QoCyQBzi7us?t=1h9m51s> (Oord)
@@ -2025,8 +2079,12 @@ Yoshua Bengio:
   - `post` <https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html>
   - `post` <https://machinethoughts.wordpress.com/2018/08/15/predictive-coding-and-mutual-information>
   - `paper` ["Data-Efficient Image Recognition with Contrastive Predictive Coding"](https://arxiv.org/abs/1905.09272) by Henaff et al. ([overview](https://facebook.com/icml.imls/videos/378993762742156?t=3335) by Henaff `video`, [overview](https://youtu.be/dMUes74-nYY?t=1h42m8s) by Srinivas `video`)  *(CPC v2)*
+  - `paper` ["On Variational Bounds of Mutual Information"](https://arxiv.org/abs/1905.06922) by Poole et al.
+  - `paper` ["Learning Deep Representations by Mutual Information Estimation and Maximization"](https://arxiv.org/abs/1808.06670) by Hjelm et al.  *(Deep InfoMax)*
+  - `paper` ["Putting An End to End-to-End: Gradient-Isolated Learning of Representations"](https://arxiv.org/abs/1905.11786) by Lowe et al.  *(Greedy InfoMax)*
+  - `paper` ["Self-Organization in a Perceptual Network"](https://researchgate.net/publication/220478390_Self-Organization_in_a_Perceptual_Network) by Linsker  *(InfoMax)*
+  - `paper` ["The Free-Energy principle: a Unified Brain Theory?"](https://arxiv.org/abs/1905.11786) by Friston et al.
   - `paper` ["Noise-Contrastive Estimation of Unnormalized Statistical Models, with Applications to Natural Image Statistics"](http://www.jmlr.org/papers/volume13/gutmann12a/gutmann12a.pdf) by Gutmann and Hyvarinen
-  - `paper` ["Putting An End to End-to-End: Gradient-Isolated Learning of Representations"](https://arxiv.org/abs/1905.11786) by Lowe et al.
 
 
 #### ["Revisiting Self-Supervised Visual Representation Learning"](https://arxiv.org/abs/1901.09005) Kolesnikov, Zhai, Beyer
@@ -2634,28 +2692,43 @@ Yoshua Bengio:
 ----
 >	"Hopfield construction would allow iterating the attention, which Transformer doesn't do as it does the attention in a single step, but the authors find that iterating the Hopfield attention doesn't seem to be useful as it converges in a single step. The Hopfield layer also has beta in place of Transformer's 1/sqrt(d_k) scaling factor, and the authors note that this factor has a significant effect on the Hopfield network attraction point types, so it might lead to future understanding about what is the optimal value for this. Regardless they use the scaling factor from Transformer, 1/sqrt(d_k) in all the experiments."
 
-
   - `post` <https://research.googleblog.com/2017/08/transformer-novel-neural-network.html>
   - `video` <https://youtube.com/watch?v=bYmeuc5voUQ> (Vaswani)
   - `video` <https://facebook.com/nipsfoundation/videos/1554654864625747?t=1107> (Vaswani, Shazeer)
   - `video` <https://youtu.be/I0nX4HDmXKc?t=7m46s> (Polosukhin)
   - `video` <https://youtube.com/watch?v=rBCqOTEfxvg> (Kaiser)
+  - `video` <https://youtu.be/-fdexQBpRas?t=26m9s> (Vinyals)
   - `video` <https://youtu.be/8zAP2qWAsKg?t=22m39s> (Hill)
   - `video` <https://youtube.com/watch?v=iDulhoQ2pro> (Kilcher)
+  - `video` <https://youtube.com/watch?v=tstbZXNCfLY> (Raschka)
   - `video` <https://youtu.be/AIiwuClvH6k?t=1h14m> (Graves)
   - `video` <https://youtube.com/watch?v=HsYPiKDTikg> (Li)
   - `video` <https://youtube.com/watch?v=S0KakHcj_rs> (Palermo)
   - `video` <https://youtube.com/watch?v=KMY2Knr4iAs> (Chen)
+  - `video` <https://youtu.be/ehNGGYFO6ms?t=48m18s> (Szegedy)
+  - `video` <https://youtube.com/watch?v=_soUrFPuyzc> (Sapunov)
+  - `video` <https://youtube.com/watch?v=Ydji_zg2gwU> (Lakhman) `in russian`
+  - `video` <https://youtube.com/watch?v=XLNZ0wG3fQw> (Burkov) `in russian`
+  - `video` <https://youtube.com/watch?v=pgBHnimRPzQ> (Nikolenko) `in russian`
+  - `video` <https://youtu.be/IWHa_mIE8yA?t=1h56m29s> (Gorbachev) `in russian`
   - `video` <https://youtube.com/watch?v=YQZRsowJZA8> (Lyalin) `in russian`
   - `video` <https://youtube.com/watch?v=KMgJFptbNlM> (Lyalin) `in russian`
+  - `video` <https://youtube.com/watch?v=qfOk7IWDoDY> (Chumachenko) `in russian`
   - `video` <https://youtube.com/watch?v=atSqU9HfJq0> (Malykh) `in russian`
   - `video` <https://youtube.com/watch?v=Bg8Y5q1OiP0> + <https://youtube.com/watch?v=7I_D2EOxwwI> (Neychev) `in russian`
+  - `video` <https://youtube.com/watch?v=UETKUIlYE6g> (Neychev) `in russian`
   - `video` <https://youtube.com/watch?v=ONuRVpJSvfY> (Alexeev) `in russian`
   - `video` <https://youtu.be/JO-RJRCkLvM?t=1m16s> (Lobacheva) `in russian`
   - `video` <https://youtu.be/_XRBlhzb31U?t=48m35s> (Figurnov) `in russian`
   - `video` <https://youtu.be/LhH6wMvntSM?t=54m56s> (Suleymanov) `in russian`
+  - `video` <https://youtube.com/watch?v=8dN6ZVnDArk> (Sapunov) `in russian`
+  - `video` <https://youtube.com/watch?v=7e4LxIVENZA> (Sapunov) `in russian`
   - `video` <https://youtube.com/watch?v=znyvj3ijl7Q> (Sapunov) `in russian`
+  - `video` <https://youtube.com/watch?v=KZ9NXYcXVBY> (Sapunov) `in russian`
+  - `video` <https://youtube.com/watch?v=f544TipD2QY> + <https://youtube.com/watch?v=WL6UviEG3XA> + <https://youtube.com/watch?v=zhsUpUFClEU> (Astakhov) `in russian`
+  - `video` <https://youtube.com/watch?v=2YScoz4uBm8> (Astakhov) `in russian`
   - `audio` <https://soundcloud.com/nlp-highlights/36-attention-is-all-you-need-with-ashish-vaswani-and-jakob-uszkoreit> (Vaswani, Uszkoreit)
+  - `post` <https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html>
   - `post` <https://lilianweng.github.io/lil-log/2020/04/07/the-transformer-family.html>
   - `post` <https://jalammar.github.io/illustrated-transformer/>
   - `post` <https://danieltakeshi.github.io/2019/03/30/transformers/>
@@ -2665,19 +2738,32 @@ Yoshua Bengio:
   - `post` <https://staff.fnwi.uva.nl/s.abnar/?p=108>
   - `post` <http://peterbloem.nl/blog/transformers>
   - `post` <https://towardsdatascience.com/transformers-are-graph-neural-networks-bca9f75412aa>
+  - `post` <https://thegradient.pub/transformers-are-graph-neural-networks>
   - `notes` <https://ricardokleinklein.github.io/2017/11/16/Attention-is-all-you-need.html>
   - `notes` <https://blog.tomrochette.com/machine-learning/papers/ashish-vaswani-attention-is-all-you-need>
   - `notes` <https://medium.com/@sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91>
   - `code` <https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py>
   - `code` <https://colab.research.google.com/notebook#fileId=/v2/external/notebooks/t2t/hello_t2t.ipynb>
+  - `paper` ["Linear Transformers Are Secretly Fast Weight Memory Systems"](https://arxiv.org/abs/2102.11174) by Schlag, Irie, Schmidhuber ([post](https://people.idsia.ch/~juergen/fast-weight-programmer-1991-transformer.html), [overview](https://youtube.com/watch?v=RSSVWpBak6s) `video`)
   - `paper` ["Hopfield Networks is All You Need"](https://arxiv.org/abs/2008.02217) by Ramsauer et al. ([post](https://jku.at/index.php?id=18677), [overview](https://youtube.com/watch?v=nv6oFDp6rNQ) (Kilcher) `video`)
   - `paper` [**"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer-raffel-et-al) by Raffel et al. `summary`
   - `paper` [**"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"**](#bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding-devlin-chang-lee-toutanova) by Devlin et al. `summary`
   - `paper` [**"Language Models are Unsupervised Multitask Learners"**](https://github.com/brylevkirill/notes/blob/master/Natural%20Language%20Processing.md#language-models-are-unsupervised-multitask-learners-radford-wu-child-luan-amodei-sutskever) by Radford et al. `summary`
+  - `paper` ["An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"](https://arxiv.org/abs/2010.11929) `paper` ([overview](https://youtube.com/watch?v=TrdevFK_am4) by Kilcher `video`)
+
+
+#### ["How to Represent Part-whole Hierarchies in a Neural Network"](https://arxiv.org/abs/2102.12627) Hinton
+  `GLOM` `Capsule Networks`
+>	"This paper does not describe a working system. Instead, it presents a single idea about representation which allows advances made by several different groups to be combined into an imaginary system called GLOM. The advances include transformers, neural fields, contrastive representation learning, distillation and capsules. GLOM answers the question: How can a neural network with a fixed architecture parse an image into a part-whole hierarchy which has a different structure for each image? The idea is simply to use islands of identical vectors to represent the nodes in the parse tree. If GLOM can be made to work, it should significantly improve the interpretability of the representations produced by transformer-like systems when applied to vision or language."
+
+  - `video` <https://youtube.com/watch?v=ygInBb1fS9Y> (Hinton)
+  - `video` <https://youtube.com/watch?v=eEXnJOHQ_Xw> (Hinton)
+  - `video` <https://youtube.com/watch?v=cllFzkvrYmE> (Kilcher)
+  - `video` <https://youtube.com/watch?v=fkqiQuD6k8k> (Lewis)
 
 
 #### ["Stacked Capsule Autoencoders"](https://arxiv.org/abs/1906.06818) Kosiorek, Sabour, Teh, Hinton
-  `Capsule Network` `CapsNet` `NeurIPS 2019`
+  `Capsule Networks` `NeurIPS 2019`
 >	"An object can be seen as a geometrically organized set of interrelated parts. A system that makes explicit use of these geometric relationships to recognize objects should be naturally robust to changes in viewpoint, because the intrinsic geometric relationships are viewpoint-invariant. We describe an unsupervised version of capsule networks, in which a neural encoder, which looks at all of the parts, is used to infer the presence and poses of object capsules. The encoder is trained by backpropagating through a decoder, which predicts the pose of each already discovered part using a mixture of pose predictions. The parts are discovered directly from an image, in a similar manner, by using a neural encoder, which infers parts and their affine transformations. The corresponding decoder models each image pixel as a mixture of predictions made by affine-transformed parts. We learn object- and their part-capsules on unlabeled data, and then cluster the vectors of presences of object capsules. When told the names of these clusters, we achieve state-of-the-art results for unsupervised classification on SVHN (55%) and near state-of-the-art on MNIST (98.5%)."
 
 ----
@@ -2748,6 +2834,7 @@ Yoshua Bengio:
 >	Once the vectors have been suitably transformed, additional processing is used to predict the objects."  
 
   - `post` <http://akosiorek.github.io/ml/2019/06/23/stacked_capsule_autoencoders.html>
+  - `video` <https://youtu.be/N0ER1MC9cqM?t=2m22s> (Hinton)
   - `video` <https://youtu.be/UX8OubxsY8w?t=3m8s> (Hinton)
   - `video` <https://youtu.be/zRg3IuxaJ6I?t=27m49s> (Sabour)
   - `notes` <https://medium.com/syncedreview/geoffrey-hintons-unsupervised-capsule-networks-achieve-sota-results-on-svhn-ffe05e871249>
@@ -2755,7 +2842,7 @@ Yoshua Bengio:
 
 
 #### ["Matrix Capsules with EM Routing"](https://openreview.net/forum?id=HJWLfGWRb) Hinton, Sabour, Frosst
-  `Capsule Network` `CapsNet` `ICLR 2018`
+  `Capsule Networks` `ICLR 2018`
 >	"A capsule is a group of neurons whose outputs represent different properties of the same entity. Each layer in a capsule network contains many capsules [a group of capsules forms a capsule layer and can be used in place of a traditional layer in a neural net]. We describe a version of capsules in which each capsule has a logistic unit to represent the presence of an entity and a 4x4 matrix which could learn to represent the relationship between that entity and the viewer (the pose). A capsule in one layer votes for the pose matrix of many different capsules in the layer above by multiplying its own pose matrix by trainable viewpoint-invariant transformation matrices that could learn to represent part-whole relationships. Each of these votes is weighted by an assignment coefficient. These coefficients are iteratively updated for each image using the Expectation-Maximization algorithm such that the output of each capsule is routed to a capsule in the layer above that receives a cluster of similar votes. The transformation matrices are trained discriminatively by backpropagating through the unrolled iterations of EM between each pair of adjacent capsule layers. On the smallNORB benchmark, capsules reduce the number of test errors by 45\% compared to the state-of-the-art. Capsules also show far more resistance to white box adversarial attack than our baseline convolutional neural network."
 
   - `video` <https://youtu.be/x5Vxk9twXlE?t=30m46s> (Hinton)
@@ -2771,7 +2858,7 @@ Yoshua Bengio:
 
 
 #### ["Dynamic Routing Between Capsules"](https://arxiv.org/abs/1710.09829) Sabour, Frosst, Hinton
-  `Capsule Network` `CapsNet` `NIPS 2017`
+  `Capsule Networks` `NIPS 2017`
 >	"A capsule is a group of neurons whose activity vector represents the instantiation parameters of a specific type of entity such as an object or object part. We use the length of the activity vector to represent the probability that the entity exists and its orientation to represent the instantiation paramters. Active capsules at one level make predictions, via transformation matrices, for the instantiation parameters of higher-level capsules. When multiple predictions agree, a higher level capsule becomes active. We show that a discrimininatively trained, multi-layer capsule system achieves state-of-the-art performance on MNIST and is considerably better than a convolutional net at recognizing highly overlapping digits. To achieve these results we use an iterative routing-by-agreement mechanism: A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule."
 
 >	"Dynamic routing can be viewed as a parallel attention mechanism that allows each capsule at one level to attend to some active capsules at the level below and to ignore others. This should allow the model to recognize multiple objects in the image even if objects overlap. The routing-by-agreement should make it possible to use a prior about shape of objects to help segmentation and it should obviate the need to make higher-level segmentation decisions in the domain of pixels."
@@ -2818,6 +2905,9 @@ Yoshua Bengio:
   - `video` <https://youtube.com/watch?v=pPN8d0E3900> (Geron)
   - `video` <https://youtube.com/watch?v=EATWLTyLfmc> (Canziani)
   - `video` <https://youtube.com/watch?v=hYt3FcJUf6w> (Uziela)
+  - `video` <https://youtube.com/watch?v=1KwH0Z_6AhA&t=30m28s> (Scarfe, Duggar, Stenlake)
+  - `video` <https://youtu.be/3GnElTAUyiE?t=38m45s> (Nikolenko) `in russian`
+  - `video` <https://youtu.be/7jxEn97hwlE?t=1h43m11s> (Nikolenko) `in russian`
   - `video` <https://youtube.com/watch?v=UZ9BgrofhKk> (Kozlov) `in russian`
   - `video` <https://youtube.com/watch?v=8R3gXmh1F0c> (Lykov) `in russian`
   - `post` <https://oreilly.com/ideas/introducing-capsule-networks>
@@ -2841,6 +2931,7 @@ Yoshua Bengio:
 ----
 >	"Highway Networks have a gated connection in the depth dimension analogous to the gated connection LSTMs have in the time dimension. There are also Grid LSTMs, which have these gated connections in both dimensions."
 
+  - `post` <https://people.idsia.ch/~juergen/highway-networks.html>
   - `post` <http://people.idsia.ch/~rupesh/very_deep_learning/>
   - `video` <http://research.microsoft.com/apps/video/default.aspx?id=259633> (9:00) (Srivastava)
   - `post` <https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa>
@@ -2885,6 +2976,7 @@ Yoshua Bengio:
   - `video` <https://youtube.com/watch?v=e0ia-mN-7Kk> (Ding, Brigden)
   - `video` <https://youtube.com/watch?v=GxtMbmv169o> (Brigden)
   - `video` <https://youtube.com/watch?v=UMxvZ9qHwJs> (Gharbieh)
+  - `video` <https://youtube.com/watch?v=RZVEV-1rTLQ> (Gupta)
   - `post` <https://distill.pub/2017/ctc/>
   - `post` <https://machinethoughts.wordpress.com/2017/11/02/ctc-training-latent-discrete-sequential-decisions-without-rl/>
   - `paper` ["Supervised Sequence Labelling with Recurrent Neural Networks"](https://www.cs.toronto.edu/~graves/phd.pdf) by Graves
@@ -2921,6 +3013,7 @@ Yoshua Bengio:
 >	"In the pointer networks, the output space of the target sequence is constrained to be the observations in the input sequence (not the input space). And instead of having a fixed dimension softmax output layer, softmax outputs of varying dimension is dynamically computed for each input sequence in such a way to maximize the attention probability of the target input."
 
   - `video` <http://youtube.com/watch?v=yS7rHi_lUGU> (demo)
+  - `video` <http://youtu.be/-fdexQBpRas?t=21m21s> (Vinyals)
   - `video` <http://youtu.be/9U0drwafE78?t=44m30s> (Vinyals)
   - `post` <http://fastml.com/introduction-to-pointer-networks/>
   - `notes` <https://medium.com/@sharaf/a-paper-a-day-11-pointer-networks-59f7af1a611c>
@@ -3212,6 +3305,7 @@ Yoshua Bengio:
 
 
 #### ["Backpropagation and the Brain"](https://www.nature.com/articles/s41583-020-0277-3) Lillicrap, Santoro, Marris, Akerman, Hinton
+  `NGRAD`
 >	"During learning, the brain modifies synapses to improve behaviour. In the cortex, synapses are embedded within multilayered networks, making it difficult to determine the effect of an individual synaptic modification on the behaviour of the system. The backpropagation algorithm solves this problem in deep artificial neural networks, but historically it has been viewed as biologically problematic. Nonetheless, recent developments in neuroscience and the successes of artificial neural networks have reinvigorated interest in whether backpropagation offers insights for understanding learning in the cortex. The backpropagation algorithm learns quickly by computing synaptic updates using feedback connections to deliver error signals. Although feedback connections are ubiquitous in the cortex, it is difficult to see how they could deliver the error signals required by strict formulations of backpropagation. Here we build on past and recent developments to argue that feedback connections may instead induce neural activities whose differences can be used to locally approximate these signals and hence drive effective learning in deep networks in the brain."
 
   - `video` <https://youtube.com/watch?v=a0f07M2uj_A> (Kilcher)
